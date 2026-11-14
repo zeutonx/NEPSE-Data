@@ -62,5 +62,6 @@ jobs:
           KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
         run: |
           kaggle datasets version -p kaggle_dataset -m "Data to $(TZ=Asia/Kathmandu date +%Y-%m-%d)"
-          kaggle datasets metadata --update -p kaggle_dataset zeuton/nepse-stock-market-data || \
-            echo "Metadata update failed; files were still uploaded."
+        # Only the files are updated. Title, description, column docs, cover, provenance and
+        # update frequency were set once on Kaggle; a metadata push could overwrite the parts
+        # dataset-metadata.json doesn't carry.

@@ -158,6 +158,6 @@ The data is published at
 [kaggle.com/datasets/zeuton/nepse-stock-market-data](https://www.kaggle.com/datasets/zeuton/nepse-stock-market-data).
 `kaggle/build.py` turns `data/` into the upload folder `kaggle_dataset/` (flat CSVs, README,
 `dataset-metadata.json` with file and column descriptions). `.github/workflows/kaggle-publish.yml`
-runs it every two weeks and uploads a new version; it needs a `KAGGLE_API_TOKEN` repository secret.
+runs it every two weeks and uploads a new version of the files; it needs a `KAGGLE_API_TOKEN` repository secret.
 `kaggle/notebook/` is the starter notebook (`kaggle kernels push -p kaggle/notebook`), and
 `kaggle/cover.png` is the dataset's cover image.

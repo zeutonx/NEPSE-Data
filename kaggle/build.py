@@ -292,7 +292,7 @@ returns can be computed without the jumps that NEPSE's frequent bonus issues cau
 
 For each company, every bonus issue and right issue after a given day is applied backwards:
 a bonus of b% divides earlier prices by (1 + b/100), and a right issue of r new shares per share
-at issue price P replaces an earlier price X with (X + r·P) / (1 + r). The `adjustments` column
+at issue price P replaces an earlier price X with (X + r*P) / (1 + r). The `adjustments` column
 lists the events applied to that row. On the most recent days `adj_*` equals the raw price.
 Cash dividends are not adjusted for.
 
