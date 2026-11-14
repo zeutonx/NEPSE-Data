@@ -80,8 +80,12 @@ def split_prices(rows: list[dict[str, Any]], sectors: dict[str, str], out: Path,
 
     for r in rows:
         path = out / "prices" / "by_company" / folder_name(r["sector"]) / file_name(r["symbol"])
-        existing = [e for e in _read(path) if e.get("date") != r["date"]]
-        _write(path, sorted(existing + [r], key=lambda e: e["date"]), cols)
+        old = _read(path)
+        # keep the file's own columns (e.g. seeded full history with adj_* columns) and add any new ones
+        file_cols = list(old[0].keys()) if old else []
+        file_cols += [c for c in cols if c not in file_cols]
+        existing = [e for e in old if e.get("date") != r["date"]]
+        _write(path, sorted(existing + [r], key=lambda e: e["date"]), file_cols)
     log.info("split %d prices for %s into %d sector files and per-company files", len(rows), as_of, len(by_sector))
 
 

@@ -380,3 +380,15 @@ def test_split_prices(tmp_path):
     hist = split._read(tmp_path / "prices" / "by_company" / "Commercial_Bank" / "NABIL.csv")
     assert [(r["date"], r["sector"]) for r in hist] == [("2026-11-13", "Commercial Bank"), ("2026-11-14", "Commercial Bank")]
     assert (tmp_path / "prices" / "daily" / "2026-11-13" / "Unknown.csv").exists()
+
+
+def test_split_prices_keeps_seeded_history_columns(tmp_path):
+    from sharesansar import split
+    path = tmp_path / "prices" / "by_company" / "Commercial_Bank" / "NABIL.csv"
+    split._write(path, [{"date": "2026-11-12", "symbol": "NABIL", "close": "548", "adj_close": "548"}],
+                 ["date", "symbol", "close", "adj_close"])
+    split.split_prices([{"date": "2026-11-13", "symbol": "NABIL", "company_name": "Nabil", "close": 549.0, "ltp": 549.0}],
+                       {"NABIL": "Commercial Bank"}, tmp_path, "2026-11-13")
+    rows = split._read(path)
+    assert list(rows[0].keys())[:4] == ["date", "symbol", "close", "adj_close"]
+    assert [(r["date"], r["close"], r["ltp"]) for r in rows] == [("2026-11-12", "548", ""), ("2026-11-13", "549.0", "549.0")]
