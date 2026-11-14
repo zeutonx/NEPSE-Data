@@ -8,6 +8,8 @@ Examples
   python -m sharesansar company NABIL --history --floorsheet --dividends
   python -m sharesansar all                         # companies + prices + every company profile
   python -m sharesansar all --history 250           # ...plus last 250 days of OHLC per scrip
+  python -m sharesansar corporate-actions           # mergers, merged cos., right issues, dividends
+  python -m sharesansar company NICA --adjusted     # bonus/right-adjusted price history
 
 Output goes to ./data/ as CSV and JSON (change with --out).
 """
@@ -18,7 +20,7 @@ import logging
 import sys
 from pathlib import Path
 
-from . import scrapers
+from . import adjust, scrapers
 from .client import SharesansarClient
 from .output import write
 
@@ -45,11 +47,25 @@ def main(argv: list[str] | None = None) -> int:
                     help="also fetch daily price history (optionally only the last DAYS rows)")
     s1.add_argument("--floorsheet", action="store_true", help="also fetch latest floorsheet")
     s1.add_argument("--dividends", action="store_true", help="also fetch dividend history")
+    s1.add_argument("--rights", action="store_true", help="also fetch right share history")
+    s1.add_argument("--adjusted", action="store_true",
+                    help="price history adjusted for bonus and right shares (implies --history, "
+                         "--dividends, --rights; combine with --history N to limit days)")
+    s1.add_argument("--adjust-cash", action="store_true", help="with --adjusted, also adjust for cash dividends")
+
+    sx = sub.add_parser("corporate-actions",
+                        help="mergers & acquisitions, merged companies, all right issues, dividends")
+    sx.add_argument("--dividend-years", type=int, default=None, metavar="N",
+                    help="only the latest N fiscal years of dividends (default: all)")
 
     sa = sub.add_parser("all", help="companies + latest prices + every company profile")
     sa.add_argument("--history", type=int, default=None, metavar="DAYS",
                     help="also fetch the last DAYS of price history for each company (0 = all)")
-    sa.add_argument("--dividends", action="store_true")
+    sa.add_argument("--dividends", action="store_true", help="per-company dividend history")
+    sa.add_argument("--rights", action="store_true", help="per-company right share history")
+    sa.add_argument("--adjusted", action="store_true", help="bonus/right-adjusted history per company")
+    sa.add_argument("--dividend-years", type=int, default=3, metavar="N",
+                    help="fiscal years of market-wide dividends to fetch (default 3, 0 = all)")
     sa.add_argument("--max-companies", type=int, help="limit number of profiles (for testing)")
 
     a = p.parse_args(argv)
@@ -71,7 +87,11 @@ def main(argv: list[str] | None = None) -> int:
 
     elif a.cmd == "company":
         _companies(client, [s.upper() for s in a.symbols], out, a.format,
-                   history=a.history, floorsheet=a.floorsheet, divs=a.dividends)
+                   history=a.history, floorsheet=a.floorsheet, divs=a.dividends, rights=a.rights,
+                   adjusted=a.adjusted, adjust_cash=a.adjust_cash)
+
+    elif a.cmd == "corporate-actions":
+        _corporate_actions(client, out, a.format, a.dividend_years)
 
     elif a.cmd == "all":
         companies = scrapers.company_list(client)
@@ -81,11 +101,22 @@ def main(argv: list[str] | None = None) -> int:
         symbols = sorted({c["symbol"] for c in companies if c["symbol"]})
         if a.max_companies:
             symbols = symbols[: a.max_companies]
-        _companies(client, symbols, out, a.format, history=a.history, floorsheet=False, divs=a.dividends)
+        _corporate_actions(client, out, a.format, a.dividend_years or None)
+        _companies(client, symbols, out, a.format, history=a.history, floorsheet=False, divs=a.dividends,
+                   rights=a.rights, adjusted=a.adjusted, adjust_cash=False)
     return 0
 
 
-def _companies(client, symbols, out, fmt, history, floorsheet, divs) -> None:
+def _corporate_actions(client, out, fmt, dividend_years) -> None:
+    ca = out / "corporate_actions"
+    write(scrapers.mergers(client), ca / "mergers_acquisitions", fmt)
+    write(scrapers.merged_companies(client), ca / "merged_companies", fmt)
+    write(scrapers.right_shares(client), ca / "right_shares", fmt)
+    write(scrapers.all_dividends(client, years=dividend_years), ca / "dividends", fmt)
+
+
+def _companies(client, symbols, out, fmt, history, floorsheet, divs, rights=False, adjusted=False,
+               adjust_cash=False) -> None:
     profiles, failed = [], []
     for i, sym in enumerate(symbols, 1):
         try:
@@ -97,11 +128,26 @@ def _companies(client, symbols, out, fmt, history, floorsheet, divs) -> None:
         profiles.append(info)
         log.info("[%d/%d] %s %s", i, len(symbols), sym, info.get("name", ""))
         cid = info.get("company_id")
-        if history is not None and cid:
-            rows = scrapers.price_history(client, cid, limit=history or None)
-            write(rows, out / "history" / sym, fmt, quiet=True)
-        if divs and cid:
-            write(scrapers.dividends(client, cid), out / "dividends" / sym, fmt, quiet=True)
+        if not cid:
+            log.warning("%s: no company id on page, skipping history/dividends/rights", sym)
+        hist = div_rows = right_rows = None
+        if (history is not None or adjusted) and cid:
+            hist = scrapers.price_history(client, cid, limit=history or None)
+            write(hist, out / "history" / sym, fmt, quiet=True)
+        if (divs or adjusted) and cid:
+            div_rows = scrapers.dividends(client, cid, sym)
+            write(div_rows, out / "dividends" / sym, fmt, quiet=True)
+        if (rights or adjusted) and cid:
+            right_rows = scrapers.right_shares(client, cid)
+            for r in right_rows:
+                r["symbol"] = sym
+            write(right_rows, out / "right_shares" / sym, fmt, quiet=True)
+        if adjusted and hist is not None:
+            face = info.get("paid_up") if isinstance(info.get("paid_up"), (int, float)) else 100.0
+            events = adjust.corporate_events(div_rows or [], right_rows or [], include_cash=adjust_cash,
+                                             face_value=face)
+            adj = adjust.adjust_history(hist, events)
+            write(adj, out / "adjusted" / sym, fmt, quiet=True)
         if floorsheet:
             rows = scrapers.floorsheet(client, sym)
             date = rows[0]["date"] if rows else "latest"

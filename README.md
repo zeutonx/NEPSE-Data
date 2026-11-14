@@ -15,6 +15,8 @@ python -m sharesansar prices --date 2026-11-04  # a past trading day
 python -m sharesansar company NABIL NICA --history --floorsheet --dividends
 python -m sharesansar all                       # companies + prices + every company profile
 python -m sharesansar all --history 250         # ...plus last 250 days of OHLC per company
+python -m sharesansar corporate-actions         # mergers, merged companies, right issues, dividends
+python -m sharesansar company NICA --adjusted --history 500   # bonus/right-adjusted prices
 ```
 
 Files are written to `data/` (change with `--out`) as both CSV and JSON
@@ -27,7 +29,27 @@ Files are written to `data/` (change with `--out`) as both CSV and JSON
 | `company` / `all` | `data/company_info.*` | company_id, name, sector, listed shares, paid-up, total paid-up value, operation date, phone, email, address, website, share registrar, latest quote (price, change, open/high/low/volume), 52-week high/low, 120/180-day averages |
 | `--history [N]` | `data/history/<SYMBOL>.*` | date, open, high, low, close, pct_change, volume, turnover (newest first) |
 | `--floorsheet` | `data/floorsheet/<SYMBOL>_<date>.*` | contract_no, buyer_broker, seller_broker, quantity, rate, amount |
-| `--dividends` | `data/dividends/<SYMBOL>.*` | bonus_share, cash_dividend, total_dividend, announcement/bookclose dates, fiscal year |
+| `--dividends` | `data/dividends/<SYMBOL>.*` | fiscal_year, bonus_pct, cash_pct, total_pct, announcement / book-close / distribution / bonus-listing dates |
+| `--rights` | `data/right_shares/<SYMBOL>.*` | ratio, right_per_share, total_units, issue_price, book-close / opening / closing / listing dates, issue manager |
+| `--adjusted` | `data/adjusted/<SYMBOL>.*` | price history plus adj_open/high/low/close and the list of adjustments applied |
+| `corporate-actions` | `data/corporate_actions/mergers_acquisitions.*` | completed and in-process mergers/acquisitions: merging companies, new symbol, sector, swap ratio, trading, MoU / final approval / joint transaction dates |
+| | `data/corporate_actions/merged_companies.*` | symbols delisted after merging |
+| | `data/corporate_actions/right_shares.*` | every right issue on the market |
+| | `data/corporate_actions/dividends.*` | every company's bonus and cash dividend by fiscal year |
+
+`all` also writes the `corporate_actions` files (dividends for the latest 3 fiscal years
+unless `--dividend-years` says otherwise).
+
+### Adjusted prices
+
+`--adjusted` rewrites older prices so they are comparable across book-close dates,
+using the same formulas as ShareSansar's adjustment calculators:
+
+- bonus b%: `P / (1 + b/100)`
+- right r:1 at issue price S: `(P + r*S) / (1 + r)`
+- cash c% (only with `--adjust-cash`): `P - c/100 * face value`
+
+Events are applied oldest first to every price before their book-close date.
 
 ### Being polite
 

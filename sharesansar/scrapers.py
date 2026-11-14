@@ -12,6 +12,7 @@ Endpoints (all verified against the live site, Nov 2026):
 """
 from __future__ import annotations
 
+import html
 import logging
 import re
 from typing import Any, Iterator
@@ -49,8 +50,10 @@ _TAG_RE = re.compile(r"<[^>]+>")
 
 
 def _strip_html(value: Any) -> Any:
-    if isinstance(value, str) and "<" in value:
-        return " ".join(_TAG_RE.sub(" ", value).split())
+    if isinstance(value, str):
+        if "<" in value:
+            value = " ".join(_TAG_RE.sub(" ", value).split())
+        return html.unescape(value)
     return value
 
 
@@ -249,12 +252,156 @@ def floorsheet(client: SharesansarClient, symbol: str, limit: int | None = None)
     return rows[:limit] if limit else rows
 
 
-def dividends(client: SharesansarClient, company_id: int) -> list[dict[str, Any]]:
-    """Dividend history: bonus %, cash %, total %, announcement and book-close dates, fiscal year."""
+def dividends(client: SharesansarClient, company_id: int, symbol: str | None = None) -> list[dict[str, Any]]:
+    """Dividend history for one company: bonus %, cash %, total %, announcement and book-close dates."""
     rows = []
     for rec in _datatable(client, "/company-dividend", {"company": company_id}):
-        r = _clean_record(rec, keep_text=("announcement_date", "distribution_date", "bookclose_date",
-                                         "bonus_listing_date", "year"))
-        r.pop("status", None)
-        rows.append(r)
+        row = _dividend_row(rec)
+        row["symbol"] = symbol
+        row.pop("company_name")
+        rows.append(row)
+    return rows
+
+
+# --------------------------------------------------------------------------- corporate actions
+#   right shares   POST /company-rightshare  company=<id>          (per company)
+#                  GET  /existing-issues?type=3                    (all right issues, market wide)
+#   dividends      GET  /proposed-dividend?type=YEARWISE&year=<id>&sector=0   (per fiscal year)
+#                  GET  /proposed-dividend?type=LATEST&duration=1_YEAR
+#   mergers        GET  /merger-acquisition?type=1 (completed) / type=0 (in process)
+#   merged cos.    GET  /merged-companies                           (delisted after merger)
+
+MERGER_ACTION = {"1": "Merger", "2": "Acquisition"}
+YES_NO = {"0": "No", "1": "Yes"}
+
+
+def _link_text(html: Any) -> Any:
+    return _strip_html(html) if html else html
+
+
+def _right_row(rec: dict[str, Any]) -> dict[str, Any]:
+    comp = rec.get("company") or {}
+    ratio = rec.get("ratio_value") or ""
+    return {
+        "company_id": rec.get("companyid"),
+        "symbol": _link_text(comp.get("symbol")),
+        "company_name": _link_text(comp.get("companyname")),
+        "ratio": ratio,
+        "right_per_share": right_ratio(ratio),
+        "total_units": to_number(rec.get("total_units") or ""),
+        "issue_price": to_number(rec.get("issue_price") or ""),
+        "book_close_date": rec.get("final_date") or None,
+        "opening_date": rec.get("opening_date") or None,
+        "closing_date": rec.get("closing_date") or None,
+        "listing_date": rec.get("listing_date") or None,
+        "issue_manager": rec.get("issue_manager"),
+        "share_type": rec.get("displayable_share_type"),
+        "status": rec.get("status"),
+        "announcement_link": rec.get("announcement_link"),
+    }
+
+
+def right_ratio(ratio: str) -> float | None:
+    """'100:15' -> 0.15 and '1:0.50' -> 0.5 (new shares per existing share)."""
+    m = re.match(r"\s*([\d.]+)\s*:\s*([\d.]+)", ratio or "")
+    if not m or float(m.group(1)) == 0:
+        return None
+    return round(float(m.group(2)) / float(m.group(1)), 6)
+
+
+def right_shares(client: SharesansarClient, company_id: int | None = None) -> list[dict[str, Any]]:
+    """Right share issues for one company, or every right issue on the market when company_id is None."""
+    if company_id is None:
+        recs = _datatable(client, "/existing-issues", {"type": 3}, method="GET")
+    else:
+        recs = _datatable(client, "/company-rightshare", {"company": company_id})
+    rows = []
+    for rec in recs:
+        row = _right_row(rec)
+        if company_id is not None:
+            row["company_id"] = company_id
+        rows.append(row)
+    return rows
+
+
+def _dividend_row(rec: dict[str, Any]) -> dict[str, Any]:
+    bc = rec.get("bookclose_date") or ""
+    return {
+        "symbol": _link_text(rec.get("symbol")),
+        "company_name": _link_text(rec.get("companyname")),
+        "fiscal_year": rec.get("year"),
+        "bonus_pct": to_number(rec.get("bonus_share") or "") or 0.0,
+        "cash_pct": to_number(rec.get("cash_dividend") or "") or 0.0,
+        "total_pct": to_number(rec.get("total_dividend") or "") or 0.0,
+        "announcement_date": rec.get("announcement_date") or None,
+        "book_close_date": bc.split(" ")[0] or None,
+        "book_closed": "[Closed]" in bc,
+        "distribution_date": rec.get("distribution_date") or None,
+        "bonus_listing_date": rec.get("bonus_listing_date") or None,
+    }
+
+
+def dividend_years(client: SharesansarClient) -> dict[int, str]:
+    """Fiscal-year ids used by /proposed-dividend, e.g. {32: '2082/2083', ...}."""
+    soup = client.soup("/proposed-dividend")
+    sel = soup.find("select", attrs={"name": "year"})
+    if sel is None:
+        raise RuntimeError("fiscal year selector not found on /proposed-dividend")
+    return {int(o["value"]): o.get_text(strip=True) for o in sel.find_all("option") if o.get("value", "").isdigit()}
+
+
+def all_dividends(client: SharesansarClient, years: int | None = None) -> list[dict[str, Any]]:
+    """Every company's bonus/cash dividend, fiscal year by fiscal year (newest first).
+
+    years: only the latest N fiscal years (None = all the site has).
+    """
+    year_ids = sorted(dividend_years(client), reverse=True)
+    if years:
+        year_ids = year_ids[:years]
+    rows = []
+    for yid in year_ids:
+        n = 0
+        for rec in _datatable(client, "/proposed-dividend", {"type": "YEARWISE", "year": yid, "sector": 0},
+                              method="GET"):
+            rows.append(_dividend_row(rec))
+            n += 1
+        log.info("dividends: year id %d -> %d rows", yid, n)
+    return rows
+
+
+def mergers(client: SharesansarClient) -> list[dict[str, Any]]:
+    """Mergers & acquisitions, both completed and in process."""
+    rows = []
+    for type_id, status in ((1, "Completed"), (0, "In process")):
+        for rec in _datatable(client, "/merger-acquisition", {"type": type_id}, method="GET"):
+            comp = rec.get("company") or {}
+            sector = rec.get("sector") or {}
+            rows.append({
+                "status": status,
+                "merging_companies": _link_text(rec.get("companies")),
+                "new_symbol": comp.get("symbol"),
+                "new_company_name": comp.get("companyname"),
+                "new_company_id": rec.get("companyid"),
+                "sector": _link_text(sector.get("sectorname")),
+                "action": MERGER_ACTION.get(str(rec.get("action")), rec.get("action")),
+                "swap_ratio": rec.get("swap_ratio"),
+                "trading": YES_NO.get(str(rec.get("tradingid")), rec.get("tradingid")),
+                "mou_date": rec.get("mou_date"),
+                "final_approval_date": rec.get("final_date"),
+                "joint_transaction_date": rec.get("transaction_date"),
+            })
+    return rows
+
+
+def merged_companies(client: SharesansarClient) -> list[dict[str, Any]]:
+    """Companies that no longer trade because they merged into another one."""
+    rows = []
+    for rec in _datatable(client, "/merged-companies", {}, method="GET"):
+        detail = rec.get("companyDetail") or rec.get("company_detail") or {}
+        rows.append({
+            "company_id": rec.get("id"),
+            "symbol": _link_text(rec.get("symbol")),
+            "company_name": _link_text(rec.get("companyname")),
+            "operation_date": detail.get("operationdate") or None,
+        })
     return rows

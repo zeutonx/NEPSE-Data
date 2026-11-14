@@ -70,3 +70,39 @@ def test_company_list_paginates():
     assert len(rows) == 60
     assert rows[0]["symbol"] == "S0" and rows[0]["sector"] == "Commercial Bank"
     assert rows[0]["promoter_pct"] == 51.0 and rows[0]["market_cap"] == 250000.0
+
+
+def test_right_ratio():
+    assert scrapers.right_ratio("100:15") == 0.15
+    assert scrapers.right_ratio("1:0.50") == 0.5
+    assert scrapers.right_ratio("") is None
+
+
+def test_merger_rows():
+    rec = {"companyid": 1690, "companies": "<p>Orchid Holdings Limited &amp; Mountain Glory Limited</p>",
+           "action": "1", "swap_ratio": None, "tradingid": "0", "final_date": None,
+           "transaction_date": "2026-05-01", "mou_date": None,
+           "company": {"id": 1690, "symbol": "OGL", "companyname": "Orchid Glory Limited"},
+           "sector": {"id": 6, "sectorname": "Hotel &amp; Tourism"}}
+    client = mock.Mock()
+    client.json.side_effect = [{"recordsTotal": 1, "data": [rec]}, {"recordsTotal": 0, "data": []}]
+    rows = scrapers.mergers(client)
+    assert rows == [{
+        "status": "Completed", "merging_companies": "Orchid Holdings Limited & Mountain Glory Limited",
+        "new_symbol": "OGL", "new_company_name": "Orchid Glory Limited", "new_company_id": 1690,
+        "sector": "Hotel & Tourism", "action": "Merger", "swap_ratio": None, "trading": "No",
+        "mou_date": None, "final_approval_date": None, "joint_transaction_date": "2026-05-01"}]
+
+
+def test_adjust_bonus_and_right():
+    from sharesansar.adjust import adjust_history, corporate_events
+    hist = [{"date": "2026-11-01", "close": 500.0}, {"date": "2026-06-01", "close": 550.0},
+            {"date": "2026-01-01", "close": 600.0}]
+    divs = [{"book_close_date": "2026-09-30", "bonus_pct": 10.0, "cash_pct": 5.0, "fiscal_year": "82/83"}]
+    rights = [{"book_close_date": "2026-03-01", "right_per_share": 0.5, "issue_price": 100.0, "ratio": "1:0.5"}]
+    adj = adjust_history(hist, corporate_events(divs, rights))
+    assert adj[0]["adj_close"] == 500.0                     # after every event
+    assert adj[1]["adj_close"] == round(550 / 1.1, 2)        # before bonus only
+    assert adj[2]["adj_close"] == round(((600 + 50) / 1.5) / 1.1, 2)  # right first, then bonus
+    cash = adjust_history(hist, corporate_events(divs, [], include_cash=True))
+    assert cash[1]["adj_close"] == round(550 / 1.1 - 5, 2)
