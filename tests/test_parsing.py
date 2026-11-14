@@ -188,3 +188,33 @@ def test_dividend_years_ordered_by_label():
     client.json.return_value = {"recordsTotal": 0, "data": []}
     scrapers.all_dividends(client, years=3)
     assert [c.kwargs["params"]["year"] for c in client.json.call_args_list] == [32, 24, 5]
+
+
+def test_datasheet_build(tmp_path):
+    from sharesansar import datasheet
+    companies = [
+        {"symbol": "NABIL", "company_name": "Nabil Bank Limited", "sector": "Commercial Bank", "listed_shares": 1},
+        {"symbol": "OHL", "company_name": "Oriental Hotels", "sector": "Hotel & Tourism", "listed_shares": 2},
+    ]
+    hist = {16: [{"date": "2026-11-13", "open": 550.0, "high": 550.0, "low": 546.0, "close": 549.0},
+                 {"date": "2026-09-29", "open": 560.0, "high": 570.0, "low": 555.0, "close": 566.0},
+                 {"date": "2026-09-29", "open": 560.0, "high": 570.0, "low": 555.0, "close": 566.0}],
+            17: []}
+    divs = [{"symbol": "NABIL", "book_close_date": "2026-09-30", "bonus_pct": 5.0, "cash_pct": 0, "fiscal_year": "x"}]
+    with mock.patch.object(scrapers, "company_list", return_value=companies), \
+         mock.patch.object(scrapers, "all_dividends", return_value=divs), \
+         mock.patch.object(scrapers, "right_shares", return_value=[]), \
+         mock.patch.object(scrapers, "company_info",
+                           side_effect=lambda c, s: {"company_id": 16 if s == "NABIL" else 17, "paid_up": 100.0}), \
+         mock.patch.object(scrapers, "price_history", side_effect=lambda c, cid: list(hist[cid])):
+        root = datasheet.build(mock.Mock(), tmp_path)
+
+    nabil = datasheet._read_csv(root / "Commercial_Bank" / "NABIL.csv")
+    assert [r["date"] for r in nabil] == ["2026-09-29", "2026-11-13"]  # deduped, oldest first
+    assert nabil[0]["adj_close"] == "539.05" and nabil[1]["adj_close"] == "549.0"
+    assert nabil[0]["sector"] == "Commercial Bank" and nabil[0]["company_name"] == "Nabil Bank Limited"
+    assert (root / "Hotel_and_Tourism" / "OHL.csv").exists()
+    index = datasheet._read_csv(root / "companies.csv")
+    assert [(e["symbol"], e["rows"], e["file"]) for e in index] == [
+        ("NABIL", "2", "Commercial_Bank/NABIL.csv"), ("OHL", "0", "Hotel_and_Tourism/OHL.csv")]
+    assert len(datasheet._read_csv(root / "all_companies_prices.csv")) == 2

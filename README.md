@@ -17,7 +17,27 @@ python -m sharesansar all                       # companies + prices + every com
 python -m sharesansar all --history 250         # ...plus last 250 days of OHLC per company
 python -m sharesansar corporate-actions         # mergers, merged companies, right issues, dividends
 python -m sharesansar company NICA --adjusted --history 500   # bonus/right-adjusted prices
+python -m sharesansar datasheet                 # price datasheet: one CSV per company, by sector
 ```
+
+### Price datasheet
+
+`datasheet` downloads the full daily price history of every listed company and writes:
+
+```
+data/datasheet/
+  companies.csv               index: symbol, name, sector, shares, market cap, rows, first/last date, file
+  all_companies_prices.csv    every company combined
+  Commercial_Bank/NABIL.csv
+  Hydropower/UPPER.csv
+  ...
+```
+
+Each company file is oldest day first: `date, symbol, company_name, sector, open, high, low,
+close, pct_change, volume, turnover, adj_open, adj_high, adj_low, adj_close, adjustments`.
+Duplicate dates from the site are dropped. It takes about 2 requests per company
+(~45 minutes for all ~650 at 2 s); `--resume` keeps files already written, so an
+interrupted run can pick up where it stopped. `--sector`, `--symbols`, `--no-adjusted` narrow it.
 
 Files are written to `data/` (change with `--out`) as both CSV and JSON
 (`--format csv|json|both`).

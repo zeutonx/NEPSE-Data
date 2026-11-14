@@ -10,6 +10,7 @@ Examples
   python -m sharesansar all --history 250           # ...plus last 250 days of OHLC per scrip
   python -m sharesansar corporate-actions           # mergers, merged cos., right issues, dividends
   python -m sharesansar company NICA --adjusted     # bonus/right-adjusted price history
+  python -m sharesansar datasheet                   # full price history, one CSV per company, by sector
 
 Output goes to ./data/ as CSV and JSON (change with --out).
 """
@@ -20,7 +21,7 @@ import logging
 import sys
 from pathlib import Path
 
-from . import adjust, scrapers
+from . import adjust, datasheet, scrapers
 from .client import SharesansarClient
 from .output import write
 
@@ -58,6 +59,14 @@ def main(argv: list[str] | None = None) -> int:
     sx.add_argument("--dividend-years", type=int, default=None, metavar="N",
                     help="only the latest N fiscal years of dividends (default: all)")
 
+    sd = sub.add_parser("datasheet", help="full price history for every company: one CSV per company in "
+                                          "sector folders, plus a combined CSV and an index")
+    sd.add_argument("--sector", type=int, action="append", help="sector id (repeatable); default all")
+    sd.add_argument("--symbols", nargs="+", help="only these symbols")
+    sd.add_argument("--no-adjusted", action="store_true", help="skip bonus/right-adjusted columns")
+    sd.add_argument("--resume", action="store_true", help="keep company CSVs that already exist")
+    sd.add_argument("--max-companies", type=int, help="limit number of companies (for testing)")
+
     sa = sub.add_parser("all", help="companies + latest prices + every company profile")
     sa.add_argument("--history", type=int, default=None, metavar="DAYS",
                     help="also fetch the last DAYS of price history for each company (0 = all)")
@@ -89,6 +98,10 @@ def main(argv: list[str] | None = None) -> int:
         _companies(client, [s.upper() for s in a.symbols], out, a.format,
                    history=a.history, floorsheet=a.floorsheet, divs=a.dividends, rights=a.rights,
                    adjusted=a.adjusted, adjust_cash=a.adjust_cash)
+
+    elif a.cmd == "datasheet":
+        datasheet.build(client, out, sectors=a.sector, symbols=a.symbols, adjusted=not a.no_adjusted,
+                        resume=a.resume, max_companies=a.max_companies)
 
     elif a.cmd == "corporate-actions":
         _corporate_actions(client, out, a.format, a.dividend_years)
