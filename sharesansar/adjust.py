@@ -45,7 +45,16 @@ def corporate_events(dividends: list[dict[str, Any]], rights: list[dict[str, Any
 
 
 def adjust_history(history: list[dict[str, Any]], events: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Return history rows with adj_open/adj_high/adj_low/adj_close and the events applied."""
+    """Return history rows with adj_open/adj_high/adj_low/adj_close and the events applied.
+
+    Events whose book-close date is after the latest trading day in `history` are announced but
+    not yet effective (the stock has not gone ex), so they are left out; otherwise every price,
+    including today's, would be discounted for an entitlement it still carries.
+    """
+    dates = [r["date"] for r in history if r.get("date")]
+    if dates:
+        last = max(dates)
+        events = [e for e in events if e["date"] <= last]
     out = []
     for row in history:
         date = row.get("date")

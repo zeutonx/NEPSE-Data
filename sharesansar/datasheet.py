@@ -97,6 +97,12 @@ def build(client: SharesansarClient, out: Path, sectors: list[int] | None = None
         log.info("datasheet: corporate actions for %d (dividends) / %d (rights) symbols",
                  len(div_by_sym), len(right_by_sym))
 
+    # company_id only comes from each company page, which a resumed run skips for kept files,
+    # so carry it over from the previous index instead of writing it out blank
+    prev_ids: dict[str, str] = {}
+    if resume and (root / "companies.csv").exists():
+        prev_ids = {e["symbol"]: e["company_id"] for e in _read_csv(root / "companies.csv") if e.get("company_id")}
+
     index = []
     for i, c in enumerate(companies, 1):
         sym, sector = c["symbol"], c["sector"]
@@ -106,7 +112,7 @@ def build(client: SharesansarClient, out: Path, sectors: list[int] | None = None
 
         if resume and path.exists():
             rows = _read_csv(path)
-            entry.update(status="kept", rows=len(rows),
+            entry.update(status="kept", rows=len(rows), company_id=prev_ids.get(sym),
                          first_date=rows[0]["date"] if rows else None, last_date=rows[-1]["date"] if rows else None)
             index.append(entry)
             continue

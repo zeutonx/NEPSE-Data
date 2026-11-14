@@ -110,6 +110,17 @@ def test_adjust_bonus_and_right():
     assert cash[1]["adj_close"] == round(550 / 1.1 - 5, 2)
 
 
+def test_adjust_ignores_book_close_after_last_trading_day():
+    # bonus announced, book close still ahead (API, 2026-11-24): prices must stay unadjusted
+    from sharesansar.adjust import adjust_history, corporate_events
+    hist = [{"date": "2026-11-13", "close": 333.0}, {"date": "2026-11-05", "close": 333.7}]
+    divs = [{"book_close_date": "2026-11-24", "bonus_pct": 5.0, "cash_pct": 0.26, "fiscal_year": "2082/2083"},
+            {"book_close_date": "2026-11-06", "bonus_pct": 10.0, "fiscal_year": "2081/2082"}]
+    adj = adjust_history(hist, corporate_events(divs, []))
+    assert adj[0]["adj_close"] == 333.0 and adj[0]["adjustments"] == ""
+    assert adj[1]["adj_close"] == round(333.7 / 1.1, 2) and "2082/2083" not in adj[1]["adjustments"]
+
+
 def test_company_info_placeholders_become_none():
     page = """<h4>Share Registrar: <span>ADB Bond</span></h4>
     <table id="myTableCInfo"><tbody>
@@ -218,3 +229,13 @@ def test_datasheet_build(tmp_path):
     assert [(e["symbol"], e["rows"], e["file"]) for e in index] == [
         ("NABIL", "2", "Commercial_Bank/NABIL.csv"), ("OHL", "0", "Hotel_and_Tourism/OHL.csv")]
     assert len(datasheet._read_csv(root / "all_companies_prices.csv")) == 2
+
+    # --resume keeps both files without refetching and must not blank company_id in the index
+    with mock.patch.object(scrapers, "company_list", return_value=companies), \
+         mock.patch.object(scrapers, "all_dividends", return_value=divs), \
+         mock.patch.object(scrapers, "right_shares", return_value=[]), \
+         mock.patch.object(scrapers, "company_info", side_effect=AssertionError("refetched")):
+        datasheet.build(mock.Mock(), tmp_path, resume=True)
+    index = datasheet._read_csv(root / "companies.csv")
+    assert [(e["symbol"], e["company_id"], e["rows"], e["status"]) for e in index] == [
+        ("NABIL", "16", "2", "kept"), ("OHL", "17", "0", "kept")]
