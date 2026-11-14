@@ -22,7 +22,7 @@ import logging
 import sys
 from pathlib import Path
 
-from . import adjust, datasheet, markets, scrapers
+from . import adjust, datasheet, markets, scrapers, split
 from .client import SharesansarClient
 from .output import write
 
@@ -39,6 +39,11 @@ def main(argv: list[str] | None = None) -> int:
 
     sp = sub.add_parser("prices", help="daily share prices for every traded scrip")
     sp.add_argument("--date", help="YYYY-MM-DD (default: latest trading day)")
+    sp.add_argument("--split", action="store_true",
+                    help="also write per-sector files for the day and append to per-company files")
+
+    sk = sub.add_parser("split", help="break existing combined files into separate ones (no downloads): "
+                                      "forex per currency, gold/silver per item, datasheet by sector and year")
 
     sc = sub.add_parser("companies", help="list of all listed companies")
     sc.add_argument("--sector", type=int, action="append", help="sector id (repeatable); default all")
@@ -89,6 +94,11 @@ def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.DEBUG if a.verbose else logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
     out = Path(a.out)
+    if a.cmd == "split":  # works on files already on disk; no downloads
+        split.split_market(out)
+        if (out / "datasheet" / "all_companies_prices.csv").exists():
+            split.split_datasheet(out)
+        return 0
     client = SharesansarClient(delay=a.delay)
 
     if a.cmd == "prices":
@@ -97,6 +107,9 @@ def main(argv: list[str] | None = None) -> int:
             log.warning("no trading data for %s", a.date or "latest day")
             return 1
         write(rows, out / "prices" / f"prices_{as_of}", a.format)
+        if a.split:
+            sectors = {c["symbol"]: c["sector"] for c in scrapers.company_list(client)}
+            split.split_prices(rows, sectors, out, as_of)
 
     elif a.cmd == "companies":
         rows = scrapers.company_list(client, a.sector)
@@ -118,6 +131,7 @@ def main(argv: list[str] | None = None) -> int:
             markets.update_gold_silver(client, out)
         if not a.no_forex:
             markets.update_forex(out, start=a.forex_from, delay=a.delay)
+        split.split_market(out)
 
     elif a.cmd == "corporate-actions":
         _corporate_actions(client, out, a.format, a.dividend_years)

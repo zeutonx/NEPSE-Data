@@ -342,3 +342,41 @@ def test_pick_forex_prefers_filled_and_closest_rate():
     rows = markets._pick_forex({("2020-02-28", "USD"): [row("2020-02-28", 119.44), row("2020-02-28", 114.19)]},
                                prev={"USD": 114.36})
     assert rows[0]["buy"] == 114.19
+
+
+def test_split_market_and_datasheet(tmp_path):
+    from sharesansar import split
+    m = tmp_path / "market"
+    split._write(m / "forex.csv", [
+        {"date": "2026-11-13", "currency": "USD", "buy": "150"}, {"date": "2026-11-12", "currency": "USD", "buy": "149"},
+        {"date": "2026-11-13", "currency": "INR", "buy": "160"}], ["date", "currency", "buy"])
+    split._write(m / "gold_silver.csv", [{"date": "2026-11-13", "item": "Fine Gold", "price_per_tola": "271700"},
+                                        {"date": "2026-11-13", "item": "Silver", "price_per_tola": "3700"}],
+                 ["date", "item", "price_per_tola"])
+    split.split_market(tmp_path)
+    assert [r["date"] for r in split._read(m / "forex" / "USD.csv")] == ["2026-11-12", "2026-11-13"]
+    assert (m / "forex" / "INR.csv").exists() and (m / "gold_silver" / "Fine_Gold.csv").exists()
+
+    d = tmp_path / "datasheet"
+    split._write(d / "all_companies_prices.csv", [
+        {"date": "2025-12-31", "symbol": "NABIL", "sector": "Commercial Bank", "close": "500"},
+        {"date": "2026-01-01", "symbol": "NABIL", "sector": "Commercial Bank", "close": "510"},
+        {"date": "2026-01-01", "symbol": "OHL", "sector": "Hotel & Tourism", "close": "600"}],
+        ["date", "symbol", "sector", "close"])
+    split.split_datasheet(tmp_path)
+    assert len(split._read(d / "by_sector" / "Commercial_Bank.csv")) == 2
+    assert len(split._read(d / "by_sector" / "Hotel_and_Tourism.csv")) == 1
+    assert [r["symbol"] for r in split._read(d / "by_year" / "2026.csv")] == ["NABIL", "OHL"]
+    assert not list(d.rglob("*.tmp"))
+
+
+def test_split_prices(tmp_path):
+    from sharesansar import split
+    day = [{"date": "2026-11-13", "symbol": "NABIL", "company_name": "Nabil", "close": 549.0},
+           {"date": "2026-11-13", "symbol": "XYZ", "company_name": "X", "close": 1.0}]
+    split.split_prices([dict(r) for r in day], {"NABIL": "Commercial Bank"}, tmp_path, "2026-11-13")
+    split.split_prices([{**day[0], "date": "2026-11-14", "close": 550.0}], {"NABIL": "Commercial Bank"},
+                       tmp_path, "2026-11-14")
+    hist = split._read(tmp_path / "prices" / "by_company" / "Commercial_Bank" / "NABIL.csv")
+    assert [(r["date"], r["sector"]) for r in hist] == [("2026-11-13", "Commercial Bank"), ("2026-11-14", "Commercial Bank")]
+    assert (tmp_path / "prices" / "daily" / "2026-11-13" / "Unknown.csv").exists()

@@ -38,7 +38,7 @@ jobs:
         run: python -m sharesansar market
 
       - name: Save latest share prices
-        run: python -m sharesansar prices
+        run: python -m sharesansar prices --split
 
       - name: Commit updated data
         if: github.event_name != 'pull_request'
