@@ -1,0 +1,67 @@
+name: Publish dataset to Kaggle
+
+# Builds kaggle_dataset/ from the data in this repository and uploads it as a new version of
+# https://www.kaggle.com/datasets/zeuton/nepse-stock-market-data
+# Needs the repository secret KAGGLE_API_TOKEN (Settings > Secrets and variables > Actions).
+
+on:
+  schedule:
+    # Saturdays 03:00 UTC (08:45 Nepal time), after the week's trading; the job skips odd weeks,
+    # so a new version goes up every two weeks.
+    - cron: "0 3 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kaggle-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Every other week only
+        id: week
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ $(( 10#$(date -u +%V) % 2 )) -ne 0 ]; then
+            echo "Odd ISO week $(date -u +%V); next upload next week."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.week.outputs.skip != 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.week.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        if: steps.week.outputs.skip != 'true'
+        run: pip install -r requirements.txt pandas kaggle
+
+      # Not kept in the repository; fetched fresh for each upload. If either fails the job
+      # stops, so Kaggle never gets a version with these files missing.
+      - name: Fetch company list and corporate actions
+        if: steps.week.outputs.skip != 'true'
+        run: |
+          python -m sharesansar companies
+          python -m sharesansar corporate-actions
+
+      - name: Build Kaggle files
+        if: steps.week.outputs.skip != 'true'
+        run: python kaggle/build.py --user zeuton
+
+      - name: Upload new version
+        if: steps.week.outputs.skip != 'true'
+        env:
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: |
+          kaggle datasets version -p kaggle_dataset -m "Data to $(TZ=Asia/Kathmandu date +%Y-%m-%d)"
+        # Only the files are updated. Title, description, column docs, cover, provenance and
+        # update frequency were set once on Kaggle; a metadata push could overwrite the parts
+        # dataset-metadata.json doesn't carry.
