@@ -1,0 +1,8 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2016-11-27,MIDBLP,Mission Development Bank Limited Promoter Share,Promoter Share,251.0,251.0,251.0,251.0,0.0,159305.0,39985556.0,251.0,251.0,251.0,251.0,
+2017-03-29,MIDBLP,Mission Development Bank Limited Promoter Share,Promoter Share,251.0,256.0,251.0,256.0,0.0,24365.0,6188710.0,251.0,256.0,251.0,256.0,
+2017-11-13,MIDBLP,Mission Development Bank Limited Promoter Share,Promoter Share,164.0,164.0,164.0,164.0,0.0,30658.0,5027912.0,164.0,164.0,164.0,164.0,
+2018-03-29,MIDBLP,Mission Development Bank Limited Promoter Share,Promoter Share,121.0,121.0,121.0,121.0,0.0,11300.0,1367300.0,121.0,121.0,121.0,121.0,
+2018-04-01,MIDBLP,Mission Development Bank Limited Promoter Share,Promoter Share,121.0,121.0,121.0,121.0,0.0,7000.0,847000.0,121.0,121.0,121.0,121.0,
+2018-04-02,MIDBLP,Mission Development Bank Limited Promoter Share,Promoter Share,121.0,121.0,121.0,121.0,0.0,29238.0,3537798.0,121.0,121.0,121.0,121.0,
+2018-04-03,MIDBLP,Mission Development Bank Limited Promoter Share,Promoter Share,121.0,121.0,121.0,121.0,0.0,29856.0,3612576.0,121.0,121.0,121.0,121.0,

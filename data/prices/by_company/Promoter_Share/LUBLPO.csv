@@ -1,0 +1,9 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2013-08-12,LUBLPO,Lumbini Bank Limited Promotor Share,Promoter Share,192.0,189.0,174.0,174.0,0.0,120.0,21780.0,192.0,189.0,174.0,174.0,
+2013-08-13,LUBLPO,Lumbini Bank Limited Promotor Share,Promoter Share,174.0,171.0,168.0,168.0,0.0,40.0,6780.0,174.0,171.0,168.0,168.0,
+2013-08-15,LUBLPO,Lumbini Bank Limited Promotor Share,Promoter Share,168.0,165.0,153.0,153.0,0.0,100.0,15900.0,168.0,165.0,153.0,153.0,
+2013-08-18,LUBLPO,Lumbini Bank Limited Promotor Share,Promoter Share,153.0,150.0,150.0,150.0,0.0,159900.0,23985000.0,153.0,150.0,150.0,150.0,
+2014-08-07,LUBLPO,Lumbini Bank Limited Promotor Share,Promoter Share,150.0,153.0,153.0,153.0,0.0,27298.0,4176594.0,150.0,153.0,153.0,153.0,
+2014-10-15,LUBLPO,Lumbini Bank Limited Promotor Share,Promoter Share,153.0,153.0,153.0,153.0,0.0,80.0,12240.0,153.0,153.0,153.0,153.0,
+2015-01-06,LUBLPO,Lumbini Bank Limited Promotor Share,Promoter Share,153.0,153.0,153.0,153.0,0.0,10000.0,1530000.0,153.0,153.0,153.0,153.0,
+2015-04-16,LUBLPO,Lumbini Bank Limited Promotor Share,Promoter Share,190.0,190.0,190.0,190.0,0.0,81162.0,15420780.0,190.0,190.0,190.0,190.0,

@@ -1,0 +1,730 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2023-08-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,479.0,526.9,479.0,526.9,10.0,1102.0,578739.8,395.87,435.45,395.87,435.45,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-08-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,537.4,579.5,537.4,579.5,9.98,970.0,561081.0,444.13,478.93,444.13,478.93,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-08-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,591.0,637.4,591.0,637.4,9.99,640.0,406796.0,488.43,526.78,488.43,526.78,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-08-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,650.1,701.1,650.1,701.1,9.99,2578.0,1806184.8,537.27,579.42,537.27,579.42,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-08-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,715.1,771.2,715.1,771.2,10.0,2509.0,1931848.7,590.99,637.36,590.99,637.36,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-08-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,786.6,848.3,786.6,848.3,10.0,1991.0,1687451.3,650.08,701.07,650.08,701.07,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-08-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,848.3,933.1,848.3,933.1,10.0,16318.0,14938378.8,701.07,771.16,701.07,771.16,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-08-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,950.0,969.0,862.4,882.0,-5.48,14491.0,12993835.7,785.12,800.83,712.73,728.93,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,865.0,865.0,794.0,808.0,-8.39,8735.0,7161216.0,714.88,714.88,656.2,667.77,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,792.0,836.4,780.0,836.0,3.47,4450.0,3562938.0,654.55,691.24,644.63,690.91,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,820.0,830.0,804.0,830.0,-0.72,1376.0,1124518.2,677.69,685.95,664.46,685.95,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,814.6,823.1,800.6,822.0,-0.96,3308.0,2694918.0,673.22,680.25,661.65,679.34,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,806.1,868.5,794.0,805.0,-2.07,3756.0,3018310.0,666.2,717.77,656.2,665.29,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,811.0,819.9,780.2,814.0,1.12,1750.0,1420103.0,670.25,677.6,644.79,672.73,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,805.0,812.0,793.0,806.0,-0.98,2980.0,2392661.5,665.29,671.07,655.37,666.12,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,791.4,839.0,791.4,834.0,3.47,1925.0,1572528.5,654.05,693.39,654.05,689.26,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,817.4,822.0,796.3,814.9,-2.29,1340.0,1080841.5,675.54,679.34,658.1,673.47,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,801.1,829.8,800.0,813.0,-0.23,2667.0,2156877.0,662.07,685.79,661.16,671.9,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,796.9,828.8,796.9,799.1,-1.71,1596.0,1299600.0,658.6,684.96,658.6,660.41,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,815.0,839.0,815.0,833.0,4.24,4760.0,3940843.0,673.55,693.39,673.55,688.43,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,840.0,864.0,818.0,833.0,0.0,3728.0,3115925.7,694.21,714.05,676.03,688.43,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,818.1,849.0,818.0,849.0,1.92,2420.0,2023876.0,676.12,701.65,676.03,701.65,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,833.0,876.0,816.5,859.0,1.18,3308.0,2794380.8,688.43,723.97,674.79,709.92,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-09-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,842.0,844.9,820.0,834.0,-2.91,927.0,769553.5,695.87,698.26,677.69,689.26,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,820.0,828.0,805.0,805.1,-3.47,847.0,688893.0,677.69,684.3,665.29,665.37,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,806.5,820.0,796.0,815.0,1.23,1385.0,1121369.7,666.53,677.69,657.85,673.55,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,801.1,812.0,797.5,812.0,-0.37,876.0,704805.6,662.07,671.07,659.09,671.07,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,802.0,815.9,801.2,810.0,-0.25,1395.0,1123127.0,662.81,674.3,662.15,669.42,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,795.4,810.0,795.4,807.0,-0.37,783.0,628638.5,657.36,669.42,657.36,666.94,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,791.7,796.0,786.1,786.1,-2.59,840.0,664420.5,654.3,657.85,649.67,649.67,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,780.2,791.0,780.0,789.0,0.37,1003.0,786129.4,644.79,653.72,644.63,652.07,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,780.1,780.1,770.0,780.0,-1.14,1619.0,1253657.5,644.71,644.71,636.36,644.63,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,779.0,788.4,772.0,788.4,1.08,590.0,458243.0,643.8,651.57,638.02,651.57,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,773.0,774.0,760.0,774.0,-1.83,770.0,588109.0,638.84,639.67,628.1,639.67,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,770.0,770.0,735.2,736.0,-4.91,1236.0,925133.0,636.36,636.36,607.6,608.26,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,750.7,750.7,736.0,747.0,1.49,520.0,387315.0,620.41,620.41,608.26,617.36,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,747.0,775.0,747.0,774.7,3.71,310.0,235865.0,617.36,640.5,617.36,640.25,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,759.4,766.0,750.0,750.0,-3.19,490.0,368964.0,627.6,633.06,619.83,619.83,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,749.0,760.0,740.0,747.0,-0.4,800.0,597126.0,619.01,628.1,611.57,617.36,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,736.0,774.9,736.0,774.9,3.73,1320.0,1001465.0,608.26,640.41,608.26,640.41,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-10-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,759.5,759.5,740.2,746.0,-3.73,2454.0,1827994.0,627.69,627.69,611.74,616.53,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,737.0,750.0,737.0,748.7,0.36,510.0,380142.0,609.09,619.83,609.09,618.76,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,738.0,749.9,736.0,743.0,-0.76,772.0,570685.0,609.92,619.75,608.26,614.05,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,729.0,733.0,722.0,733.0,-1.35,440.0,320382.0,602.48,605.79,596.69,605.79,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,744.0,747.9,721.0,740.0,0.95,1746.0,1284248.0,614.88,618.1,595.87,611.57,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,752.9,754.0,740.0,745.0,0.68,474.0,352436.0,622.23,623.14,611.57,615.7,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,750.0,755.0,740.0,755.0,1.34,170.0,126508.0,619.83,623.97,611.57,623.97,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,742.0,742.0,731.2,740.0,-1.99,472.0,347391.0,613.22,613.22,604.3,611.57,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,740.5,750.0,726.1,738.0,-0.27,310.0,227958.0,611.98,619.83,600.08,609.92,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,725.1,730.0,724.3,724.3,-1.86,233.0,168957.0,599.26,603.31,598.6,598.6,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,725.0,751.0,725.0,736.0,1.62,110.0,80587.0,599.17,620.66,599.17,608.26,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,725.0,763.4,725.0,763.4,3.72,560.0,411749.0,599.17,630.91,599.17,630.91,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,750.0,775.0,748.2,773.9,1.38,600.0,455837.0,619.83,640.5,618.35,639.59,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,773.5,819.0,773.5,800.0,3.37,2127.0,1673917.4,639.26,676.86,639.26,661.16,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,805.0,805.0,775.0,804.0,0.5,1030.0,811191.0,665.29,665.29,640.5,664.46,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,791.0,791.0,775.3,788.0,-1.99,460.0,362907.0,653.72,653.72,640.74,651.24,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-11-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,772.5,773.9,744.0,744.0,-5.58,740.0,557877.0,638.43,639.59,614.88,614.88,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,744.0,754.5,738.1,754.5,1.41,160.0,118814.0,614.88,623.55,610.0,623.55,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,740.0,770.0,740.0,768.9,1.91,200.0,151831.0,611.57,636.36,611.57,635.45,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,753.6,761.0,747.0,761.0,-1.03,360.0,269923.0,622.81,628.93,617.36,628.93,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,751.0,751.0,750.1,750.1,-1.43,140.0,105053.0,620.66,620.66,619.92,619.92,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,735.1,765.0,735.1,765.0,1.99,650.0,489353.0,607.52,632.23,607.52,632.23,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,780.3,811.0,780.3,811.0,6.01,70.0,56153.0,644.88,670.25,644.88,670.25,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,827.2,827.2,773.2,793.0,-2.22,1087.0,858334.5,683.64,683.64,639.01,655.37,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,800.0,824.9,787.0,824.0,3.91,845.0,681101.5,661.16,681.74,650.41,680.99,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,824.0,824.0,777.1,777.1,-5.69,2810.0,2244479.0,680.99,680.99,642.23,642.23,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,789.0,820.0,781.1,783.1,0.77,2175.0,1745994.0,652.07,677.69,645.54,647.19,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,783.1,825.0,783.1,825.0,5.35,1900.0,1545187.7,647.19,681.82,647.19,681.82,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,840.0,841.4,800.1,823.0,-0.24,1810.0,1476163.8,694.21,695.37,661.24,680.17,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,810.1,810.1,795.3,808.0,-1.82,630.0,506167.0,669.5,669.5,657.27,667.77,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,801.0,824.0,800.0,823.9,1.97,1769.0,1438139.0,661.98,680.99,661.16,680.91,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,840.3,906.2,812.5,893.0,8.39,4625.0,4012370.0,694.46,748.93,671.49,738.02,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,878.0,966.4,861.0,918.0,2.8,4616.0,4162853.1,725.62,798.68,711.57,758.68,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,920.0,920.0,857.5,907.0,-1.2,1620.0,1432239.0,760.33,760.33,708.68,749.59,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2023-12-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,893.0,894.0,861.0,869.9,-4.09,1290.0,1131007.0,738.02,738.84,711.57,718.93,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,887.0,903.0,843.0,864.9,-0.57,3642.0,3144817.9,733.06,746.28,696.69,714.79,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,850.0,850.1,825.0,844.0,-2.42,1850.0,1546184.0,702.48,702.56,681.82,697.52,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,844.0,909.8,835.0,909.8,7.8,3313.0,2943678.0,697.52,751.9,690.08,751.9,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,892.0,900.0,875.0,895.0,-1.63,915.0,814753.0,737.19,743.8,723.14,739.67,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,900.0,905.0,867.1,878.0,-1.9,3580.0,3184788.0,743.8,747.93,716.61,725.62,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,881.0,915.0,872.0,891.1,1.49,1110.0,992585.0,728.1,756.2,720.66,736.45,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,908.9,927.0,886.1,886.1,-0.56,2164.0,1971924.9,751.16,766.12,732.31,732.31,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,903.8,903.8,878.0,898.0,1.34,1554.0,1389233.5,746.94,746.94,725.62,742.15,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,904.0,908.8,891.0,899.0,0.11,1145.0,1031026.0,747.11,751.07,736.36,742.98,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,916.0,952.6,916.0,926.0,3.0,2828.0,2621805.1,757.02,787.27,757.02,765.29,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,930.0,957.7,922.0,953.0,2.92,2067.0,1941041.4,768.6,791.49,761.98,787.6,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,936.0,936.0,897.0,911.5,-4.35,1515.0,1395356.0,773.55,773.55,741.32,753.31,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,894.0,929.0,876.2,904.2,-0.8,2494.0,2252869.8,738.84,767.77,724.13,747.27,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,888.0,905.0,875.2,890.0,-1.57,1480.0,1311269.0,733.88,747.93,723.31,735.54,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,890.0,890.0,848.0,861.9,-3.16,2212.0,1911746.0,735.54,735.54,700.83,712.31,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,847.3,888.0,844.8,852.1,-1.14,460.0,394501.0,700.25,733.88,698.18,704.21,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,868.0,885.8,839.3,850.0,-0.25,1589.0,1347165.0,717.36,732.07,693.64,702.48,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,846.0,850.0,831.0,850.0,0.0,1122.0,945417.0,699.17,702.48,686.78,702.48,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,860.0,867.0,840.2,864.0,1.65,500.0,426153.0,710.74,716.53,694.38,714.05,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,850.0,871.0,850.0,869.9,0.68,1567.0,1353039.5,702.48,719.83,702.48,718.93,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,855.0,889.7,855.0,876.0,0.7,800.0,698785.0,706.61,735.29,706.61,723.97,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-01-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,885.0,888.0,855.0,855.0,-2.4,995.0,857210.0,731.4,733.88,706.61,706.61,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,840.0,865.0,827.0,827.0,-3.27,1800.0,1521000.0,694.21,714.88,683.47,683.47,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,827.0,860.0,827.0,840.9,1.68,383.0,323006.4,683.47,710.74,683.47,694.96,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,850.0,900.0,849.7,900.0,7.03,1397.0,1225109.0,702.48,743.8,702.23,743.8,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,883.0,899.0,880.0,899.0,-0.11,740.0,657271.0,729.75,742.98,727.27,742.98,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,882.0,901.0,872.0,880.0,-2.11,2788.0,2503410.6,728.93,744.63,720.66,727.27,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,897.5,911.0,893.0,909.9,3.4,2850.0,2570584.0,741.74,752.89,738.02,751.98,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,928.0,1000.8,913.1,1000.8,9.99,9868.0,9769234.3,766.94,827.11,754.63,827.11,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1020.8,1100.8,1020.8,1100.8,9.99,1560.0,1703516.0,843.64,909.75,843.64,909.75,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1120.0,1210.0,1030.0,1100.0,-0.07,12534.0,14166661.2,925.62,1000.0,851.24,909.09,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1078.0,1078.0,1035.5,1047.0,-4.82,7550.0,7884506.5,890.91,890.91,855.79,865.29,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1029.0,1052.1,1021.0,1035.0,-1.15,2765.0,2859857.0,850.41,869.5,843.8,855.37,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1030.0,1111.0,1015.0,1081.0,4.44,6423.0,6950198.5,851.24,918.18,838.84,893.39,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1059.5,1102.6,1059.5,1090.0,0.83,1980.0,2158298.9,875.62,911.24,875.62,900.83,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1080.0,1100.0,1052.0,1052.0,-3.49,1867.0,2005939.0,892.56,909.09,869.42,869.42,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1065.0,1070.0,1005.0,1005.0,-4.47,960.0,986367.0,880.17,884.3,830.58,830.58,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,985.1,1004.0,950.1,988.0,-1.69,3083.0,2980181.7,814.13,829.75,785.21,816.53,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1007.7,1007.7,935.0,984.0,-0.4,2528.0,2444481.0,832.81,832.81,772.73,813.22,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,980.0,998.0,975.0,998.0,1.42,160.0,157745.0,809.92,824.79,805.79,824.79,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,980.1,993.0,945.7,983.5,-1.45,1294.0,1245091.0,810.0,820.66,781.57,812.81,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-02-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,968.0,970.0,931.0,931.0,-5.34,1397.0,1324405.0,800.0,801.65,769.42,769.42,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,949.6,949.6,915.0,933.6,0.28,465.0,432043.0,784.79,784.79,756.2,771.57,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,952.2,971.2,952.2,971.2,4.03,20.0,19234.0,786.94,802.64,786.94,802.64,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,972.0,994.0,950.0,950.0,-2.18,795.0,761933.5,803.31,821.49,785.12,785.12,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,942.1,1014.9,942.1,965.0,1.58,653.0,635953.1,778.6,838.76,778.6,797.52,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,970.0,1005.0,950.0,1004.0,4.04,1580.0,1550351.0,801.65,830.58,785.12,829.75,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1024.0,1060.0,1004.0,1005.0,0.1,1620.0,1653075.0,846.28,876.03,829.75,830.58,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1025.0,1065.9,1003.7,1041.0,3.58,960.0,991130.0,847.11,880.91,829.5,860.33,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1059.9,1059.9,1015.0,1029.9,-1.07,1790.0,1844745.5,875.95,875.95,838.84,851.16,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1029.5,1049.0,1000.0,1045.0,1.47,1265.0,1303082.0,850.83,866.94,826.45,863.64,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1040.0,1045.0,994.0,1030.0,-1.44,2070.0,2092172.0,859.5,863.64,821.49,851.24,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1040.0,1040.0,1008.0,1025.4,-0.45,520.0,528032.0,859.5,859.5,833.06,847.44,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1026.0,1046.5,1020.0,1027.0,0.16,1818.0,1875279.6,847.93,864.88,842.98,848.76,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1045.0,1050.0,1025.0,1030.0,0.29,2604.0,2701148.9,863.64,867.77,847.11,851.24,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1050.6,1060.0,1018.0,1039.0,0.87,1270.0,1307937.0,868.26,876.03,841.32,858.68,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1059.7,1079.0,1016.2,1049.0,0.96,360.0,372547.0,875.79,891.74,839.83,866.94,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1032.0,1052.0,1015.1,1052.0,0.29,290.0,298395.0,852.89,869.42,838.93,869.42,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1031.0,1031.0,1008.0,1020.0,-3.04,550.0,562056.0,852.07,852.07,833.06,842.98,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1020.0,1040.0,999.6,1000.0,-1.96,1497.0,1504138.0,842.98,859.5,826.12,826.45,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-03-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1020.0,1024.0,990.0,1000.0,0.0,990.0,990581.0,842.98,846.28,818.18,826.45,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1020.0,1040.0,994.0,1003.0,0.3,401.0,406517.4,842.98,859.5,821.49,828.93,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1020.0,1043.4,1004.5,1019.0,1.6,525.0,533444.0,842.98,862.31,830.17,842.15,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1000.0,1035.0,999.0,999.0,-1.96,1280.0,1280197.0,826.45,855.37,825.62,825.62,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1001.0,1027.0,1001.0,1027.0,2.8,1207.0,1227674.6,827.27,848.76,827.27,848.76,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1047.0,1047.0,1019.2,1030.0,0.29,1100.0,1134987.4,865.29,865.29,842.31,851.24,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1030.0,1050.0,1016.0,1030.0,0.0,761.0,777794.0,851.24,867.77,839.67,851.24,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1040.0,1049.0,1020.0,1033.0,0.29,519.0,534406.5,859.5,866.94,842.98,853.72,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1012.7,1055.0,1012.5,1055.0,2.13,1132.0,1172695.2,836.94,871.9,836.78,871.9,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1055.0,1060.0,1045.0,1060.0,0.47,1049.0,1101454.0,871.9,876.03,863.64,876.03,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1039.0,1039.8,1019.0,1019.0,-3.87,809.0,830222.0,858.68,859.34,842.15,842.15,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1000.2,1039.9,1000.2,1034.9,1.56,398.0,408840.9,826.61,859.42,826.61,855.29,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1015.0,1076.8,1015.0,1076.8,4.05,1466.0,1559944.8,838.84,889.92,838.84,889.92,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1070.0,1070.4,1029.0,1040.0,-3.42,706.0,732975.0,884.3,884.63,850.41,859.5,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1040.0,1060.8,1030.0,1050.0,0.96,697.0,729250.0,859.5,876.69,851.24,867.77,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1045.0,1045.0,1035.0,1040.0,-0.95,59.0,61310.0,863.64,863.64,855.37,859.5,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1019.3,1050.0,1019.2,1045.0,0.48,940.0,965866.0,842.4,867.77,842.31,863.64,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1050.5,1050.5,1017.0,1030.0,-1.44,623.0,642092.5,868.18,868.18,840.5,851.24,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-04-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1025.0,1065.0,1013.0,1035.0,0.49,1099.0,1135533.0,847.11,880.17,837.19,855.37,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1035.0,1035.0,1010.0,1010.0,-2.42,595.0,607809.0,855.37,855.37,834.71,834.71,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1030.0,1030.0,1002.2,1010.0,0.0,441.0,446092.0,851.24,851.24,828.26,834.71,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1000.0,1061.2,1000.0,1012.0,0.2,1277.0,1317421.0,826.45,877.02,826.45,836.36,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1032.0,1052.8,1002.0,1023.9,1.18,980.0,989930.0,852.89,870.08,828.1,846.2,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1006.0,1019.0,1006.0,1019.0,-0.48,565.0,571242.5,831.4,842.15,831.4,842.15,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1019.0,1020.0,1003.5,1020.0,0.1,160.0,161803.0,842.15,842.98,829.34,842.98,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1007.2,1019.0,1007.2,1019.0,-0.1,530.0,535578.5,832.4,842.15,832.4,842.15,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1019.0,1030.0,1008.7,1020.0,0.1,1180.0,1197602.5,842.15,851.24,833.64,842.98,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1008.0,1050.0,1008.0,1050.0,2.94,1859.0,1915006.0,833.06,867.77,833.06,867.77,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1069.0,1110.0,1055.0,1075.0,2.38,1167.0,1250796.0,883.47,917.36,871.9,888.43,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1090.0,1090.0,1040.1,1059.5,-1.44,1197.0,1265917.2,900.83,900.83,859.59,875.62,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1080.0,1123.0,1032.0,1095.0,3.35,1710.0,1839803.0,892.56,928.1,852.89,904.96,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1095.0,1109.0,1052.2,1075.0,-1.83,1002.0,1082256.6,904.96,916.53,869.59,888.43,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1053.5,1175.1,1011.9,1175.0,9.3,6409.0,7199704.4,870.66,971.16,836.28,971.07,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1151.5,1160.0,1084.2,1128.0,-4.0,1055.0,1210253.0,951.65,958.68,896.03,932.23,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1107.0,1127.0,1087.0,1110.0,-1.6,833.0,921300.5,914.88,931.4,898.35,917.36,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1088.0,1177.0,1088.0,1130.0,1.8,680.0,763506.0,899.17,972.73,899.17,933.88,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1150.0,1170.0,1025.0,1123.0,-0.62,650.0,727014.0,950.41,966.94,847.11,928.1,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-05-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1100.6,1145.0,1080.0,1124.0,0.09,434.0,482777.2,909.59,946.28,892.56,928.93,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1101.6,1162.8,1079.7,1162.8,3.45,2400.0,2691418.7,910.41,960.99,892.31,960.99,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1139.6,1185.0,1072.8,1153.0,-0.84,1465.0,1690929.0,941.82,979.34,886.61,952.89,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1153.0,1153.0,1111.0,1113.2,-3.45,770.0,868907.0,952.89,952.89,918.18,920.0,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1135.0,1145.0,1113.2,1126.0,1.15,1028.0,1161303.6,938.02,946.28,920.0,930.58,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1145.0,1169.0,1115.2,1134.0,0.71,2957.0,3359865.0,946.28,966.12,921.65,937.19,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1149.9,1247.4,1140.0,1247.4,10.0,13007.0,15471349.2,950.33,1030.91,942.15,1030.91,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1222.5,1372.1,1222.5,1372.1,10.0,8868.0,12140925.3,1010.33,1133.97,1010.33,1133.97,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1345.0,1509.3,1345.0,1509.3,10.0,9899.0,14580632.7,1111.57,1247.36,1111.57,1247.36,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1479.2,1659.0,1367.0,1465.0,-2.94,11235.0,16542138.5,1222.48,1371.07,1129.75,1210.74,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1435.7,1611.5,1435.7,1611.5,10.0,12473.0,19330062.3,1186.53,1331.82,1186.53,1331.82,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1580.0,1730.0,1500.0,1730.0,7.35,15074.0,23570627.0,1305.79,1429.75,1239.67,1429.75,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1695.4,1695.4,1557.0,1557.0,-10.0,12879.0,20126999.0,1401.16,1401.16,1286.78,1286.78,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1525.9,1703.0,1461.0,1703.0,9.38,6084.0,9283464.2,1261.07,1407.44,1207.44,1407.44,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1669.0,1669.0,1532.7,1545.0,-9.28,12697.0,19768157.2,1379.34,1379.34,1266.69,1276.86,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1545.0,1570.0,1484.7,1515.0,-1.94,3380.0,5180929.0,1276.86,1297.52,1227.02,1252.07,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1520.0,1543.0,1510.0,1530.0,0.99,2475.0,3780854.1,1256.2,1275.21,1247.93,1264.46,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1553.0,1634.0,1530.0,1565.0,2.29,8888.0,13756523.3,1283.47,1350.41,1264.46,1293.39,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1560.0,1589.0,1505.1,1543.9,-1.35,645.0,985893.0,1289.26,1313.22,1243.88,1275.95,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1555.0,1670.0,1493.0,1515.0,-1.87,1510.0,2336356.0,1285.12,1380.17,1233.88,1252.07,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-06-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1515.1,1515.1,1430.0,1450.0,-4.29,1703.0,2474231.5,1252.15,1252.15,1181.82,1198.35,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1470.0,1470.0,1430.0,1435.0,-1.03,1017.0,1469344.7,1214.88,1214.88,1181.82,1185.95,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1463.7,1521.0,1451.0,1451.0,1.11,1109.0,1633921.0,1209.67,1257.02,1199.17,1199.17,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1470.0,1478.0,1440.0,1468.0,1.17,852.0,1236061.0,1214.88,1221.49,1190.08,1213.22,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1496.0,1496.0,1439.0,1440.0,-1.91,970.0,1408082.0,1236.36,1236.36,1189.26,1190.08,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1440.0,1460.0,1421.0,1430.0,-0.69,1680.0,2429238.5,1190.08,1206.61,1174.38,1181.82,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1430.0,1479.0,1415.0,1446.0,1.12,2650.0,3821429.0,1181.82,1222.31,1169.42,1195.04,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1454.0,1456.0,1426.0,1449.9,0.27,3352.0,4842502.9,1201.65,1203.31,1178.51,1198.26,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1478.8,1508.0,1450.0,1470.0,1.39,1593.0,2325851.0,1222.15,1246.28,1198.35,1214.88,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1497.0,1580.0,1470.0,1528.0,3.95,3888.0,5909813.5,1237.19,1305.79,1214.88,1262.81,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1558.5,1589.5,1490.0,1544.0,1.05,4165.0,6293755.5,1288.02,1313.64,1231.4,1276.03,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1550.0,1597.9,1490.2,1509.0,-2.27,1719.0,2591516.0,1280.99,1320.58,1231.57,1247.11,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1537.0,1550.0,1474.0,1474.0,-2.32,2722.0,4121367.5,1270.25,1280.99,1218.18,1218.18,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1503.0,1540.0,1485.0,1510.0,2.44,1758.0,2646022.0,1242.15,1272.73,1227.27,1247.93,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1511.0,1550.0,1490.0,1505.0,-0.33,3320.0,5028113.3,1248.76,1280.99,1231.4,1243.8,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1510.0,1599.0,1481.1,1510.0,0.33,4463.0,6741970.1,1247.93,1321.49,1224.05,1247.93,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1480.0,1560.0,1480.0,1515.0,0.33,3218.0,4868694.5,1223.14,1289.26,1223.14,1252.07,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1543.3,1543.3,1500.0,1515.0,0.0,2002.0,3031580.6,1275.45,1275.45,1239.67,1252.07,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1540.0,1560.0,1470.0,1490.0,-1.65,3202.0,4825498.9,1272.73,1289.26,1214.88,1231.4,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1500.0,1639.0,1500.0,1550.0,4.03,4577.0,7156865.0,1239.67,1354.55,1239.67,1280.99,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1555.0,1581.0,1499.0,1529.0,-1.35,2038.0,3094502.0,1285.12,1306.61,1238.84,1263.64,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1505.0,1547.0,1468.1,1497.4,-2.07,2129.0,3167603.2,1243.8,1278.51,1213.31,1237.52,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1472.0,1564.0,1470.0,1540.0,2.84,4286.0,6484656.0,1216.53,1292.56,1214.88,1272.73,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-07-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1569.9,1694.0,1520.0,1694.0,10.0,12947.0,20905068.2,1297.44,1400.0,1256.2,1400.0,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1727.0,1863.4,1727.0,1863.4,10.0,6523.0,12132280.8,1427.27,1540.0,1427.27,1540.0,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1863.4,2049.7,1863.4,2049.7,10.0,7960.0,15952180.8,1540.0,1693.97,1540.0,1693.97,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2011.0,2254.0,1880.0,2254.0,9.97,11078.0,22399796.7,1661.98,1862.81,1553.72,1862.81,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2209.0,2479.0,2028.7,2479.0,9.98,14120.0,29711988.1,1825.62,2048.76,1676.61,2048.76,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2429.5,2726.0,2231.1,2726.0,9.96,15555.0,35333782.1,2007.85,2252.89,1843.88,2252.89,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2671.5,2671.5,2453.4,2453.4,-10.0,10228.0,25104085.7,2207.85,2207.85,2027.6,2027.6,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2404.4,2404.4,2208.1,2208.1,-10.0,4914.0,10855711.4,1987.11,1987.11,1824.88,1824.88,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2164.0,2254.2,2000.0,2180.0,-1.27,6123.0,13335932.0,1788.43,1862.98,1652.89,1801.65,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2180.0,2363.0,2150.0,2300.0,5.5,6204.0,14018688.9,1801.65,1952.89,1776.86,1900.83,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2345.0,2380.0,2160.9,2176.0,-5.39,4312.0,9965634.7,1938.02,1966.94,1785.87,1798.35,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2175.0,2175.0,2015.0,2020.1,-7.16,3486.0,7168577.5,1797.52,1797.52,1665.29,1669.5,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2060.0,2091.0,1930.0,2091.0,3.51,2560.0,5159890.0,1702.48,1728.1,1595.04,1728.1,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2050.0,2259.0,2010.0,2140.0,2.34,2425.0,5189235.8,1694.21,1866.94,1661.16,1768.6,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2140.0,2221.0,1970.0,1970.0,-7.94,2094.0,4381329.4,1768.6,1835.54,1628.1,1628.1,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1970.0,2049.0,1881.7,1882.0,-4.47,2459.0,4753792.5,1628.1,1693.39,1555.12,1555.37,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1919.6,1994.9,1841.0,1847.0,-1.86,1886.0,3553997.4,1586.45,1648.68,1521.49,1526.45,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-08-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1883.9,2031.7,1822.0,2031.7,10.0,6684.0,13101314.1,1556.94,1679.09,1505.79,1679.09,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2072.3,2234.8,2072.3,2209.0,8.73,9371.0,20684526.0,1712.64,1846.94,1712.64,1825.62,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2245.0,2253.4,2127.6,2230.0,0.95,7815.0,17257467.0,1855.37,1862.31,1758.35,1842.98,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2230.0,2248.0,2150.0,2160.0,-3.14,784.0,1711635.0,1842.98,1857.85,1776.86,1785.12,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2120.0,2200.0,2060.0,2069.0,-4.21,2047.0,4374771.0,1752.07,1818.18,1702.48,1709.92,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2036.0,2195.0,2030.0,2051.0,-0.87,1685.0,3498338.2,1682.64,1814.05,1677.69,1695.04,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2090.0,2110.0,2050.0,2050.0,-0.05,1574.0,3269550.0,1727.27,1743.8,1694.21,1694.21,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2091.0,2091.0,1968.9,2003.0,-2.29,1060.0,2147264.0,1728.1,1728.1,1627.19,1655.37,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2043.0,2070.0,1979.0,1979.0,-1.2,1177.0,2371331.4,1688.43,1710.74,1635.54,1635.54,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1980.0,2020.0,1942.0,1980.0,0.05,1021.0,2018993.5,1636.36,1669.42,1604.96,1636.36,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2019.0,2110.0,1996.0,2060.0,4.04,1408.0,2896326.4,1668.6,1743.8,1649.59,1702.48,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2100.0,2120.0,1970.0,1985.0,-3.64,1365.0,2818309.3,1735.54,1752.07,1628.1,1640.5,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2024.0,2024.0,1954.0,1963.9,-1.06,1202.0,2374220.5,1672.73,1672.73,1614.88,1623.06,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1936.0,2003.1,1915.0,1950.0,-0.71,1588.0,3091122.0,1600.0,1655.45,1582.64,1611.57,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1980.0,2019.0,1940.4,1974.0,1.23,515.0,1003938.0,1636.36,1668.6,1603.64,1631.4,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1936.0,1998.0,1881.6,1883.0,-4.61,1706.0,3265723.8,1600.0,1651.24,1555.04,1556.2,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1920.0,1920.6,1715.0,1800.0,-4.41,1322.0,2376252.6,1586.78,1587.27,1417.36,1487.6,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1764.1,1951.0,1730.3,1951.0,8.39,1506.0,2832726.0,1457.93,1612.4,1430.0,1612.4,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1926.0,1955.0,1850.0,1930.0,-1.08,653.0,1245887.0,1591.74,1615.7,1528.93,1595.04,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1891.4,1929.2,1853.0,1899.6,-1.58,581.0,1091317.5,1563.14,1594.38,1531.4,1569.92,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-09-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1899.6,1969.0,1862.0,1959.0,3.13,595.0,1142769.2,1569.92,1627.27,1538.84,1619.01,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1998.0,2140.0,1985.0,2140.0,9.24,1559.0,3153555.9,1651.24,1768.6,1640.5,1768.6,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2180.0,2225.5,1992.0,2225.5,4.0,3090.0,6442702.7,1801.65,1839.26,1646.28,1839.26,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2181.0,2205.0,2100.0,2180.0,-2.04,2638.0,5684192.6,1802.48,1822.31,1735.54,1801.65,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2180.0,2200.1,2090.0,2138.0,-1.93,1208.0,2550756.6,1801.65,1818.26,1727.27,1766.94,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2180.0,2221.0,2048.7,2088.0,-2.34,555.0,1158687.0,1801.65,1835.54,1693.14,1725.62,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2052.0,2110.0,2050.0,2056.2,-1.52,484.0,1004514.0,1695.87,1743.8,1694.21,1699.34,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2016.0,2103.0,2010.0,2103.0,2.28,195.0,403094.0,1666.12,1738.02,1661.16,1738.02,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2103.0,2110.0,2065.0,2110.0,0.33,618.0,1280286.0,1738.02,1743.8,1706.61,1743.8,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2070.0,2110.0,2070.0,2099.0,-0.52,1435.0,2992046.0,1710.74,1743.8,1710.74,1734.71,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2097.9,2308.9,2065.0,2308.9,10.0,17230.0,38651604.3,1733.8,1908.18,1706.61,1908.18,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2355.0,2499.0,2350.0,2385.0,3.3,7252.0,17548407.9,1946.28,2065.29,1942.15,1971.07,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2386.0,2433.0,2299.2,2395.0,0.42,3613.0,8579052.5,1971.9,2010.74,1900.17,1979.34,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2348.1,2440.0,2348.1,2386.0,-0.38,2563.0,6143582.5,1940.58,2016.53,1940.58,1971.9,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2392.0,2460.0,2360.1,2392.1,0.26,4458.0,10758999.5,1976.86,2033.06,1950.5,1976.94,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2344.3,2440.0,2344.3,2405.0,0.54,5866.0,14163999.1,1937.44,2016.53,1937.44,1987.6,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2453.1,2453.1,2355.0,2355.0,-2.08,3218.0,7708353.2,2027.36,2027.36,1946.28,1946.28,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2360.0,2590.5,2310.0,2590.5,10.0,9571.0,23954813.0,1950.41,2140.91,1909.09,2140.91,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-10-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2620.0,2849.0,2570.0,2849.0,9.98,4956.0,13081065.0,2165.29,2354.55,2123.97,2354.55,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2792.1,2953.0,2564.1,2953.0,3.65,3390.0,8970661.1,2307.52,2440.5,2119.09,2440.5,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2894.0,2894.0,2657.7,2710.0,-8.23,3639.0,9766823.2,2391.74,2391.74,2196.45,2239.67,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2764.0,2764.0,2500.0,2629.0,-2.99,4781.0,12304871.0,2284.3,2284.3,2066.12,2172.73,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2600.0,2891.0,2525.1,2891.0,9.97,8899.0,23828132.5,2148.76,2389.26,2086.86,2389.26,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2833.2,3140.0,2617.0,3099.0,7.19,10269.0,28288214.2,2341.49,2595.04,2162.81,2561.16,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,3160.0,3160.0,2789.1,2789.1,-10.0,2063.0,5771173.2,2611.57,2611.57,2305.04,2305.04,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2789.1,2789.1,2560.0,2585.0,-7.32,7643.0,19978047.3,2305.04,2305.04,2115.7,2136.36,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2533.3,2650.0,2533.3,2610.0,0.97,2807.0,7342438.4,2093.64,2190.08,2093.64,2157.02,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2625.0,2626.0,2509.9,2515.0,-3.64,3029.0,7698413.5,2169.42,2170.25,2074.3,2078.51,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2565.0,2667.3,2543.0,2618.0,4.1,1852.0,4799118.2,2119.83,2204.38,2101.65,2163.64,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2571.0,2654.0,2521.0,2522.0,-3.67,1880.0,4817096.5,2124.79,2193.39,2083.47,2084.3,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2572.4,2572.4,2499.0,2522.0,0.0,1028.0,2583447.0,2125.95,2125.95,2065.29,2084.3,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2572.4,2589.7,2473.0,2539.0,0.67,1555.0,3921944.5,2125.95,2140.25,2043.8,2098.35,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2589.7,2792.9,2589.7,2792.9,10.0,11395.0,31363336.0,2140.25,2308.18,2140.25,2308.18,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2848.7,3072.0,2770.0,2770.0,-0.82,12769.0,36451302.0,2354.3,2538.84,2289.26,2289.26,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-11-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2800.0,2866.0,2706.0,2750.0,-0.72,2680.0,7465276.4,2314.05,2368.6,2236.36,2272.73,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2695.0,2697.0,2640.0,2640.0,-4.0,1153.0,3073324.0,2227.27,2228.93,2181.82,2181.82,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2640.0,2674.0,2590.0,2620.0,-0.76,3597.0,9414377.0,2181.82,2209.92,2140.5,2165.29,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2590.0,2672.4,2590.0,2665.0,1.72,787.0,2087868.8,2140.5,2208.6,2140.5,2202.48,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2665.0,2699.0,2635.3,2650.1,-0.56,378.0,1008491.1,2202.48,2230.58,2177.93,2190.17,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2600.0,2705.0,2600.0,2650.0,0.0,1338.0,3568015.6,2148.76,2235.54,2148.76,2190.08,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2600.1,2868.0,2600.1,2639.0,-0.42,673.0,1782429.3,2148.84,2370.25,2148.84,2180.99,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2610.0,2625.0,2591.3,2591.3,-1.81,648.0,1696356.0,2157.02,2169.42,2141.57,2141.57,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2630.0,2630.0,2566.3,2566.3,-0.96,558.0,1441952.0,2173.55,2173.55,2120.91,2120.91,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2551.0,2813.1,2551.0,2813.1,9.62,4246.0,11464320.5,2108.26,2324.88,2108.26,2324.88,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2756.9,3040.0,2648.0,3000.0,6.64,7541.0,20643861.6,2278.43,2512.4,2188.43,2479.34,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2940.0,3300.0,2700.0,3300.0,10.0,16260.0,44734740.6,2429.75,2727.27,2231.4,2727.27,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,3234.0,3234.0,2970.0,2970.0,-10.0,2140.0,6365307.0,2672.73,2672.73,2454.55,2454.55,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2910.6,2910.6,2673.0,2676.0,-9.9,13345.0,35741111.3,2405.45,2405.45,2209.09,2211.57,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2680.0,2717.0,2590.0,2645.0,-1.16,4183.0,10998572.4,2214.88,2245.45,2140.5,2185.95,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2680.0,2680.0,2591.0,2615.0,-1.13,3262.0,8492069.0,2214.88,2214.88,2141.32,2161.16,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2620.0,2640.0,2590.0,2600.0,-0.57,3944.0,10258402.3,2165.29,2181.82,2140.5,2148.76,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2652.0,2760.0,2652.0,2709.0,4.19,5741.0,15552032.7,2191.74,2280.99,2191.74,2238.84,10.0% bonus (2080/2081); 10.0% bonus (2081/2082)
+2024-12-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2511.9,2665.0,2511.9,2587.0,5.5,2798.0,7250118.9,2283.55,2422.73,2283.55,2351.82,10.0% bonus (2081/2082)
+2024-12-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2600.0,2600.0,2450.0,2537.0,-1.93,4466.0,11226125.1,2363.64,2363.64,2227.27,2306.36,10.0% bonus (2081/2082)
+2024-12-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2490.0,2491.0,2398.0,2405.0,-5.2,2235.0,5459970.3,2263.64,2264.55,2180.0,2186.36,10.0% bonus (2081/2082)
+2025-01-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2362.0,2496.0,2362.0,2470.0,2.7,1408.0,3443314.8,2147.27,2269.09,2147.27,2245.45,10.0% bonus (2081/2082)
+2025-01-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2436.0,2478.6,2420.0,2462.0,-0.32,1251.0,3048810.9,2214.55,2253.27,2200.0,2238.18,10.0% bonus (2081/2082)
+2025-01-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2494.0,2494.0,2445.1,2468.0,0.24,1352.0,3336580.8,2267.27,2267.27,2222.82,2243.64,10.0% bonus (2081/2082)
+2025-01-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2470.0,2525.0,2460.0,2525.0,2.31,1610.0,3993323.0,2245.45,2295.45,2236.36,2295.45,10.0% bonus (2081/2082)
+2025-01-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2530.0,2556.0,2510.0,2550.0,0.99,1388.0,3525029.0,2300.0,2323.64,2281.82,2318.18,10.0% bonus (2081/2082)
+2025-01-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2500.0,2529.0,2499.0,2502.0,-1.88,1372.0,3439293.7,2272.73,2299.09,2271.82,2274.55,10.0% bonus (2081/2082)
+2025-01-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2459.0,2551.0,2459.0,2510.0,0.32,1351.0,3372798.0,2235.45,2319.09,2235.45,2281.82,10.0% bonus (2081/2082)
+2025-01-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2500.0,2500.0,2462.1,2500.0,-0.4,612.0,1522685.5,2272.73,2272.73,2238.27,2272.73,10.0% bonus (2081/2082)
+2025-01-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2490.0,2550.0,2475.0,2490.0,-0.4,696.0,1756409.2,2263.64,2318.18,2250.0,2263.64,10.0% bonus (2081/2082)
+2025-01-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2500.0,2550.0,2483.0,2485.1,-0.2,1561.0,3920404.5,2272.73,2318.18,2257.27,2259.18,10.0% bonus (2081/2082)
+2025-01-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2485.1,2485.1,2430.0,2450.0,-1.41,1335.0,3271056.5,2259.18,2259.18,2209.09,2227.27,10.0% bonus (2081/2082)
+2025-01-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2450.2,2490.0,2450.2,2457.0,0.29,877.0,2159621.5,2227.45,2263.64,2227.45,2233.64,10.0% bonus (2081/2082)
+2025-01-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2436.0,2480.0,2436.0,2440.0,-0.69,1164.0,2859382.0,2214.55,2254.55,2214.55,2218.18,10.0% bonus (2081/2082)
+2025-01-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2436.1,2460.0,2435.0,2445.0,0.2,1539.0,3761837.5,2214.64,2236.36,2213.64,2222.73,10.0% bonus (2081/2082)
+2025-01-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2490.0,2490.0,2450.0,2476.0,1.27,1114.0,2745195.0,2263.64,2263.64,2227.27,2250.91,10.0% bonus (2081/2082)
+2025-01-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2475.0,2483.6,2430.0,2479.9,0.16,1407.0,3443855.9,2250.0,2257.82,2209.09,2254.45,10.0% bonus (2081/2082)
+2025-01-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2443.0,2490.0,2440.0,2468.0,-0.48,1277.0,3136353.0,2220.91,2263.64,2218.18,2243.64,10.0% bonus (2081/2082)
+2025-01-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2440.1,2479.0,2440.1,2443.1,-1.01,1442.0,3535792.9,2218.27,2253.64,2218.27,2221.0,10.0% bonus (2081/2082)
+2025-01-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2480.0,2485.0,2440.1,2475.0,1.31,1232.0,3027744.8,2254.55,2259.09,2218.27,2250.0,10.0% bonus (2081/2082)
+2025-02-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2450.0,2490.0,2450.0,2485.0,0.4,2099.0,5202907.2,2227.27,2263.64,2227.27,2259.09,10.0% bonus (2081/2082)
+2025-02-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2534.0,2534.0,2486.0,2509.0,0.97,1819.0,4561446.3,2303.64,2303.64,2260.0,2280.91,10.0% bonus (2081/2082)
+2025-02-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2509.0,2549.8,2480.0,2499.0,-0.4,1478.0,3708122.6,2280.91,2318.0,2254.55,2271.82,10.0% bonus (2081/2082)
+2025-02-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2497.0,2497.0,2430.0,2438.0,-2.44,1405.0,3436264.7,2270.0,2270.0,2209.09,2216.36,10.0% bonus (2081/2082)
+2025-02-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2480.0,2480.0,2425.1,2460.0,0.9,737.0,1806550.7,2254.55,2254.55,2204.64,2236.36,10.0% bonus (2081/2082)
+2025-02-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2460.0,2499.0,2430.0,2446.0,-0.57,763.0,1871901.6,2236.36,2271.82,2209.09,2223.64,10.0% bonus (2081/2082)
+2025-02-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2420.0,2468.4,2420.0,2430.0,-0.65,1035.0,2526915.2,2200.0,2244.0,2200.0,2209.09,10.0% bonus (2081/2082)
+2025-02-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2469.9,2469.9,2425.0,2457.7,1.14,752.0,1828054.0,2245.36,2245.36,2204.55,2234.27,10.0% bonus (2081/2082)
+2025-02-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2488.0,2490.0,2440.2,2476.0,0.74,428.0,1050472.4,2261.82,2263.64,2218.36,2250.91,10.0% bonus (2081/2082)
+2025-02-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2436.0,2474.0,2435.1,2460.0,-0.65,635.0,1553601.3,2214.55,2249.09,2213.73,2236.36,10.0% bonus (2081/2082)
+2025-02-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2435.0,2500.0,2435.0,2480.0,0.81,1901.0,4733559.7,2213.64,2272.73,2213.64,2254.55,10.0% bonus (2081/2082)
+2025-02-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2509.9,2728.0,2460.0,2728.0,10.0,9940.0,26598995.0,2281.73,2480.0,2236.36,2480.0,10.0% bonus (2081/2082)
+2025-02-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2782.0,3000.8,2631.0,2702.0,-0.95,3908.0,10946136.7,2529.09,2728.0,2391.82,2456.36,10.0% bonus (2081/2082)
+2025-02-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2649.0,2740.0,2601.0,2659.0,-1.59,1699.0,4509723.6,2408.18,2490.91,2364.55,2417.27,10.0% bonus (2081/2082)
+2025-02-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2605.9,2665.0,2502.8,2600.0,-2.22,1305.0,3414202.4,2369.0,2422.73,2275.27,2363.64,10.0% bonus (2081/2082)
+2025-02-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2640.0,2737.0,2558.0,2649.0,1.88,2459.0,6530743.6,2400.0,2488.18,2325.45,2408.18,10.0% bonus (2081/2082)
+2025-02-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2601.1,2700.0,2601.1,2650.0,0.04,326.0,869302.6,2364.64,2454.55,2364.64,2409.09,10.0% bonus (2081/2082)
+2025-02-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2641.0,2696.0,2611.0,2635.0,-0.57,1257.0,3300261.8,2400.91,2450.91,2373.64,2395.45,10.0% bonus (2081/2082)
+2025-03-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2600.0,2658.0,2590.1,2646.0,0.42,1514.0,3959111.4,2363.64,2416.36,2354.64,2405.45,10.0% bonus (2081/2082)
+2025-03-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2611.2,2625.0,2525.0,2551.0,-3.59,1224.0,3153941.7,2373.82,2386.36,2295.45,2319.09,10.0% bonus (2081/2082)
+2025-03-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2516.5,2716.0,2516.5,2600.0,1.92,538.0,1392656.2,2287.73,2469.09,2287.73,2363.64,10.0% bonus (2081/2082)
+2025-03-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2548.0,2600.0,2515.0,2600.0,0.0,821.0,2082272.6,2316.36,2363.64,2286.36,2363.64,10.0% bonus (2081/2082)
+2025-03-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2551.1,2680.0,2516.0,2590.0,-0.38,2585.0,6717803.9,2319.18,2436.36,2287.27,2354.55,10.0% bonus (2081/2082)
+2025-03-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2540.0,2570.9,2515.0,2516.0,-2.86,1316.0,3323429.0,2309.09,2337.18,2286.36,2287.27,10.0% bonus (2081/2082)
+2025-03-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2563.0,2580.0,2521.0,2523.1,0.28,1890.0,4781492.5,2330.0,2345.45,2291.82,2293.73,10.0% bonus (2081/2082)
+2025-03-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2550.0,2550.0,2455.0,2501.2,-0.87,1055.0,2651089.1,2318.18,2318.18,2231.82,2273.82,10.0% bonus (2081/2082)
+2025-03-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2490.1,2538.9,2455.1,2520.0,0.75,710.0,1762893.5,2263.73,2308.09,2231.91,2290.91,10.0% bonus (2081/2082)
+2025-03-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2549.0,2549.0,2385.0,2420.0,-3.97,1541.0,3748712.8,2317.27,2317.27,2168.18,2200.0,10.0% bonus (2081/2082)
+2025-03-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2467.9,2467.9,2380.0,2458.2,1.58,1357.0,3289743.5,2243.55,2243.55,2163.64,2234.73,10.0% bonus (2081/2082)
+2025-03-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2410.0,2490.0,2410.0,2435.0,-0.94,529.0,1290974.4,2190.91,2263.64,2190.91,2213.64,10.0% bonus (2081/2082)
+2025-03-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2450.0,2543.0,2450.0,2490.0,2.26,608.0,1506747.0,2227.27,2311.82,2227.27,2263.64,10.0% bonus (2081/2082)
+2025-03-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2490.0,2519.9,2405.1,2405.25,-3.4,446.0,1100664.0,2263.64,2290.82,2186.45,2186.59,10.0% bonus (2081/2082)
+2025-03-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2453.0,2625.0,2370.0,2469.72,2.68,1849.0,4508208.0,2230.0,2386.36,2154.55,2245.2,10.0% bonus (2081/2082)
+2025-03-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2421.0,2519.0,2421.0,2500.57,1.25,1417.0,3535376.8,2200.91,2290.0,2200.91,2273.25,10.0% bonus (2081/2082)
+2025-03-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2450.6,2450.6,2402.0,2408.4,-3.69,734.0,1774969.0,2227.82,2227.82,2183.64,2189.45,10.0% bonus (2081/2082)
+2025-03-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2361.0,2447.0,2361.0,2390.55,-0.74,1465.0,3513741.4,2146.36,2224.55,2146.36,2173.23,10.0% bonus (2081/2082)
+2025-03-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2343.0,2438.0,2343.0,2431.03,1.69,1296.0,3127669.0,2130.0,2216.36,2130.0,2210.03,10.0% bonus (2081/2082)
+2025-03-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2382.5,2579.0,2352.1,2387.44,-1.79,6609.0,15933567.4,2165.91,2344.55,2138.27,2170.4,10.0% bonus (2081/2082)
+2025-04-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2435.0,2435.0,2295.0,2344.1,-1.82,2234.0,5210120.2,2213.64,2213.64,2086.36,2131.0,10.0% bonus (2081/2082)
+2025-04-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2350.0,2379.5,2335.0,2336.76,-0.31,1341.0,3141081.6,2136.36,2163.18,2122.73,2124.33,10.0% bonus (2081/2082)
+2025-04-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2307.0,2344.0,2242.2,2262.25,-3.19,2952.0,6758413.9,2097.27,2130.91,2038.36,2056.59,10.0% bonus (2081/2082)
+2025-04-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2232.0,2280.0,2180.0,2193.74,-3.03,1918.0,4234432.9,2029.09,2072.73,1981.82,1994.31,10.0% bonus (2081/2082)
+2025-04-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2152.3,2200.0,2100.0,2199.81,0.28,3026.0,6470794.5,1956.64,2000.0,1909.09,1999.83,10.0% bonus (2081/2082)
+2025-04-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2238.0,2238.0,2185.4,2207.15,0.33,849.0,1874563.3,2034.55,2034.55,1986.73,2006.5,10.0% bonus (2081/2082)
+2025-04-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2248.0,2248.0,2200.0,2218.23,0.5,672.0,1484874.5,2043.64,2043.64,2000.0,2016.57,10.0% bonus (2081/2082)
+2025-04-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2200.0,2201.0,2175.2,2189.08,-1.31,797.0,1748010.4,2000.0,2000.91,1977.45,1990.07,10.0% bonus (2081/2082)
+2025-04-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2220.0,2230.0,2146.0,2187.66,-0.06,1404.0,3081000.5,2018.18,2027.27,1950.91,1988.78,10.0% bonus (2081/2082)
+2025-04-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2224.0,2224.0,2180.0,2194.19,0.3,488.0,1071734.4,2021.82,2021.82,1981.82,1994.72,10.0% bonus (2081/2082)
+2025-04-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2204.0,2228.9,2190.0,2193.91,-0.01,981.0,2161262.2,2003.64,2026.27,1990.91,1994.46,10.0% bonus (2081/2082)
+2025-04-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2200.0,2200.0,2156.1,2170.0,-1.09,864.0,1882656.3,2000.0,2000.0,1960.09,1972.73,10.0% bonus (2081/2082)
+2025-04-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2135.0,2199.0,2135.0,2140.82,-1.34,422.0,906686.0,1940.91,1999.09,1940.91,1946.2,10.0% bonus (2081/2082)
+2025-04-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2180.0,2180.0,2137.0,2164.12,1.09,984.0,2118229.8,1981.82,1981.82,1942.73,1967.38,10.0% bonus (2081/2082)
+2025-04-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2141.0,2225.0,2141.0,2197.3,1.53,1308.0,2849584.9,1946.36,2022.73,1946.36,1997.55,10.0% bonus (2081/2082)
+2025-04-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2197.3,2224.0,2104.1,2116.93,-3.66,1620.0,3465211.7,1997.55,2021.82,1912.82,1924.48,10.0% bonus (2081/2082)
+2025-04-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2151.0,2237.0,2102.0,2111.88,-0.24,860.0,1836556.5,1955.45,2033.64,1910.91,1919.89,10.0% bonus (2081/2082)
+2025-04-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2149.9,2149.9,2071.0,2085.0,-1.27,1031.0,2147810.0,1954.45,1954.45,1882.73,1895.45,10.0% bonus (2081/2082)
+2025-04-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2100.0,2118.4,2020.0,2037.81,-2.26,696.0,1438769.9,1909.09,1925.82,1836.36,1852.55,10.0% bonus (2081/2082)
+2025-04-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2078.5,2090.0,1990.0,2000.19,-1.85,1655.0,3344441.0,1889.55,1900.0,1809.09,1818.35,10.0% bonus (2081/2082)
+2025-05-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1970.0,2037.9,1870.0,1889.37,-5.54,2692.0,5175702.3,1790.91,1852.64,1700.0,1717.61,10.0% bonus (2081/2082)
+2025-05-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1890.0,1938.1,1890.0,1925.5,1.91,829.0,1584177.2,1718.18,1761.91,1718.18,1750.45,10.0% bonus (2081/2082)
+2025-05-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1950.0,1950.0,1912.1,1943.42,0.93,749.0,1443977.3,1772.73,1772.73,1738.27,1766.75,10.0% bonus (2081/2082)
+2025-05-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1910.3,2040.0,1910.2,1976.45,1.7,951.0,1868422.3,1736.64,1854.55,1736.55,1796.77,10.0% bonus (2081/2082)
+2025-05-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1940.0,2000.0,1940.0,1980.33,0.2,985.0,1955879.0,1763.64,1818.18,1763.64,1800.3,10.0% bonus (2081/2082)
+2025-05-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1980.33,2014.0,1952.1,1958.58,-1.1,495.0,974358.8,1800.3,1830.91,1774.64,1780.53,10.0% bonus (2081/2082)
+2025-05-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1990.0,1990.0,1915.0,1918.3,-2.06,795.0,1544824.4,1809.09,1809.09,1740.91,1743.91,10.0% bonus (2081/2082)
+2025-05-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1956.6,2019.0,1916.0,1918.96,0.03,1310.0,2550302.5,1778.73,1835.45,1741.82,1744.51,10.0% bonus (2081/2082)
+2025-05-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1892.0,1930.0,1892.0,1905.0,-0.73,415.0,792788.0,1720.0,1754.55,1720.0,1731.82,10.0% bonus (2081/2082)
+2025-05-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1910.0,1912.0,1876.1,1881.86,-1.21,998.0,1891698.0,1736.36,1738.18,1705.55,1710.78,10.0% bonus (2081/2082)
+2025-05-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1881.86,1995.0,1881.86,1973.52,4.87,1137.0,2225890.1,1710.78,1813.64,1710.78,1794.11,10.0% bonus (2081/2082)
+2025-05-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1936.0,1995.0,1936.0,1980.0,0.33,331.0,654616.0,1760.0,1813.64,1760.0,1800.0,10.0% bonus (2081/2082)
+2025-05-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2018.0,2057.9,1966.9,1994.65,0.74,875.0,1751906.6,1834.55,1870.82,1788.09,1813.32,10.0% bonus (2081/2082)
+2025-05-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2030.0,2030.0,1880.0,1988.33,-0.32,481.0,936178.5,1845.45,1845.45,1709.09,1807.57,10.0% bonus (2081/2082)
+2025-05-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1950.0,1989.0,1930.3,1936.08,-2.63,239.0,465991.1,1772.73,1808.18,1754.82,1760.07,10.0% bonus (2081/2082)
+2025-05-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1974.8,1974.8,1938.0,1941.23,0.27,401.0,781489.4,1795.27,1795.27,1761.82,1764.75,10.0% bonus (2081/2082)
+2025-05-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1979.1,1980.0,1902.5,1930.0,-0.58,811.0,1565104.2,1799.18,1800.0,1729.55,1754.55,10.0% bonus (2081/2082)
+2025-05-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1902.2,1940.0,1902.2,1926.0,-0.21,322.0,613992.6,1729.27,1763.64,1729.27,1750.91,10.0% bonus (2081/2082)
+2025-06-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1926.0,1950.0,1900.0,1921.0,-0.26,399.0,764396.9,1750.91,1772.73,1727.27,1746.36,10.0% bonus (2081/2082)
+2025-06-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1910.0,1923.0,1860.0,1880.11,-2.13,865.0,1630228.0,1736.36,1748.18,1690.91,1709.19,10.0% bonus (2081/2082)
+2025-06-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1890.0,1900.0,1880.0,1880.1,0.0,348.0,656204.2,1718.18,1727.27,1709.09,1709.18,10.0% bonus (2081/2082)
+2025-06-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1850.0,1910.0,1850.0,1854.62,-1.36,836.0,1556744.2,1681.82,1736.36,1681.82,1686.02,10.0% bonus (2081/2082)
+2025-06-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1891.7,1891.7,1830.0,1841.23,-0.72,453.0,837105.6,1719.73,1719.73,1663.64,1673.85,10.0% bonus (2081/2082)
+2025-06-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1878.0,1878.0,1835.2,1857.66,0.89,443.0,817985.7,1707.27,1707.27,1668.36,1688.78,10.0% bonus (2081/2082)
+2025-06-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1894.8,1894.8,1862.0,1875.11,0.94,648.0,1215734.0,1722.55,1722.55,1692.73,1704.65,10.0% bonus (2081/2082)
+2025-06-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1840.4,1905.0,1840.0,1883.75,0.46,397.0,740167.4,1673.09,1731.82,1672.73,1712.5,10.0% bonus (2081/2082)
+2025-06-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1918.9,1918.9,1847.0,1876.14,-0.4,542.0,1017671.1,1744.45,1744.45,1679.09,1705.58,10.0% bonus (2081/2082)
+2025-06-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1860.1,1880.0,1860.1,1870.13,-0.32,338.0,631519.5,1691.0,1709.09,1691.0,1700.12,10.0% bonus (2081/2082)
+2025-06-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1903.8,1921.9,1885.0,1917.9,2.55,1827.0,3474900.0,1730.73,1747.18,1713.64,1743.55,10.0% bonus (2081/2082)
+2025-06-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1955.5,1955.5,1916.0,1924.52,0.35,680.0,1316279.6,1777.73,1777.73,1741.82,1749.56,10.0% bonus (2081/2082)
+2025-06-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1925.0,1926.0,1890.0,1892.0,-1.69,458.0,869662.5,1750.0,1750.91,1718.18,1720.0,10.0% bonus (2081/2082)
+2025-06-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1892.0,1917.6,1860.0,1894.78,0.15,753.0,1417298.2,1720.0,1743.27,1690.91,1722.53,10.0% bonus (2081/2082)
+2025-06-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1924.0,1924.0,1843.0,1855.66,-2.06,677.0,1264322.4,1749.09,1749.09,1675.45,1686.96,10.0% bonus (2081/2082)
+2025-06-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1855.66,1890.0,1855.0,1860.95,0.29,459.0,854323.0,1686.96,1718.18,1686.36,1691.77,10.0% bonus (2081/2082)
+2025-06-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1860.95,1930.0,1860.0,1890.0,1.56,207.0,391018.0,1691.77,1754.55,1690.91,1718.18,10.0% bonus (2081/2082)
+2025-06-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1860.0,1890.0,1823.0,1890.0,0.0,780.0,1436621.0,1690.91,1718.18,1657.27,1718.18,10.0% bonus (2081/2082)
+2025-06-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1919.1,1919.1,1870.0,1899.9,0.52,513.0,967704.0,1744.64,1744.64,1700.0,1727.18,10.0% bonus (2081/2082)
+2025-06-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1862.0,1887.0,1850.2,1859.4,-2.13,451.0,842208.0,1692.73,1715.45,1682.0,1690.36,10.0% bonus (2081/2082)
+2025-06-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1896.0,1920.0,1861.0,1890.22,1.66,187.0,351992.5,1723.64,1745.45,1691.82,1718.38,10.0% bonus (2081/2082)
+2025-07-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1908.0,1908.0,1873.2,1884.18,-0.32,314.0,594702.9,1734.55,1734.55,1702.91,1712.89,10.0% bonus (2081/2082)
+2025-07-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1906.0,2010.0,1906.0,1965.0,4.29,1703.0,3334570.9,1732.73,1827.27,1732.73,1786.36,10.0% bonus (2081/2082)
+2025-07-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1930.0,1967.0,1926.1,1930.28,-1.77,653.0,1263148.0,1754.55,1788.18,1751.0,1754.8,10.0% bonus (2081/2082)
+2025-07-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1940.0,1969.9,1940.0,1963.97,1.75,404.0,790098.5,1763.64,1790.82,1763.64,1785.43,10.0% bonus (2081/2082)
+2025-07-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1925.0,1955.0,1906.0,1910.0,-2.75,244.0,469193.4,1750.0,1777.27,1732.73,1736.36,10.0% bonus (2081/2082)
+2025-07-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1910.0,1936.0,1910.0,1920.0,0.52,184.0,355091.0,1736.36,1760.0,1736.36,1745.45,10.0% bonus (2081/2082)
+2025-07-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1949.9,1950.0,1911.2,1924.75,0.25,578.0,1116198.9,1772.64,1772.73,1737.45,1749.77,10.0% bonus (2081/2082)
+2025-07-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1924.0,1955.0,1915.0,1918.26,-0.34,437.0,840691.4,1749.09,1777.27,1740.91,1743.87,10.0% bonus (2081/2082)
+2025-07-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1956.0,1995.0,1922.0,1922.0,0.19,837.0,1625806.1,1778.18,1813.64,1747.27,1747.27,10.0% bonus (2081/2082)
+2025-07-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1960.0,1960.0,1900.0,1900.0,-1.14,458.0,887017.0,1781.82,1781.82,1727.27,1727.27,10.0% bonus (2081/2082)
+2025-07-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1938.0,1938.0,1900.0,1906.4,0.34,502.0,957216.5,1761.82,1761.82,1727.27,1733.09,10.0% bonus (2081/2082)
+2025-07-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1906.4,1943.0,1906.4,1910.1,0.19,577.0,1105950.2,1733.09,1766.36,1733.09,1736.45,10.0% bonus (2081/2082)
+2025-07-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1945.0,1985.0,1945.0,1965.0,2.87,950.0,1862834.4,1768.18,1804.55,1768.18,1786.36,10.0% bonus (2081/2082)
+2025-07-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1930.0,2080.0,1923.0,2027.17,3.16,2173.0,4421613.5,1754.55,1890.91,1748.18,1842.88,10.0% bonus (2081/2082)
+2025-07-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2000.0,2045.0,2000.0,2041.31,0.7,1018.0,2073242.4,1818.18,1859.09,1818.18,1855.74,10.0% bonus (2081/2082)
+2025-07-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2044.0,2080.0,2021.0,2072.12,1.51,2029.0,4160861.4,1858.18,1890.91,1837.27,1883.75,10.0% bonus (2081/2082)
+2025-07-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2031.4,2189.0,2031.0,2140.0,3.28,1068.0,2242317.0,1846.73,1990.0,1846.36,1945.45,10.0% bonus (2081/2082)
+2025-07-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2180.0,2180.0,2095.0,2127.8,-0.57,231.0,489588.0,1981.82,1981.82,1904.55,1934.36,10.0% bonus (2081/2082)
+2025-07-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2170.0,2170.0,2058.0,2073.74,-2.54,1620.0,3385869.6,1972.73,1972.73,1870.91,1885.22,10.0% bonus (2081/2082)
+2025-07-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2034.0,2104.9,2025.0,2079.0,0.25,558.0,1145943.0,1849.09,1913.55,1840.91,1890.0,10.0% bonus (2081/2082)
+2025-07-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2110.0,2114.0,2050.1,2072.66,-0.3,203.0,423348.0,1918.18,1921.82,1863.73,1884.24,10.0% bonus (2081/2082)
+2025-07-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2072.66,2072.66,2007.0,2012.58,-2.9,804.0,1630809.2,1884.24,1884.24,1824.55,1829.62,10.0% bonus (2081/2082)
+2025-07-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2052.0,2110.0,2004.1,2017.8,0.26,498.0,1008085.7,1865.45,1918.18,1821.91,1834.36,10.0% bonus (2081/2082)
+2025-08-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1980.0,2058.0,1978.0,1978.0,-1.97,791.0,1572297.2,1800.0,1870.91,1798.18,1798.18,10.0% bonus (2081/2082)
+2025-08-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1999.9,1999.9,1965.0,1971.15,-0.35,258.0,508513.6,1818.09,1818.09,1786.36,1791.95,10.0% bonus (2081/2082)
+2025-08-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1971.0,2060.0,1966.0,2030.0,2.99,335.0,672842.0,1791.82,1872.73,1787.27,1845.45,10.0% bonus (2081/2082)
+2025-08-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2030.0,2030.0,1990.0,2010.0,-0.99,524.0,1054981.0,1845.45,1845.45,1809.09,1827.27,10.0% bonus (2081/2082)
+2025-08-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,2010.0,2039.0,1975.0,2000.2,-0.49,485.0,968906.4,1827.27,1853.64,1795.45,1818.36,10.0% bonus (2081/2082)
+2025-08-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1961.0,2025.0,1961.0,1970.22,-1.5,968.0,1915151.0,1782.73,1840.91,1782.73,1791.11,10.0% bonus (2081/2082)
+2025-08-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1932.0,1970.0,1932.0,1940.24,-1.52,563.0,1093275.4,1756.36,1790.91,1756.36,1763.85,10.0% bonus (2081/2082)
+2025-08-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1978.0,1978.0,1940.0,1967.0,1.38,280.0,548022.5,1798.18,1798.18,1763.64,1788.18,10.0% bonus (2081/2082)
+2025-08-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1940.0,1955.0,1890.0,1904.83,-3.16,901.0,1737458.6,1763.64,1777.27,1718.18,1731.66,10.0% bonus (2081/2082)
+2025-08-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1880.0,1950.0,1870.0,1901.64,-0.17,379.0,723566.0,1709.09,1772.73,1700.0,1728.76,10.0% bonus (2081/2082)
+2025-08-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1871.5,1939.0,1871.5,1929.27,1.45,382.0,728507.5,1701.36,1762.73,1701.36,1753.88,10.0% bonus (2081/2082)
+2025-08-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1900.1,1920.0,1900.0,1915.0,-0.74,150.0,286602.0,1727.36,1745.45,1727.27,1740.91,10.0% bonus (2081/2082)
+2025-08-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1900.0,1900.0,1892.0,1894.71,-1.06,229.0,434582.5,1727.27,1727.27,1720.0,1722.46,10.0% bonus (2081/2082)
+2025-08-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1900.0,1900.0,1877.0,1887.8,-0.36,271.0,512058.0,1727.27,1727.27,1706.36,1716.18,10.0% bonus (2081/2082)
+2025-08-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1925.0,1963.0,1888.0,1889.37,0.08,757.0,1436566.5,1750.0,1784.55,1716.36,1717.61,10.0% bonus (2081/2082)
+2025-08-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1900.0,1900.0,1871.4,1890.0,0.03,46.0,86876.8,1727.27,1727.27,1701.27,1718.18,10.0% bonus (2081/2082)
+2025-08-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1924.9,1927.0,1890.0,1895.0,0.26,306.0,580353.9,1749.91,1751.82,1718.18,1722.73,10.0% bonus (2081/2082)
+2025-08-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1920.0,1920.0,1890.0,1914.98,1.05,181.0,344349.0,1745.45,1745.45,1718.18,1740.89,10.0% bonus (2081/2082)
+2025-08-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1925.0,1929.0,1900.0,1900.0,-0.78,172.0,327926.0,1750.0,1753.64,1727.27,1727.27,10.0% bonus (2081/2082)
+2025-08-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1885.0,1885.1,1875.0,1880.0,-1.05,291.0,546337.1,1713.64,1713.73,1704.55,1709.09,10.0% bonus (2081/2082)
+2025-09-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1850.0,1900.0,1850.0,1868.45,-0.61,197.0,371066.0,1681.82,1727.27,1681.82,1698.59,10.0% bonus (2081/2082)
+2025-09-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1845.0,1904.0,1845.0,1892.32,1.28,610.0,1147374.8,1677.27,1730.91,1677.27,1720.29,10.0% bonus (2081/2082)
+2025-09-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1928.9,1928.9,1854.5,1866.08,-1.39,356.0,668815.0,1753.55,1753.55,1685.91,1696.44,10.0% bonus (2081/2082)
+2025-09-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1880.0,1889.0,1829.0,1889.0,1.23,261.0,480985.0,1709.09,1717.27,1662.73,1717.27,10.0% bonus (2081/2082)
+2025-09-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1860.0,1860.1,1860.0,1860.07,-1.53,151.0,280871.0,1690.91,1691.0,1690.91,1690.97,10.0% bonus (2081/2082)
+2025-09-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1850.0,1850.0,1794.0,1803.68,-3.03,520.0,950163.0,1681.82,1681.82,1630.91,1639.71,10.0% bonus (2081/2082)
+2025-09-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1767.7,1767.7,1767.7,1767.7,-1.99,40.0,70708.0,1607.0,1607.0,1607.0,1607.0,10.0% bonus (2081/2082)
+2025-09-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1750.0,1892.0,1750.0,1826.0,3.3,662.0,1194188.9,1590.91,1720.0,1590.91,1660.0,10.0% bonus (2081/2082)
+2025-09-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1820.0,1889.0,1820.0,1889.0,3.45,324.0,602605.0,1654.55,1717.27,1654.55,1717.27,10.0% bonus (2081/2082)
+2025-09-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1875.0,1880.0,1870.0,1870.0,-1.01,100.0,187528.0,1704.55,1709.09,1700.0,1700.0,10.0% bonus (2081/2082)
+2025-09-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1854.0,1862.0,1854.0,1861.0,-0.48,155.0,288082.5,1685.45,1692.73,1685.45,1691.82,10.0% bonus (2081/2082)
+2025-09-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1855.0,1869.8,1840.2,1869.8,0.47,190.0,351689.0,1686.36,1699.82,1672.91,1699.82,10.0% bonus (2081/2082)
+2025-10-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1907.0,1907.0,1836.0,1836.2,-1.8,355.0,654660.6,1733.64,1733.64,1669.09,1669.27,10.0% bonus (2081/2082)
+2025-10-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1810.3,1872.9,1800.0,1835.5,-0.04,639.0,1158173.0,1645.73,1702.64,1636.36,1668.64,10.0% bonus (2081/2082)
+2025-10-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1872.0,1872.2,1800.3,1802.0,-1.83,411.0,748187.8,1701.82,1702.0,1636.64,1638.18,10.0% bonus (2081/2082)
+2025-10-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1802.0,1830.0,1770.2,1794.0,-0.44,111.0,197688.0,1638.18,1663.64,1609.27,1630.91,10.0% bonus (2081/2082)
+2025-10-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1815.0,1815.0,1778.0,1800.0,0.33,236.0,422350.0,1650.0,1650.0,1616.36,1636.36,10.0% bonus (2081/2082)
+2025-10-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1782.1,1783.0,1764.0,1764.0,-2.0,201.0,357256.0,1620.09,1620.91,1603.64,1603.64,10.0% bonus (2081/2082)
+2025-10-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1780.0,1780.0,1700.0,1720.0,-2.49,616.0,1059874.0,1618.18,1618.18,1545.45,1563.64,10.0% bonus (2081/2082)
+2025-10-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1749.0,1749.0,1749.0,1749.0,1.69,10.0,17490.0,1590.0,1590.0,1590.0,1590.0,10.0% bonus (2081/2082)
+2025-10-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1749.0,1749.0,1749.0,1749.0,0.0,10.0,17490.0,1590.0,1590.0,1590.0,1590.0,10.0% bonus (2081/2082)
+2025-10-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1740.0,1760.0,1718.2,1760.0,0.63,220.0,382290.0,1581.82,1600.0,1562.0,1600.0,10.0% bonus (2081/2082)
+2025-10-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1790.0,1829.0,1728.0,1828.9,3.91,574.0,1035177.0,1627.27,1662.73,1570.91,1662.64,10.0% bonus (2081/2082)
+2025-10-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1793.0,1840.0,1793.0,1796.3,-1.78,586.0,1059608.0,1630.0,1672.73,1630.0,1633.0,10.0% bonus (2081/2082)
+2025-10-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1819.0,1831.9,1819.0,1830.0,1.88,95.0,173428.0,1653.64,1665.36,1653.64,1663.64,10.0% bonus (2081/2082)
+2025-11-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1863.0,1863.0,1801.1,1839.2,0.5,233.0,422565.3,1693.64,1693.64,1637.36,1672.0,10.0% bonus (2081/2082)
+2025-11-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1869.0,1869.0,1810.0,1810.0,-1.59,431.0,783703.0,1699.09,1699.09,1645.45,1645.45,10.0% bonus (2081/2082)
+2025-11-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1782.1,1817.7,1782.1,1817.7,0.43,22.0,39562.2,1620.09,1652.45,1620.09,1652.45,10.0% bonus (2081/2082)
+2025-11-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1782.0,1817.5,1755.4,1766.0,-2.84,446.0,792754.9,1620.0,1652.27,1595.82,1605.45,10.0% bonus (2081/2082)
+2025-11-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1801.0,1854.0,1780.0,1815.7,2.81,469.0,849623.1,1637.27,1685.45,1618.18,1650.64,10.0% bonus (2081/2082)
+2025-11-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1780.2,1829.0,1751.0,1829.0,0.73,356.0,634370.3,1618.36,1662.73,1591.82,1662.73,10.0% bonus (2081/2082)
+2025-11-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1795.0,1825.0,1760.0,1795.0,-1.86,145.0,259730.0,1631.82,1659.09,1600.0,1631.82,10.0% bonus (2081/2082)
+2025-11-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1830.0,1830.0,1760.1,1799.0,0.22,491.0,881017.0,1663.64,1663.64,1600.09,1635.45,10.0% bonus (2081/2082)
+2025-11-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1799.0,1799.0,1766.0,1766.0,-1.83,71.0,127037.0,1635.45,1635.45,1605.45,1605.45,10.0% bonus (2081/2082)
+2025-11-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1767.0,1803.0,1750.0,1803.0,2.1,286.0,512961.0,1606.36,1639.09,1590.91,1639.09,10.0% bonus (2081/2082)
+2025-11-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1768.0,1802.0,1767.0,1775.0,-1.55,214.0,381179.0,1607.27,1638.18,1606.36,1613.64,10.0% bonus (2081/2082)
+2025-11-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1750.0,1795.0,1750.0,1795.0,1.13,121.0,215171.0,1590.91,1631.82,1590.91,1631.82,10.0% bonus (2081/2082)
+2025-11-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1800.0,1809.0,1800.0,1809.0,0.78,71.0,128250.0,1636.36,1644.55,1636.36,1644.55,10.0% bonus (2081/2082)
+2025-11-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1808.0,1808.0,1775.0,1805.0,-0.22,35.0,62730.0,1643.64,1643.64,1613.64,1640.91,10.0% bonus (2081/2082)
+2025-11-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1807.9,1807.9,1771.1,1771.6,-1.85,133.0,236601.9,1643.55,1643.55,1610.09,1610.55,10.0% bonus (2081/2082)
+2025-11-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1800.0,1829.0,1775.0,1820.0,2.73,670.0,1215245.0,1636.36,1662.73,1613.64,1654.55,10.0% bonus (2081/2082)
+2025-11-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1820.0,1820.0,1800.1,1800.1,-1.09,255.0,460898.0,1654.55,1654.55,1636.45,1636.45,10.0% bonus (2081/2082)
+2025-11-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1800.1,1800.1,1767.4,1800.0,-0.01,477.0,844602.6,1636.45,1636.45,1606.73,1636.36,10.0% bonus (2081/2082)
+2025-11-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1799.0,1799.0,1780.0,1780.0,-1.11,74.0,131910.0,1635.45,1635.45,1618.18,1618.18,10.0% bonus (2081/2082)
+2025-11-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1770.0,1798.9,1753.0,1795.0,0.84,581.0,1028162.7,1609.09,1635.36,1593.64,1631.82,10.0% bonus (2081/2082)
+2025-11-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1799.5,1805.0,1799.5,1800.0,0.28,53.0,95340.0,1635.91,1640.91,1635.91,1636.36,10.0% bonus (2081/2082)
+2025-12-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1775.0,1795.0,1755.0,1770.0,-1.67,377.0,669751.0,1613.64,1631.82,1595.45,1609.09,10.0% bonus (2081/2082)
+2025-12-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1750.0,1805.4,1750.0,1800.0,1.69,161.0,289290.0,1590.91,1641.27,1590.91,1636.36,10.0% bonus (2081/2082)
+2025-12-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1770.0,1800.0,1770.0,1790.0,-0.56,97.0,172739.0,1609.09,1636.36,1609.09,1627.27,10.0% bonus (2081/2082)
+2025-12-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1799.0,1807.0,1760.0,1760.0,-1.68,192.0,343721.1,1635.45,1642.73,1600.0,1600.0,10.0% bonus (2081/2082)
+2025-12-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1795.0,1795.0,1760.0,1794.0,1.93,72.0,127644.1,1631.82,1631.82,1600.0,1630.91,10.0% bonus (2081/2082)
+2025-12-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1820.0,1820.0,1700.0,1815.0,1.17,385.0,685923.8,1654.55,1654.55,1545.45,1650.0,10.0% bonus (2081/2082)
+2025-12-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1833.0,1833.0,1765.1,1765.1,-2.75,93.0,165262.9,1666.36,1666.36,1604.64,1604.64,10.0% bonus (2081/2082)
+2025-12-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1761.0,1780.0,1752.2,1780.0,0.84,214.0,378435.0,1600.91,1618.18,1592.91,1618.18,10.0% bonus (2081/2082)
+2025-12-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1762.0,1795.0,1760.0,1794.0,0.79,250.0,444734.0,1601.82,1631.82,1600.0,1630.91,10.0% bonus (2081/2082)
+2025-12-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1765.1,1772.0,1758.2,1758.2,-2.0,666.0,1175716.3,1604.64,1610.91,1598.36,1598.36,10.0% bonus (2081/2082)
+2025-12-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1790.0,1793.0,1758.0,1758.0,-0.01,415.0,733677.0,1627.27,1630.0,1598.18,1598.18,10.0% bonus (2081/2082)
+2025-12-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1793.0,1793.0,1762.0,1762.0,0.23,325.0,574915.7,1630.0,1630.0,1601.82,1601.82,10.0% bonus (2081/2082)
+2025-12-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1797.2,1832.9,1727.0,1750.0,-0.68,741.0,1313711.0,1633.82,1666.27,1570.0,1590.91,10.0% bonus (2081/2082)
+2025-12-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1780.0,1805.0,1766.1,1799.0,2.8,277.0,491560.1,1618.18,1640.91,1605.55,1635.45,10.0% bonus (2081/2082)
+2025-12-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1800.0,1800.0,1750.0,1765.0,-1.89,442.0,781938.5,1636.36,1636.36,1590.91,1604.55,10.0% bonus (2081/2082)
+2025-12-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1765.0,1790.0,1758.0,1789.9,1.41,148.0,260933.7,1604.55,1627.27,1598.18,1627.18,10.0% bonus (2081/2082)
+2025-12-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1761.2,1784.9,1761.2,1784.9,-0.28,243.0,429072.0,1601.09,1622.64,1601.09,1622.64,10.0% bonus (2081/2082)
+2025-12-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1762.4,1830.0,1762.4,1815.0,1.69,1549.0,2813150.3,1602.18,1663.64,1602.18,1650.0,10.0% bonus (2081/2082)
+2025-12-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1661.0,1704.0,1622.0,1704.0,3.27,1119.0,1856916.1,1661.0,1704.0,1622.0,1704.0,
+2025-12-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1729.0,1737.0,1701.3,1720.0,0.94,415.0,719376.0,1729.0,1737.0,1701.3,1720.0,
+2026-01-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1686.1,1700.0,1686.1,1690.0,-1.74,156.0,264049.1,1686.1,1700.0,1686.1,1690.0,
+2026-01-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1658.0,1670.5,1657.0,1662.0,-1.66,381.0,634748.0,1658.0,1670.5,1657.0,1662.0,
+2026-01-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1685.0,1726.0,1680.0,1726.0,3.85,689.0,1184898.4,1685.0,1726.0,1680.0,1726.0,
+2026-01-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1726.0,1759.9,1700.0,1700.0,-1.51,455.0,787041.8,1726.0,1759.9,1700.0,1700.0,
+2026-01-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1734.0,1734.0,1675.0,1708.0,0.47,78.0,132884.0,1734.0,1734.0,1675.0,1708.0,
+2026-01-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1692.0,1692.0,1691.0,1691.0,-1.0,20.0,33830.0,1692.0,1692.0,1691.0,1691.0,
+2026-01-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1715.0,1723.0,1691.0,1692.0,0.06,142.0,241183.0,1715.0,1723.0,1691.0,1692.0,
+2026-01-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1718.0,1720.0,1658.2,1658.2,-2.0,281.0,473033.6,1718.0,1720.0,1658.2,1658.2,
+2026-01-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1658.2,1662.0,1650.0,1650.0,-0.49,422.0,698009.0,1658.2,1662.0,1650.0,1650.0,
+2026-01-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1683.0,1683.0,1650.5,1651.0,0.06,546.0,904885.0,1683.0,1683.0,1650.5,1651.0,
+2026-01-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1684.0,1700.0,1665.2,1685.0,2.06,359.0,606839.6,1684.0,1700.0,1665.2,1685.0,
+2026-01-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1687.0,1700.0,1671.0,1671.0,-0.83,300.0,504510.0,1687.0,1700.0,1671.0,1671.0,
+2026-01-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1671.0,1713.6,1671.0,1713.6,2.55,315.0,532769.0,1671.0,1713.6,1671.0,1713.6,
+2026-01-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1715.0,1743.0,1700.0,1720.0,0.37,212.0,366128.0,1715.0,1743.0,1700.0,1720.0,
+2026-01-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1705.6,1720.0,1686.1,1720.0,0.0,943.0,1606484.7,1705.6,1720.0,1686.1,1720.0,
+2026-01-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1720.0,1722.0,1695.0,1700.0,-1.16,1207.0,2058271.9,1720.0,1722.0,1695.0,1700.0,
+2026-01-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1671.6,1690.0,1671.6,1690.0,-0.59,203.0,342867.6,1671.6,1690.0,1671.6,1690.0,
+2026-01-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1661.0,1705.4,1661.0,1680.0,-0.59,332.0,559155.5,1661.0,1705.4,1661.0,1680.0,
+2026-02-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1710.0,1710.0,1660.1,1660.1,-1.18,867.0,1454504.9,1710.0,1710.0,1660.1,1660.1,
+2026-02-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1693.3,1693.3,1660.0,1668.0,0.48,91.0,153160.0,1693.3,1693.3,1660.0,1668.0,
+2026-02-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1655.0,1701.3,1655.0,1698.0,1.8,576.0,970927.4,1655.0,1701.3,1655.0,1698.0,
+2026-02-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1666.1,1671.0,1666.1,1671.0,-1.59,220.0,367376.0,1666.1,1671.0,1666.1,1671.0,
+2026-02-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1699.9,1700.0,1670.0,1700.0,1.74,955.0,1615881.0,1699.9,1700.0,1670.0,1700.0,
+2026-02-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1670.0,1680.0,1666.1,1666.1,-1.99,314.0,524510.9,1670.0,1680.0,1666.1,1666.1,
+2026-02-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1635.2,1680.0,1635.2,1650.1,-0.96,121.0,200936.0,1635.2,1680.0,1635.2,1650.1,
+2026-02-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1618.0,1682.0,1618.0,1655.0,0.3,182.0,302941.0,1618.0,1682.0,1618.0,1655.0,
+2026-02-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1665.0,1665.0,1633.0,1645.0,-0.6,279.0,461437.0,1665.0,1665.0,1633.0,1645.0,
+2026-02-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1655.0,1660.0,1655.0,1656.4,0.69,262.0,434412.7,1655.0,1660.0,1655.0,1656.4,
+2026-02-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1660.0,1698.0,1651.0,1651.0,-0.33,516.0,860125.0,1660.0,1698.0,1651.0,1651.0,
+2026-02-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1684.0,1684.0,1660.0,1662.0,0.67,665.0,1106370.0,1684.0,1684.0,1660.0,1662.0,
+2026-02-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1640.0,1695.0,1633.0,1695.0,1.99,460.0,754499.0,1640.0,1695.0,1633.0,1695.0,
+2026-02-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1700.0,1700.0,1690.0,1690.0,-0.29,20.0,33900.0,1700.0,1700.0,1690.0,1690.0,
+2026-02-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1656.7,1670.0,1656.7,1670.0,-1.18,70.0,116766.0,1656.7,1670.0,1656.7,1670.0,
+2026-02-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1670.0,1670.0,1670.0,1670.0,0.0,10.0,16700.0,1670.0,1670.0,1670.0,1670.0,
+2026-02-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1658.0,1658.0,1657.1,1657.1,-0.77,70.0,116051.0,1658.0,1658.0,1657.1,1657.1,
+2026-03-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1657.0,1657.0,1656.0,1656.0,-0.07,88.0,145686.0,1657.0,1657.0,1656.0,1656.0,
+2026-03-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1642.0,1684.0,1625.0,1684.0,1.69,226.0,371003.6,1642.0,1684.0,1625.0,1684.0,
+2026-03-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1717.6,1717.6,1717.6,1717.6,2.0,10.0,17176.0,1717.6,1717.6,1717.6,1717.6,
+2026-03-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1751.9,1753.0,1683.0,1725.0,0.43,877.0,1509151.7,1751.9,1753.0,1683.0,1725.0,
+2026-03-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1730.0,1740.0,1710.0,1710.0,-0.87,503.0,863045.8,1730.0,1740.0,1710.0,1710.0,
+2026-03-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1710.0,1710.0,1679.0,1700.0,-0.58,365.0,620149.0,1710.0,1710.0,1679.0,1700.0,
+2026-03-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1710.0,1710.0,1680.0,1709.0,0.53,689.0,1167368.0,1710.0,1710.0,1680.0,1709.0,
+2026-03-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1700.0,1725.0,1676.0,1700.0,-0.53,313.0,532942.9,1700.0,1725.0,1676.0,1700.0,
+2026-03-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1670.1,1708.5,1670.0,1700.0,0.0,301.0,508471.0,1670.1,1708.5,1670.0,1700.0,
+2026-03-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1734.0,1768.0,1700.1,1700.1,0.01,485.0,829649.0,1734.0,1768.0,1700.1,1700.1,
+2026-03-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1733.6,1767.0,1701.0,1711.3,0.66,1204.0,2081760.8,1733.6,1767.0,1701.0,1711.3,
+2026-03-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1725.0,1730.0,1700.1,1729.0,1.03,345.0,591839.4,1725.0,1730.0,1700.1,1729.0,
+2026-03-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1763.0,1763.0,1715.2,1744.9,0.92,104.0,180684.0,1763.0,1763.0,1715.2,1744.9,
+2026-03-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1743.0,1743.0,1721.0,1721.0,-1.37,354.0,613446.0,1743.0,1743.0,1721.0,1721.0,
+2026-03-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1695.4,1728.0,1694.0,1705.0,-0.93,617.0,1054294.4,1695.4,1728.0,1694.0,1705.0,
+2026-03-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1680.0,1712.0,1680.0,1700.0,-0.29,623.0,1058000.1,1680.0,1712.0,1680.0,1700.0,
+2026-03-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1725.0,1725.0,1680.0,1680.0,-1.18,345.0,582623.1,1725.0,1725.0,1680.0,1680.0,
+2026-03-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1652.1,1713.0,1627.0,1713.0,1.96,332.0,552400.1,1652.1,1713.0,1627.0,1713.0,
+2026-04-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1678.8,1678.8,1650.2,1650.2,-3.67,496.0,818987.8,1678.8,1678.8,1650.2,1650.2,
+2026-04-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1660.0,1663.6,1628.0,1663.6,0.81,136.0,223369.0,1660.0,1663.6,1628.0,1663.6,
+2026-04-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1630.4,1638.0,1602.4,1638.0,-1.54,636.0,1035380.4,1630.4,1638.0,1602.4,1638.0,
+2026-04-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1606.0,1670.7,1606.0,1644.0,0.37,331.0,536034.1,1606.0,1670.7,1606.0,1644.0,
+2026-04-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1660.0,1662.0,1658.0,1662.0,1.09,71.0,117848.0,1660.0,1662.0,1658.0,1662.0,
+2026-04-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1656.6,1656.6,1646.0,1646.0,-0.96,211.0,347664.0,1656.6,1656.6,1646.0,1646.0,
+2026-04-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1669.0,1669.0,1642.0,1642.0,-0.24,206.0,339886.0,1669.0,1669.0,1642.0,1642.0,
+2026-04-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1626.0,1660.0,1593.5,1650.0,0.49,718.0,1166471.0,1626.0,1660.0,1593.5,1650.0,
+2026-04-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1620.0,1681.0,1617.0,1681.0,1.88,286.0,464630.0,1620.0,1681.0,1617.0,1681.0,
+2026-04-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1648.1,1690.0,1648.0,1690.0,0.54,431.0,712022.0,1648.1,1690.0,1648.0,1690.0,
+2026-04-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1656.2,1667.7,1635.0,1636.0,-3.2,301.0,500736.7,1656.2,1667.7,1635.0,1636.0,
+2026-04-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1615.0,1640.0,1615.0,1640.0,0.24,237.0,386879.6,1615.0,1640.0,1615.0,1640.0,
+2026-04-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1640.0,1640.0,1601.0,1601.0,-2.38,163.0,261411.4,1640.0,1640.0,1601.0,1601.0,
+2026-04-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1557.1,1698.9,1557.1,1675.0,4.62,669.0,1117590.4,1557.1,1698.9,1557.1,1675.0,
+2026-04-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1681.0,1681.0,1630.0,1660.0,-0.9,451.0,746461.0,1681.0,1681.0,1630.0,1660.0,
+2026-04-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1742.9,1742.9,1650.0,1650.0,-0.6,72.0,121157.9,1742.9,1742.9,1650.0,1650.0,
+2026-04-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1650.0,1665.8,1625.0,1630.0,-1.21,92.0,151637.0,1650.0,1665.8,1625.0,1630.0,
+2026-04-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1630.0,1630.0,1600.2,1600.2,-1.83,81.0,131165.8,1630.0,1630.0,1600.2,1600.2,
+2026-04-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1600.2,1620.0,1600.2,1620.0,1.24,150.0,240411.8,1600.2,1620.0,1600.2,1620.0,
+2026-04-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1620.0,1601.0,1572.0,1590.0,-1.85,555.0,882143.4,1620.0,1601.0,1572.0,1590.0,
+2026-04-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1555.1,1615.0,1555.1,1580.0,-0.63,123.0,196090.1,1555.1,1615.0,1555.1,1580.0,
+2026-05-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1535.5,1540.0,1520.0,1539.0,-2.59,288.0,442012.0,1535.5,1540.0,1520.0,1539.0,
+2026-05-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1512.0,1513.0,1511.6,1513.0,-1.69,40.0,60482.0,1512.0,1513.0,1511.6,1513.0,
+2026-05-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1520.0,1520.0,1492.0,1500.0,-0.86,229.0,343914.0,1520.0,1520.0,1492.0,1500.0,
+2026-05-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1480.1,1545.0,1480.1,1545.0,3.0,170.0,260651.0,1480.1,1545.0,1480.1,1545.0,
+2026-05-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1590.0,1594.9,1510.0,1589.3,2.87,233.0,362533.2,1590.0,1594.9,1510.0,1589.3,
+2026-05-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1543.0,1575.0,1541.7,1575.0,-0.9,130.0,200822.7,1543.0,1575.0,1541.7,1575.0,
+2026-05-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1550.0,1620.0,1550.0,1574.9,-0.01,236.0,371956.8,1550.0,1620.0,1550.0,1574.9,
+2026-05-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1528.1,1550.0,1528.0,1550.0,-1.58,180.0,275711.5,1528.1,1550.0,1528.0,1550.0,
+2026-05-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1585.9,1585.9,1539.0,1539.0,-0.71,30.0,46639.0,1585.9,1585.9,1539.0,1539.0,
+2026-05-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1579.0,1579.0,1579.0,1579.0,2.6,50.0,78950.0,1579.0,1579.0,1579.0,1579.0,
+2026-05-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1536.0,1565.0,1531.7,1531.7,-3.0,119.0,183101.0,1536.0,1565.0,1531.7,1531.7,
+2026-05-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1531.7,1531.7,1500.0,1500.0,-2.07,126.0,189100.8,1531.7,1531.7,1500.0,1500.0,
+2026-05-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1545.0,1545.0,1490.1,1490.1,-0.66,764.0,1164159.0,1545.0,1545.0,1490.1,1490.1,
+2026-05-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1500.0,1500.0,1500.0,1500.0,0.66,20.0,30000.0,1500.0,1500.0,1500.0,1500.0,
+2026-05-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1470.2,1500.2,1470.2,1500.0,0.0,282.0,422625.2,1470.2,1500.2,1470.2,1500.0,
+2026-05-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1500.0,1590.0,1476.0,1590.0,6.0,1184.0,1812715.0,1500.0,1590.0,1476.0,1590.0,
+2026-05-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1637.0,1637.0,1580.0,1617.9,1.75,520.0,827970.8,1637.0,1637.0,1580.0,1617.9,
+2026-06-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1650.0,1650.0,1601.0,1601.0,-1.04,22.0,35761.0,1650.0,1650.0,1601.0,1601.0,
+2026-06-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1553.0,1590.0,1516.0,1560.0,-2.56,249.0,386849.0,1553.0,1590.0,1516.0,1560.0,
+2026-06-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1600.0,1600.0,1552.0,1552.0,-0.51,145.0,227069.0,1600.0,1600.0,1552.0,1552.0,
+2026-06-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1598.5,1598.5,1505.5,1505.5,-3.0,61.0,94153.5,1598.5,1598.5,1505.5,1505.5,
+2026-06-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1550.0,1550.0,1530.0,1543.0,2.49,30.0,46230.0,1550.0,1550.0,1530.0,1543.0,
+2026-06-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1498.3,1506.0,1475.0,1500.0,-2.79,424.0,635226.4,1498.3,1506.0,1475.0,1500.0,
+2026-06-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1482.0,1500.0,1470.0,1489.1,-0.73,260.0,384611.0,1482.0,1500.0,1470.0,1489.1,
+2026-06-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1532.0,1638.0,1490.0,1585.9,6.5,810.0,1233676.8,1532.0,1638.0,1490.0,1585.9,
+2026-06-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1539.0,1568.0,1492.3,1568.0,-1.13,326.0,502510.0,1539.0,1568.0,1492.3,1568.0,
+2026-06-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1602.0,1649.0,1551.7,1552.0,-1.02,190.0,300223.2,1602.0,1649.0,1551.7,1552.0,
+2026-06-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1505.6,1549.0,1505.5,1549.0,-0.19,110.0,166997.6,1505.6,1549.0,1505.5,1549.0,
+2026-06-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1503.0,1547.8,1503.0,1506.0,-2.78,47.0,71317.7,1503.0,1547.8,1503.0,1506.0,
+2026-06-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1550.0,1580.0,1490.0,1527.0,1.39,174.0,264449.0,1550.0,1580.0,1490.0,1527.0,
+2026-06-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1481.2,1526.0,1481.2,1485.0,-2.75,113.0,169020.6,1481.2,1526.0,1481.2,1485.0,
+2026-06-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1525.0,1525.0,1455.0,1460.5,-1.65,210.0,307831.3,1525.0,1525.0,1455.0,1460.5,
+2026-06-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1460.5,1465.0,1455.1,1460.0,-0.03,132.0,192532.0,1460.5,1465.0,1455.1,1460.0,
+2026-06-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1450.0,1460.0,1407.0,1408.0,-3.56,252.0,358584.0,1450.0,1460.0,1407.0,1408.0,
+2026-06-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1391.0,1391.0,1370.0,1370.1,-2.69,332.0,456741.5,1391.0,1391.0,1370.0,1370.1,
+2026-06-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1360.0,1390.0,1360.0,1390.0,1.45,80.0,109351.0,1360.0,1390.0,1360.0,1390.0,
+2026-06-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1352.3,1358.9,1308.0,1357.0,-2.37,418.0,558717.5,1352.3,1358.9,1308.0,1357.0,
+2026-06-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1317.0,1339.0,1284.0,1321.0,-2.65,266.0,348840.3,1317.0,1339.0,1284.0,1321.0,
+2026-06-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1295.0,1295.0,1150.0,1285.0,-2.73,568.0,697278.4,1295.0,1295.0,1150.0,1285.0,
+2026-07-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1300.0,1431.0,1300.0,1410.0,9.73,1044.0,1450176.0,1300.0,1431.0,1300.0,1410.0,
+2026-07-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1390.0,1431.7,1370.0,1410.0,0.0,181.0,250443.0,1390.0,1431.7,1370.0,1410.0,
+2026-07-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1449.9,1449.9,1304.0,1405.0,-0.35,1133.0,1521425.8,1449.9,1449.9,1304.0,1405.0,
+2026-07-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1430.0,1430.0,1330.5,1330.5,-5.3,222.0,298687.9,1430.0,1430.0,1330.5,1330.5,
+2026-07-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1370.4,1411.5,1325.0,1330.0,-0.04,1066.0,1420336.0,1370.4,1411.5,1325.0,1330.0,
+2026-07-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1300.0,1368.9,1290.1,1310.0,-1.5,166.0,217875.4,1300.0,1368.9,1290.1,1310.0,
+2026-07-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1349.3,1385.0,1270.8,1301.0,-0.69,269.0,349829.9,1349.3,1385.0,1270.8,1301.0,
+2026-07-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1339.0,1350.0,1300.0,1319.0,1.38,214.0,281108.0,1339.0,1350.0,1300.0,1319.0,
+2026-07-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1285.0,1285.0,1228.0,1262.0,-4.32,474.0,591190.0,1285.0,1285.0,1228.0,1262.0,
+2026-07-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1226.0,1300.0,1226.0,1261.0,-0.08,366.0,469708.0,1226.0,1300.0,1226.0,1261.0,
+2026-07-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1280.0,1280.0,1227.0,1245.0,-1.27,258.0,323246.7,1280.0,1280.0,1227.0,1245.0,
+2026-07-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1215.0,1229.0,1200.1,1200.1,-3.61,322.0,390644.4,1215.0,1229.0,1200.1,1200.1,
+2026-07-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1235.9,1236.0,1191.0,1194.0,-0.51,1744.0,2123712.2,1235.9,1236.0,1191.0,1194.0,
+2026-07-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1180.0,1231.9,1180.0,1219.0,2.09,513.0,623215.1,1180.0,1231.9,1180.0,1219.0,
+2026-07-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1250.0,1250.0,1184.0,1200.0,-1.56,963.0,1167396.3,1250.0,1250.0,1184.0,1200.0,
+2026-07-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1171.0,1235.0,1171.0,1230.0,2.5,782.0,950721.1,1171.0,1235.0,1171.0,1230.0,
+2026-07-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1175.0,1175.0,1045.5,1045.5,-15.0,13394.0,14012207.5,1175.0,1175.0,1045.5,1045.5,
+2026-07-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,993.3,1091.8,888.7,1050.0,0.43,148511.0,141800098.8,993.3,1091.8,888.7,1050.0,
+2026-07-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1053.0,1053.0,1000.0,1022.0,-2.67,17202.0,17562347.5,1053.0,1053.0,1000.0,1022.0,
+2026-07-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1000.0,1013.0,954.1,960.0,-6.07,31240.0,30326702.1,1000.0,1013.0,954.1,960.0,
+2026-07-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,1008.0,1008.0,931.2,945.0,-1.56,25870.0,24423077.4,1008.0,1008.0,931.2,945.0,
+2026-07-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,959.0,959.0,915.0,931.0,-1.48,23815.0,22128414.2,959.0,959.0,915.0,931.0,
+2026-07-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,905.1,974.0,905.1,956.0,2.69,23851.0,22521524.8,905.1,974.0,905.1,956.0,
+2026-08-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,951.0,965.0,935.0,940.0,-1.67,19203.0,18135129.5,951.0,965.0,935.0,940.0,
+2026-08-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,893.0,950.0,893.0,950.0,1.06,12502.0,11752528.0,893.0,950.0,893.0,950.0,
+2026-08-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,959.0,959.0,938.0,949.0,-0.11,8584.0,8083463.5,959.0,959.0,938.0,949.0,
+2026-08-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,935.0,976.4,935.0,970.0,2.21,24488.0,23308049.8,935.0,976.4,935.0,970.0,
+2026-08-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,950.0,997.0,950.0,980.0,1.03,22696.0,22038187.7,950.0,997.0,950.0,980.0,
+2026-08-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,965.0,992.0,963.5,966.0,-1.43,14256.0,13846139.7,965.0,992.0,963.5,966.0,
+2026-08-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,960.1,980.0,960.0,980.0,1.45,13243.0,12886715.7,960.1,980.0,960.0,980.0,
+2026-08-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,950.0,1039.0,950.0,961.0,-1.94,13364.0,12901225.0,950.0,1039.0,950.0,961.0,
+2026-08-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,950.0,975.0,940.6,957.8,-0.33,18544.0,17560171.1,950.0,975.0,940.6,957.8,
+2026-08-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,929.1,968.0,925.0,944.9,-1.35,14920.0,14023606.9,929.1,968.0,925.0,944.9,
+2026-08-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,935.0,957.0,920.0,920.1,-2.62,17479.0,16175389.0,935.0,957.0,920.0,920.1,
+2026-08-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,915.0,945.5,915.0,942.8,2.47,8785.0,8120586.0,915.0,945.5,915.0,942.8,
+2026-08-19,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,920.0,998.0,920.0,937.0,-0.62,7989.0,7398039.9,920.0,998.0,920.0,937.0,
+2026-08-20,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,950.0,950.0,912.4,938.5,0.16,10051.0,9264971.7,950.0,950.0,912.4,938.5,
+2026-08-21,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,900.0,966.0,900.0,911.0,-2.93,10287.0,9439216.1,900.0,966.0,900.0,911.0,
+2026-08-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,930.0,937.0,886.0,888.1,-2.51,10659.0,9550666.5,930.0,937.0,886.0,888.1,
+2026-08-25,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,890.0,910.0,881.0,910.0,2.47,6917.0,6185788.3,890.0,910.0,881.0,910.0,
+2026-08-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,900.0,954.0,871.1,897.0,-1.43,11744.0,10365398.4,900.0,954.0,871.1,897.0,
+2026-08-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,880.0,897.0,866.1,880.0,-1.9,6681.0,5862940.0,880.0,897.0,866.1,880.0,
+2026-08-31,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,924.0,924.0,800.0,839.0,-4.66,9031.0,7613587.5,924.0,924.0,800.0,839.0,
+2026-09-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,839.0,848.0,800.0,821.0,-2.15,11553.0,9419506.4,839.0,848.0,800.0,821.0,
+2026-09-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,821.0,825.0,780.0,791.0,-3.65,15592.0,12439531.3,821.0,825.0,780.0,791.0,
+2026-09-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,803.0,804.0,779.0,802.0,1.39,11658.0,9235766.8,803.0,804.0,779.0,802.0,
+2026-09-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,802.0,824.9,796.0,809.0,0.87,6367.0,5114073.0,802.0,824.9,796.0,809.0,
+2026-09-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,828.0,828.0,793.0,795.0,-1.73,8794.0,7012105.9,828.0,828.0,793.0,795.0,
+2026-09-10,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,818.8,818.8,790.0,798.0,0.38,6956.0,5523514.6,818.8,818.8,790.0,798.0,
+2026-09-11,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,758.1,803.9,758.1,803.0,0.63,5575.0,4452288.3,758.1,803.9,758.1,803.0,
+2026-09-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,803.0,846.0,803.0,836.0,4.11,7075.0,5851387.4,803.0,846.0,803.0,836.0,
+2026-09-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,877.0,911.0,850.0,866.0,3.59,9732.0,8407334.9,877.0,911.0,850.0,866.0,
+2026-09-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,866.0,866.0,830.0,834.0,-3.7,7102.0,5995039.4,866.0,866.0,830.0,834.0,
+2026-09-17,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,836.4,850.0,826.0,835.1,0.13,6191.0,5188651.6,836.4,850.0,826.0,835.1,
+2026-09-18,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,830.1,849.0,830.0,847.8,1.52,1301.0,1088846.1,830.1,849.0,830.0,847.8,
+2026-09-22,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,847.8,862.0,837.0,837.5,-1.21,4287.0,3610085.1,847.8,862.0,837.0,837.5,
+2026-09-23,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,825.0,837.0,818.6,818.6,-2.26,3129.0,2574664.4,825.0,837.0,818.6,818.6,
+2026-09-24,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,819.0,829.0,800.2,807.0,-1.42,4175.0,3370656.9,819.0,829.0,800.2,807.0,
+2026-09-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,820.0,820.0,803.2,805.0,-0.25,3552.0,2875697.2,820.0,820.0,803.2,805.0,
+2026-09-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,805.0,810.0,797.0,801.0,-0.5,4647.0,3737716.3,805.0,810.0,797.0,801.0,
+2026-09-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,816.0,816.0,798.0,798.0,-0.37,2123.0,1700232.3,816.0,816.0,798.0,798.0,
+2026-10-01,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,795.2,808.0,795.2,808.0,1.25,2694.0,2164858.3,795.2,808.0,795.2,808.0,
+2026-10-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,797.7,809.0,797.7,806.0,-0.25,2692.0,2169668.5,797.7,809.0,797.7,806.0,
+2026-10-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,795.0,807.0,789.0,797.0,-1.12,2371.0,1884098.4,795.0,807.0,789.0,797.0,
+2026-10-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,781.0,810.0,781.0,810.0,1.63,3005.0,2393786.2,781.0,810.0,781.0,810.0,
+2026-10-07,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,817.9,818.0,793.5,804.0,-0.74,3109.0,2499081.7,817.9,818.0,793.5,804.0,
+2026-10-08,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,810.0,924.6,810.0,924.6,15.0,57498.0,50942759.9,810.0,924.6,810.0,924.6,
+2026-10-09,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,950.0,994.0,950.0,970.0,4.91,55755.0,54468167.1,950.0,994.0,950.0,970.0,
+2026-10-12,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,975.0,975.0,925.0,942.0,-2.89,10581.0,10028328.9,975.0,975.0,925.0,942.0,
+2026-10-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,940.0,940.0,899.0,899.0,-4.56,15651.0,14155714.7,940.0,940.0,899.0,899.0,
+2026-10-14,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,913.0,913.0,890.0,890.1,-0.99,10704.0,9551838.0,913.0,913.0,890.0,890.1,
+2026-10-15,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,875.0,915.0,875.0,915.0,2.8,6511.0,5872970.7,875.0,915.0,875.0,915.0,
+2026-10-16,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,901.0,914.9,890.0,900.2,-1.62,14726.0,13289740.5,901.0,914.9,890.0,900.2,
+2026-10-26,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,901.0,948.7,901.0,915.1,1.66,8309.0,7702714.3,901.0,948.7,901.0,915.1,
+2026-10-27,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,920.0,925.0,900.0,915.0,-0.01,4588.0,4179666.2,920.0,925.0,900.0,915.0,
+2026-10-28,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,915.0,925.0,900.3,907.3,-0.84,5963.0,5428203.1,915.0,925.0,900.3,907.3,
+2026-10-29,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,928.0,928.0,900.1,914.9,0.84,13334.0,12115192.9,928.0,928.0,900.1,914.9,
+2026-10-30,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,910.5,918.0,890.0,892.0,-2.5,10263.0,9257416.9,910.5,918.0,890.0,892.0,
+2026-11-02,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,892.0,900.0,870.0,882.0,-1.12,6964.0,6170661.2,892.0,900.0,870.0,882.0,
+2026-11-03,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,890.1,909.0,886.0,900.0,2.04,8824.0,7886982.1,890.1,909.0,886.0,900.0,
+2026-11-04,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,895.0,909.9,895.0,897.0,-0.33,4093.0,3699450.0,895.0,909.9,895.0,897.0,
+2026-11-05,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,900.0,909.0,891.0,891.0,-0.67,3454.0,3102744.0,900.0,909.0,891.0,891.0,
+2026-11-06,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,890.0,906.9,890.0,905.0,1.57,1482.0,1334945.0,890.0,906.9,890.0,905.0,
+2026-11-13,KBSH,Kutheli Bukhari Small Hydropower Limited,Hydropower,902.1,914.0,902.0,907.4,0.27,4355.0,3939237.3,902.1,914.0,902.0,907.4,

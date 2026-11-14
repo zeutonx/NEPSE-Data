@@ -1,0 +1,6 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2014-02-06,NFD,Nepal Film Dev. Company Limited,Others,38.0,0.0,0.0,38.0,0.0,539.0,539.0,38.0,0.0,0.0,38.0,
+2014-03-25,NFD,Nepal Film Dev. Company Limited,Others,38.0,38.0,38.0,38.0,0.0,81.0,3078.0,38.0,38.0,38.0,38.0,
+2014-04-03,NFD,Nepal Film Dev. Company Limited,Others,38.0,37.0,37.0,37.0,0.0,11.0,410.0,38.0,37.0,37.0,37.0,
+2014-04-27,NFD,Nepal Film Dev. Company Limited,Others,37.0,37.0,35.0,35.0,0.0,33.0,1181.0,37.0,37.0,35.0,35.0,
+2014-08-03,NFD,Nepal Film Dev. Company Limited,Others,35.0,34.0,34.0,34.0,0.0,20.0,687.0,35.0,34.0,34.0,34.0,

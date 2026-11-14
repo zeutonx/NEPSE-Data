@@ -1,0 +1,6 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2012-01-04,CEDBLP,Clean Energy Development Bank Limited Promoter Share,Promoter Share,0.0,105.0,105.0,105.0,0.0,25000.0,2625000.0,0.0,105.0,105.0,105.0,
+2012-05-27,CEDBLP,Clean Energy Development Bank Limited Promoter Share,Promoter Share,105.0,105.0,105.0,105.0,0.0,70000.0,7350000.0,105.0,105.0,105.0,105.0,
+2012-06-28,CEDBLP,Clean Energy Development Bank Limited Promoter Share,Promoter Share,105.0,103.0,103.0,103.0,0.0,9000.0,927000.0,105.0,103.0,103.0,103.0,
+2012-07-02,CEDBLP,Clean Energy Development Bank Limited Promoter Share,Promoter Share,103.0,101.0,101.0,101.0,0.0,8000.0,808000.0,103.0,101.0,101.0,101.0,
+2013-04-28,CEDBLP,Clean Energy Development Bank Limited Promoter Share,Promoter Share,101.0,100.0,100.0,100.0,0.0,21420.0,2142000.0,101.0,100.0,100.0,100.0,

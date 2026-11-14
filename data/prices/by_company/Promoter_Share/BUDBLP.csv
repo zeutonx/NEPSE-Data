@@ -1,0 +1,5 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2015-05-26,BUDBLP,Business Universal Development Bank Limited Promoter Share,Promoter Share,105.0,105.0,105.0,105.0,0.0,8760.0,919800.0,105.0,105.0,105.0,105.0,
+2015-06-29,BUDBLP,Business Universal Development Bank Limited Promoter Share,Promoter Share,105.0,105.0,105.0,105.0,0.0,7205.0,756525.0,105.0,105.0,105.0,105.0,
+2015-11-08,BUDBLP,Business Universal Development Bank Limited Promoter Share,Promoter Share,128.0,130.0,130.0,130.0,0.0,36474.0,4741620.0,128.0,130.0,130.0,130.0,
+2015-11-18,BUDBLP,Business Universal Development Bank Limited Promoter Share,Promoter Share,130.0,134.0,132.0,134.0,0.0,76506.0,10204740.0,130.0,134.0,132.0,134.0,

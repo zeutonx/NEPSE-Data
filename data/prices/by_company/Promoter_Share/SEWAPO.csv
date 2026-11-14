@@ -1,0 +1,5 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2014-02-23,SEWAPO,Sewa Bikas Bank Limited Promoter Share,Promoter Share,0.0,145.0,145.0,145.0,0.0,19944.0,2891880.0,0.0,145.0,145.0,145.0,
+2014-06-02,SEWAPO,Sewa Bikas Bank Limited Promoter Share,Promoter Share,145.0,145.0,145.0,145.0,0.0,5788.0,839260.0,145.0,145.0,145.0,145.0,
+2014-11-12,SEWAPO,Sewa Bikas Bank Limited Promoter Share,Promoter Share,145.0,145.0,145.0,145.0,0.0,26664.0,3866280.0,145.0,145.0,145.0,145.0,
+2016-10-05,SEWAPO,Sewa Bikas Bank Limited Promoter Share,Promoter Share,360.0,360.0,360.0,360.0,0.0,9400.0,3384000.0,360.0,360.0,360.0,360.0,

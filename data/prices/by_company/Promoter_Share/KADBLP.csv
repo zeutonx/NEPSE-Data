@@ -1,0 +1,6 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2016-07-06,KADBLP,Kanchan Development Bank Limited Promoter Share,Promoter Share,211.0,207.0,190.0,190.0,0.0,42000.0,8319000.0,211.0,207.0,190.0,190.0,
+2016-07-10,KADBLP,Kanchan Development Bank Limited Promoter Share,Promoter Share,190.0,187.0,172.0,172.0,0.0,56700.0,9977400.0,190.0,187.0,172.0,172.0,
+2018-05-23,KADBLP,Kanchan Development Bank Limited Promoter Share,Promoter Share,120.0,120.0,120.0,120.0,0.0,8304.0,996480.0,120.0,120.0,120.0,120.0,
+2018-12-25,KADBLP,Kanchan Development Bank Limited Promoter Share,Promoter Share,120.0,120.0,120.0,120.0,0.0,43432.0,5211840.0,120.0,120.0,120.0,120.0,
+2019-02-26,KADBLP,Kanchan Development Bank Limited Promoter Share,Promoter Share,113.0,113.0,113.0,113.0,-5.83,1503.0,169839.0,113.0,113.0,113.0,113.0,

@@ -1,0 +1,4 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2026-08-14,ADBLB87,4% Agricultural Bond 2087,Corporate Debentures,1000.0,1016.0,1000.0,1016.0,0.0,700000.0,708799000.0,1000.0,1016.0,1000.0,1016.0,
+2026-08-18,ADBLB87,4% Agricultural Bond 2087,Corporate Debentures,1015.0,1015.0,1012.0,1012.0,-0.39,500000.0,506800000.0,1015.0,1015.0,1012.0,1012.0,
+2026-08-20,ADBLB87,4% Agricultural Bond 2087,Corporate Debentures,1012.0,1015.0,1012.0,1015.0,0.3,500000.0,506500000.0,1012.0,1015.0,1012.0,1015.0,

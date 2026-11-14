@@ -1,0 +1,8 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2024-06-02,NIFRAP,Nepal Infrastructure Bank Limited Promoter,Promoter Share,111.0,111.0,111.0,111.0,0.0,27000.0,2997000.0,111.0,111.0,111.0,111.0,
+2024-06-04,NIFRAP,Nepal Infrastructure Bank Limited Promoter,Promoter Share,111.0,111.0,111.0,111.0,0.0,324000.0,35964000.0,111.0,111.0,111.0,111.0,
+2024-06-19,NIFRAP,Nepal Infrastructure Bank Limited Promoter,Promoter Share,111.0,111.0,111.0,111.0,0.0,32400.0,3596400.0,111.0,111.0,111.0,111.0,
+2024-06-24,NIFRAP,Nepal Infrastructure Bank Limited Promoter,Promoter Share,111.0,111.0,111.0,111.0,0.0,108000.0,11988000.0,111.0,111.0,111.0,111.0,
+2024-06-30,NIFRAP,Nepal Infrastructure Bank Limited Promoter,Promoter Share,111.0,111.0,111.0,111.0,0.0,135000.0,14985000.0,111.0,111.0,111.0,111.0,
+2024-12-24,NIFRAP,Nepal Infrastructure Bank Limited Promoter,Promoter Share,103.0,103.0,101.0,101.0,-9.01,35000.0,3555000.0,103.0,103.0,101.0,101.0,
+2025-07-20,NIFRAP,Nepal Infrastructure Bank Limited Promoter,Promoter Share,111.0,111.0,111.0,111.0,0.0,965000.0,97465000.0,111.0,111.0,111.0,111.0,

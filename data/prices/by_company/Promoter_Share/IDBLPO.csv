@@ -1,0 +1,6 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2013-02-26,IDBLPO,Infrastructure Development Bank Limited Promoter Share,Promoter Share,123.0,100.0,100.0,100.0,0.0,22670.0,2267000.0,123.0,100.0,100.0,100.0,
+2014-05-12,IDBLPO,Infrastructure Development Bank Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,540.0,54000.0,100.0,100.0,100.0,100.0,
+2014-12-03,IDBLPO,Infrastructure Development Bank Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,56450.0,5645000.0,100.0,100.0,100.0,100.0,
+2015-05-26,IDBLPO,Infrastructure Development Bank Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,4340.0,434000.0,100.0,100.0,100.0,100.0,
+2015-05-28,IDBLPO,Infrastructure Development Bank Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,2000.0,200000.0,100.0,100.0,100.0,100.0,

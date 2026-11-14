@@ -1,0 +1,11 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2011-05-24,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,306.0,130.0,130.0,130.0,0.0,21000.0,2730000.0,306.0,130.0,130.0,130.0,
+2011-06-12,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,130.0,128.0,128.0,128.0,0.0,12500.0,1600000.0,130.0,128.0,128.0,128.0,
+2012-02-15,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,128.0,108.0,108.0,108.0,0.0,67500.0,7290000.0,128.0,108.0,108.0,108.0,
+2013-12-12,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,100.0,0.0,0.0,108.0,0.0,79000.0,4740000.0,100.0,0.0,0.0,108.0,
+2014-03-06,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,108.0,110.0,110.0,110.0,0.0,99000.0,10890000.0,108.0,110.0,110.0,110.0,
+2014-03-20,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,110.0,0.0,0.0,110.0,0.0,166500.0,10156500.0,110.0,0.0,0.0,110.0,
+2014-03-23,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,61.0,0.0,0.0,110.0,0.0,90000.0,5400000.0,61.0,0.0,0.0,110.0,
+2014-03-27,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,110.0,114.0,112.0,114.0,0.0,75000.0,8480000.0,110.0,114.0,112.0,114.0,
+2014-03-31,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,114.0,114.0,114.0,114.0,0.0,10000.0,1140000.0,114.0,114.0,114.0,114.0,
+2014-09-07,KISTPO,KIST Bank Limited Promoter Share,Promoter Share,114.0,112.0,112.0,112.0,0.0,862250.0,96572000.0,114.0,112.0,112.0,112.0,

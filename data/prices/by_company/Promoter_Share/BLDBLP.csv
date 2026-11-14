@@ -1,0 +1,4 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2011-11-17,BLDBLP,Biratlaxmi Development Bank Limited Promoter Share,Promoter Share,0.0,110.0,110.0,110.0,0.0,3490.0,383900.0,0.0,110.0,110.0,110.0,
+2011-12-06,BLDBLP,Biratlaxmi Development Bank Limited Promoter Share,Promoter Share,110.0,110.0,110.0,110.0,0.0,16394.0,1803340.0,110.0,110.0,110.0,110.0,
+2011-12-27,BLDBLP,Biratlaxmi Development Bank Limited Promoter Share,Promoter Share,110.0,108.0,108.0,108.0,0.0,6249.0,674892.0,110.0,108.0,108.0,108.0,

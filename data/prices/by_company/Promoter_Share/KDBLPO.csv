@@ -1,0 +1,13 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2013-06-27,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,0.0,100.0,100.0,100.0,0.0,68750.0,6875000.0,0.0,100.0,100.0,100.0,
+2013-07-03,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,13750.0,1375000.0,100.0,100.0,100.0,100.0,
+2013-07-07,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,90000.0,9000000.0,100.0,100.0,100.0,100.0,
+2013-07-15,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,100.0,0.0,0.0,100.0,0.0,71500.0,2098145.0,100.0,0.0,0.0,100.0,
+2013-07-22,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,100000.0,10000000.0,100.0,100.0,100.0,100.0,
+2013-10-28,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,61875.0,6187500.0,100.0,100.0,100.0,100.0,
+2014-04-02,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,100.0,0.0,0.0,100.0,0.0,56250.0,1968750.0,100.0,0.0,0.0,100.0,
+2014-07-03,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,100.0,0.0,0.0,100.0,0.0,39375.0,1699819.0,100.0,0.0,0.0,100.0,
+2016-04-25,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,144.0,142.0,138.0,138.0,0.0,113685.0,16035480.0,144.0,142.0,138.0,138.0,
+2016-05-16,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,138.0,150.0,140.0,150.0,0.0,130642.0,19097050.0,138.0,150.0,140.0,150.0,
+2016-06-30,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,150.0,150.0,150.0,150.0,0.0,38220.0,5733000.0,150.0,150.0,150.0,150.0,
+2016-07-25,KDBLPO,Kasthamandap Development Bank Limited Promoter Share,Promoter Share,150.0,153.0,153.0,153.0,0.0,56250.0,8606250.0,150.0,153.0,153.0,153.0,
