@@ -65,9 +65,11 @@ def test_company_list_paginates():
                   "date": "2026-11-13", "DT_Row_Index": start + i + 1} for i in range(n)],
     }
     client = mock.Mock()
-    client.json.side_effect = [page(50, 0), page(10, 50)]
+    # length=-1 comes back short (50 of 60) -> falls back to 50-row pages from the start
+    client.json.side_effect = [page(50, 0), page(50, 0), page(10, 50)]
     rows = scrapers.company_list(client, sectors=[1])
     assert len(rows) == 60
+    assert [c.kwargs["params"]["length"] for c in client.json.call_args_list] == [-1, 50, 50]
     assert rows[0]["symbol"] == "S0" and rows[0]["sector"] == "Commercial Bank"
     assert rows[0]["promoter_pct"] == 51.0 and rows[0]["market_cap"] == 250000.0
 
@@ -90,7 +92,7 @@ def test_merger_rows():
     assert rows == [{
         "status": "Completed", "merging_companies": "Orchid Holdings Limited & Mountain Glory Limited",
         "new_symbol": "OGL", "new_company_name": "Orchid Glory Limited", "new_company_id": 1690,
-        "sector": "Hotel & Tourism", "action": "Merger", "swap_ratio": None, "trading": "No",
+        "sector": "Hotel & Tourism", "action": "Merger", "action_code": "1", "swap_ratio": None, "trading": "No",
         "mou_date": None, "final_approval_date": None, "joint_transaction_date": "2026-05-01"}]
 
 
@@ -134,3 +136,55 @@ def test_dividend_row_dates():
     assert row["book_close_date"] == "2026-09-30" and row["book_closed"] is True
     assert row["distribution_date"] is None and row["bonus_listing_date"] is None
     assert row["bonus_pct"] == 0.0 and row["cash_pct"] == 10.8
+
+
+def test_datatable_fetches_all_in_one_request():
+    client = mock.Mock()
+    client.json.return_value = {"recordsTotal": 322, "data": [{"id": i} for i in range(322)]}
+    rows = list(scrapers._datatable(client, "/existing-issues", {"type": 3}, method="GET"))
+    assert len(rows) == 322 and client.json.call_count == 1
+    assert client.json.call_args.kwargs["params"]["length"] == -1
+
+
+def test_datatable_warns_on_boundary_repeat(caplog):
+    # tie-sorted results: row 49 shows up again as the first row of page 2, row 50 is lost
+    first = [{"id": i, "DT_Row_Index": i + 1} for i in range(50)]
+    second = [{"id": 49, "DT_Row_Index": 51}] + [{"id": i, "DT_Row_Index": i + 1} for i in range(51, 60)]
+    client = mock.Mock()
+    client.json.side_effect = [{"recordsTotal": 60, "data": first}, {"recordsTotal": 60, "data": second}]
+    rows = list(scrapers._datatable(client, "/x", {}, method="GET", limit=60))
+    assert len(rows) == 60
+    assert "repeats across a page boundary" in caplog.text
+
+
+def test_merger_action_matches_site_renderer():
+    assert scrapers._merger_action("1") == "Merger"
+    assert [scrapers._merger_action(c) for c in ("0", "", None)] == ["Acquisition"] * 3
+    assert scrapers._yes_no("1") == "Yes" and [scrapers._yes_no(c) for c in ("0", "", None)] == ["No"] * 3
+
+
+def test_merged_company_operation_date_from_either_detail():
+    recs = [{"id": 1, "symbol": "<a>A</a>", "companyname": "<a>A Ltd</a>",
+             "company_detail": {"operationdate": "2020-01-05"}, "companyDetail": {"operationdate": ""}},
+            {"id": 2, "symbol": "<a>B</a>", "companyname": "<a>B Ltd</a>",
+             "company_detail": {"operationdate": None}, "companyDetail": {"operationdate": ""}}]
+    client = mock.Mock()
+    client.json.return_value = {"recordsTotal": 2, "data": recs}
+    rows = scrapers.merged_companies(client)
+    assert [r["operation_date"] for r in rows] == ["2020-01-05", None]
+
+
+def test_nbsp_in_names():
+    assert scrapers._strip_html("<p>Wean Nepal Laghubitta &amp;&nbsp;Swarojgar Laghubitta</p>") == \
+        "Wean Nepal Laghubitta & Swarojgar Laghubitta"
+
+
+def test_dividend_years_ordered_by_label():
+    client = mock.Mock()
+    client.soup.return_value = BeautifulSoup(
+        '<select name="year"><option value="">All</option><option value="24">2075/2076</option>'
+        '<option value="5">2074/2075</option><option value="23">2063/2064</option>'
+        '<option value="32">2082/2083</option></select>', "lxml")
+    client.json.return_value = {"recordsTotal": 0, "data": []}
+    scrapers.all_dividends(client, years=3)
+    assert [c.kwargs["params"]["year"] for c in client.json.call_args_list] == [32, 24, 5]

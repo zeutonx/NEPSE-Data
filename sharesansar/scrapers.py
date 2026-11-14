@@ -24,7 +24,7 @@ from .parse import cell_text, label_value_pairs, parse_table, soup_of, to_number
 
 log = logging.getLogger(__name__)
 
-PAGE_SIZE = 50  # the server returns nothing for length > 50
+PAGE_SIZE = 50  # the server returns nothing for length > 50 (but length=-1 returns everything)
 
 SECTORS: dict[int, str] = {
     1: "Commercial Bank",
@@ -61,7 +61,10 @@ def _strip_html(value: Any) -> Any:
     if isinstance(value, str):
         if "<" in value:
             value = " ".join(_TAG_RE.sub(" ", value).split())
-        return html.unescape(value)
+        value = html.unescape(value)
+        if "\xa0" in value:  # &nbsp; inside names ("A &amp;&nbsp;B")
+            value = " ".join(value.replace("\xa0", " ").split())
+        return value
     return value
 
 
@@ -77,22 +80,50 @@ def _clean_record(rec: dict[str, Any], keep_text: tuple[str, ...] = ()) -> dict[
     return out
 
 
+def _row_key(rec: dict[str, Any]) -> str:
+    return repr(sorted((k, repr(v)) for k, v in rec.items() if k != "DT_Row_Index"))
+
+
+def _datatable_page(client: SharesansarClient, path: str, data: dict[str, Any], method: str,
+                    draw: int, start: int, length: int) -> tuple[list[dict[str, Any]], int]:
+    params = {**data, "draw": draw, "start": start, "length": length, "search[value]": "",
+              "search[regex]": "false"}
+    if method == "POST":
+        payload = client.json(path, method="POST", data=params, headers={"X-CSRF-Token": client.csrf})
+    else:
+        payload = client.json(path, params=params)
+    rows = payload.get("data") or []
+    total = int(payload.get("recordsFiltered") or payload.get("recordsTotal") or 0)
+    return rows, total
+
+
 def _datatable(client: SharesansarClient, path: str, data: dict[str, Any], method: str = "POST",
                limit: int | None = None) -> Iterator[dict[str, Any]]:
-    """Walk every page of a server-side DataTables endpoint."""
-    start, draw = 0, 1
+    """Fetch every row of a server-side DataTables endpoint.
+
+    The site sorts on non-unique keys (e.g. announcement date), so walking it page by page can
+    return a row on two pages and skip another one at the page boundary, while the row count still
+    matches recordsTotal. To avoid that, everything is requested in one go with length=-1 (supported
+    by every endpoint used here). Only when that comes back short, or when just the first `limit`
+    rows are wanted, does it fall back to 50-row pages.
+    """
+    if limit is None:
+        rows, total = _datatable_page(client, path, data, method, 1, 0, -1)
+        if len(rows) >= total:
+            yield from rows
+            return
+        log.info("%s %s: length=-1 gave %d of %d rows, paging instead", path, data, len(rows), total)
+
+    start, draw, prev_last = 0, 2, None
     while True:
-        params = {**data, "draw": draw, "start": start, "length": PAGE_SIZE, "search[value]": "",
-                  "search[regex]": "false"}
-        if method == "POST":
-            payload = client.json(path, method="POST", data=params, headers={"X-CSRF-Token": client.csrf})
-        else:
-            payload = client.json(path, params=params)
-        rows = payload.get("data") or []
-        total = int(payload.get("recordsFiltered") or payload.get("recordsTotal") or 0)
+        rows, total = _datatable_page(client, path, data, method, draw, start, PAGE_SIZE)
+        if rows and prev_last is not None and _row_key(rows[0]) == prev_last:
+            log.warning("%s %s: row at offset %d repeats across a page boundary; a row may be missing",
+                        path, data, start)
         yield from rows
         start += len(rows)
         draw += 1
+        prev_last = _row_key(rows[-1]) if rows else None
         if limit is not None and start >= limit:
             return
         if not rows or start >= total:
@@ -288,8 +319,14 @@ def dividends(client: SharesansarClient, company_id: int, symbol: str | None = N
 #   mergers        GET  /merger-acquisition?type=1 (completed) / type=0 (in process)
 #   merged cos.    GET  /merged-companies                           (delisted after merger)
 
-MERGER_ACTION = {"1": "Merger", "2": "Acquisition"}
-YES_NO = {"0": "No", "1": "Yes"}
+def _merger_action(code: Any) -> str:
+    # mirrors the site's renderer: `data == 1 ? 'Merger' : 'Acquisition'` (codes seen: "1", "0", "")
+    return "Merger" if str(code).strip() == "1" else "Acquisition"
+
+
+def _yes_no(code: Any) -> str:
+    # mirrors the site's renderer: `data == 1 ? 'Yes' : 'No'` (codes seen: "1", "0", "", null)
+    return "Yes" if str(code).strip() == "1" else "No"
 
 
 def _link_text(html: Any) -> Any:
@@ -372,7 +409,9 @@ def all_dividends(client: SharesansarClient, years: int | None = None) -> list[d
 
     years: only the latest N fiscal years (None = all the site has).
     """
-    year_ids = sorted(dividend_years(client), reverse=True)
+    # ids are not chronological (5 = 2074/2075, 23 = 2063/2064), so order by the fiscal-year label
+    fy = dividend_years(client)
+    year_ids = sorted(fy, key=lambda i: fy[i], reverse=True)
     if years:
         year_ids = year_ids[:years]
     rows = []
@@ -400,9 +439,10 @@ def mergers(client: SharesansarClient) -> list[dict[str, Any]]:
                 "new_company_name": comp.get("companyname"),
                 "new_company_id": rec.get("companyid"),
                 "sector": _link_text(sector.get("sectorname")),
-                "action": MERGER_ACTION.get(str(rec.get("action")), rec.get("action")),
+                "action": _merger_action(rec.get("action")),
+                "action_code": _blank(rec.get("action")),
                 "swap_ratio": rec.get("swap_ratio"),
-                "trading": YES_NO.get(str(rec.get("tradingid")), rec.get("tradingid")),
+                "trading": _yes_no(rec.get("tradingid")),
                 "mou_date": rec.get("mou_date"),
                 "final_approval_date": rec.get("final_date"),
                 "joint_transaction_date": rec.get("transaction_date"),
@@ -414,11 +454,13 @@ def merged_companies(client: SharesansarClient) -> list[dict[str, Any]]:
     """Companies that no longer trade because they merged into another one."""
     rows = []
     for rec in _datatable(client, "/merged-companies", {}, method="GET"):
-        detail = rec.get("companyDetail") or rec.get("company_detail") or {}
+        # the site sends both company_detail and companyDetail; either may hold the date
+        op_date = next((d.get("operationdate") for d in (rec.get("company_detail"), rec.get("companyDetail"))
+                        if isinstance(d, dict) and _blank(d.get("operationdate"))), None)
         rows.append({
             "company_id": rec.get("id"),
             "symbol": _link_text(rec.get("symbol")),
             "company_name": _link_text(rec.get("companyname")),
-            "operation_date": detail.get("operationdate") or None,
+            "operation_date": op_date,
         })
     return rows

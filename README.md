@@ -55,9 +55,16 @@ Events are applied oldest first to every price before their book-close date.
 
 - `robots.txt` is checked before every request (it currently allows everything).
 - One request every 2 seconds by default (`--delay`), with retry and backoff on errors.
-- The site's tables page at 50 rows, so a full `all` run is roughly 20 requests for
-  the company list plus one per company (~10–15 minutes for ~330 companies at 2 s).
-  Price history adds one request per 50 days per company.
+- List endpoints are fetched whole in one request (`length=-1`). Walking them 50 rows at a
+  time can silently repeat one row and drop another at a page boundary, because the site
+  sorts on non-unique columns. 50-row paging is only used as a fallback or for `--history N`.
+  A full `all` run is about one request per company (~10–15 minutes for ~330 companies at 2 s).
+
+### Known quirks in the site's own data
+
+- NABIL price history lists 2012-10-01 twice; de-duplicate on date before computing returns.
+- A few dividend rows have bonus + cash ≠ total, and some symbol/year pairs appear twice.
+- Many debentures, bonds and mutual funds have no promoter/public split or listing date.
 
 ### Using it from Python
 
