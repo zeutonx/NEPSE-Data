@@ -161,13 +161,26 @@ def update_gold_silver(client: SharesansarClient, out: Path) -> list[dict[str, A
 
 
 # --------------------------------------------------------------------------- forex (NRB)
-def nrb_forex(client: SharesansarClient, start: str, end: str) -> list[dict[str, Any]]:
-    """Nepal Rastra Bank buy/sell rates for every currency, every day in [start, end]."""
-    rows = []
+NRB_WINDOW_DAYS = 90  # < per_page, so a window normally fits on one page
+
+
+def nrb_forex(client: SharesansarClient, start: str, end: str,
+              prev: dict[Any, float] | None = None) -> list[dict[str, Any]]:
+    """Nepal Rastra Bank buy/sell rates for every currency, every day in [start, end].
+
+    NRB's paging is not stable: for some years (e.g. 2020) the pages are unsorted and overlap,
+    so a day can appear on two pages (and could in principle be skipped). Each query therefore
+    covers only NRB_WINDOW_DAYS days, which fits on one 100-entry page.
+
+    NRB also publishes some dates twice with different contents (2026-08-06: one empty entry and
+    one with rates; 2020-02-28/29: a second set ~5% off the surrounding days). One row is kept per
+    (date, currency): see _pick_forex.
+    """
+    candidates: dict[tuple[Any, Any], list[dict[str, Any]]] = {}
     s = dt.date.fromisoformat(start)
     e = dt.date.fromisoformat(end)
     while s <= e:
-        chunk_end = min(dt.date(s.year, 12, 31), e)  # one calendar year per query, then pages of 100 days
+        chunk_end = min(s + dt.timedelta(days=NRB_WINDOW_DAYS - 1), e)
         page = 1
         while True:
             j = client.request("GET", "/api/forex/v1/rates", params={
@@ -178,7 +191,7 @@ def nrb_forex(client: SharesansarClient, start: str, end: str) -> list[dict[str,
                     cur = r.get("currency") or {}
                     unit = cur.get("unit") or 1
                     buy, sell = to_number(str(r.get("buy") or "")), to_number(str(r.get("sell") or ""))
-                    rows.append({
+                    candidates.setdefault((day.get("date"), cur.get("iso3")), []).append({
                         "date": day.get("date"), "currency": cur.get("iso3"), "name": cur.get("name"),
                         "unit": unit, "buy": buy, "sell": sell,
                         "buy_per_unit": round(buy / unit, 6) if isinstance(buy, (int, float)) else None,
@@ -188,9 +201,33 @@ def nrb_forex(client: SharesansarClient, start: str, end: str) -> list[dict[str,
             pages = int(pag.get("pages") or 1)
             if page >= pages:
                 break
+            if page == 1:
+                log.warning("forex %s .. %s spans %d pages; NRB paging may overlap", s, chunk_end, pages)
             page += 1
-        log.info("forex %s .. %s: %d rows so far", s, chunk_end, len(rows))
+        log.info("forex %s .. %s: %d rows so far", s, chunk_end, len(candidates))
         s = chunk_end + dt.timedelta(days=1)
+    return _pick_forex(candidates, prev)
+
+
+def _pick_forex(candidates: dict[tuple[Any, Any], list[dict[str, Any]]],
+                prev: dict[Any, float] | None = None) -> list[dict[str, Any]]:
+    """One row per (date, currency): drop entries without a buy rate (unless that is all there is)
+    and, if the rest disagree, keep the one closest to that currency's previous day."""
+    prev = dict(prev or {})
+    rows = []
+    for (date, cur) in sorted(candidates, key=lambda k: (k[0] or "", k[1] or "")):
+        opts = candidates[(date, cur)]
+        valued = [r for r in opts if isinstance(r["buy_per_unit"], (int, float))] or opts[:1]
+        distinct = {(r["buy"], r["sell"]) for r in valued}
+        best = valued[0]
+        if len(distinct) > 1:
+            if cur in prev:
+                best = min(valued, key=lambda r: abs(r["buy_per_unit"] - prev[cur]))
+            log.warning("forex %s %s: NRB has %d different rates %s; kept buy %s", date, cur, len(distinct),
+                        sorted(distinct), best["buy"])
+        if isinstance(best["buy_per_unit"], (int, float)):
+            prev[cur] = best["buy_per_unit"]
+        rows.append(best)
     return rows
 
 
@@ -207,10 +244,21 @@ def update_forex(out: Path, start: str = "2000-01-01", delay: float = 2.0) -> in
     end = dt.date.today().isoformat()
     new = []
     if start <= end:
+        prev: dict[Any, float] = {}
+        for r in sorted(existing, key=lambda r: r["date"]):  # last known rate per currency
+            v = to_number(str(r.get("buy_per_unit") or ""))
+            if isinstance(v, (int, float)):
+                prev[r["currency"]] = v
         nrb = SharesansarClient(delay=delay, base_url=NRB_URL)
-        new = nrb_forex(nrb, start, end)
+        new = nrb_forex(nrb, start, end, prev)
     seen = {(r["date"], r["currency"]) for r in new}
-    rows = [r for r in existing if (r["date"], r["currency"]) not in seen] + new
+    rows, kept = [], set()
+    for r in existing:  # also clears duplicates left by older versions
+        k = (r["date"], r["currency"])
+        if k not in seen and k not in kept:
+            kept.add(k)
+            rows.append(r)
+    rows += new
     rows.sort(key=lambda r: (r["date"], r["currency"] or ""))
     _write(path, rows, FOREX_COLUMNS)
 

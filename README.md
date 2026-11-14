@@ -43,6 +43,14 @@ data/market/
 - ShareSansar only publishes today's gold/silver rate (FENEGOSIDA), not a history, so each
   run appends today's rate to `gold_silver.csv`. Run `market` once a day to build it up.
 
+### Daily update on GitHub
+
+`.github/workflows/daily-update.yml` runs every day at 18:00 Nepal time (12:15 UTC), and can
+also be started by hand from the Actions tab ("Run workflow"). It runs the tests, then
+`market` and `prices`, and commits `data/market/` and `data/prices/` back to the repository.
+The price datasheet is not part of it: a full run takes ~45 minutes and the combined CSV is
+larger than GitHub's 100 MB file limit.
+
 ### Price datasheet
 
 `datasheet` downloads the full daily price history of every listed company and writes:
