@@ -110,6 +110,17 @@ def test_adjust_bonus_and_right():
     assert cash[1]["adj_close"] == round(550 / 1.1 - 5, 2)
 
 
+def test_adjust_ignores_book_close_after_last_trading_day():
+    # bonus announced, book close still ahead (API, 2026-11-24): prices must stay unadjusted
+    from sharesansar.adjust import adjust_history, corporate_events
+    hist = [{"date": "2026-11-13", "close": 333.0}, {"date": "2026-11-05", "close": 333.7}]
+    divs = [{"book_close_date": "2026-11-24", "bonus_pct": 5.0, "cash_pct": 0.26, "fiscal_year": "2082/2083"},
+            {"book_close_date": "2026-11-06", "bonus_pct": 10.0, "fiscal_year": "2081/2082"}]
+    adj = adjust_history(hist, corporate_events(divs, []))
+    assert adj[0]["adj_close"] == 333.0 and adj[0]["adjustments"] == ""
+    assert adj[1]["adj_close"] == round(333.7 / 1.1, 2) and "2082/2083" not in adj[1]["adjustments"]
+
+
 def test_company_info_placeholders_become_none():
     page = """<h4>Share Registrar: <span>ADB Bond</span></h4>
     <table id="myTableCInfo"><tbody>
@@ -188,3 +199,84 @@ def test_dividend_years_ordered_by_label():
     client.json.return_value = {"recordsTotal": 0, "data": []}
     scrapers.all_dividends(client, years=3)
     assert [c.kwargs["params"]["year"] for c in client.json.call_args_list] == [32, 24, 5]
+
+
+def test_datasheet_build(tmp_path):
+    from sharesansar import datasheet
+    companies = [
+        {"symbol": "NABIL", "company_name": "Nabil Bank Limited", "sector": "Commercial Bank", "listed_shares": 1},
+        {"symbol": "OHL", "company_name": "Oriental Hotels", "sector": "Hotel & Tourism", "listed_shares": 2},
+    ]
+    hist = {16: [{"date": "2026-11-13", "open": 550.0, "high": 550.0, "low": 546.0, "close": 549.0},
+                 {"date": "2026-09-29", "open": 560.0, "high": 570.0, "low": 555.0, "close": 566.0},
+                 {"date": "2026-09-29", "open": 560.0, "high": 570.0, "low": 555.0, "close": 566.0}],
+            17: []}
+    divs = [{"symbol": "NABIL", "book_close_date": "2026-09-30", "bonus_pct": 5.0, "cash_pct": 0, "fiscal_year": "x"}]
+    with mock.patch.object(scrapers, "company_list", return_value=companies), \
+         mock.patch.object(scrapers, "all_dividends", return_value=divs), \
+         mock.patch.object(scrapers, "right_shares", return_value=[]), \
+         mock.patch.object(scrapers, "company_info",
+                           side_effect=lambda c, s: {"company_id": 16 if s == "NABIL" else 17, "paid_up": 100.0}), \
+         mock.patch.object(scrapers, "price_history", side_effect=lambda c, cid: list(hist[cid])):
+        root = datasheet.build(mock.Mock(), tmp_path)
+
+    nabil = datasheet._read_csv(root / "Commercial_Bank" / "NABIL.csv")
+    assert [r["date"] for r in nabil] == ["2026-09-29", "2026-11-13"]  # deduped, oldest first
+    assert nabil[0]["adj_close"] == "539.05" and nabil[1]["adj_close"] == "549.0"
+    assert nabil[0]["sector"] == "Commercial Bank" and nabil[0]["company_name"] == "Nabil Bank Limited"
+    assert (root / "Hotel_and_Tourism" / "OHL.csv").exists()
+    index = datasheet._read_csv(root / "companies.csv")
+    assert [(e["symbol"], e["rows"], e["file"]) for e in index] == [
+        ("NABIL", "2", "Commercial_Bank/NABIL.csv"), ("OHL", "0", "Hotel_and_Tourism/OHL.csv")]
+    assert len(datasheet._read_csv(root / "all_companies_prices.csv")) == 2
+
+    # --resume keeps both files without refetching and must not blank company_id in the index
+    with mock.patch.object(scrapers, "company_list", return_value=companies), \
+         mock.patch.object(scrapers, "all_dividends", return_value=divs), \
+         mock.patch.object(scrapers, "right_shares", return_value=[]), \
+         mock.patch.object(scrapers, "company_info", side_effect=AssertionError("refetched")):
+        datasheet.build(mock.Mock(), tmp_path, resume=True)
+    index = datasheet._read_csv(root / "companies.csv")
+    assert [(e["symbol"], e["company_id"], e["rows"], e["status"]) for e in index] == [
+        ("NABIL", "16", "2", "kept"), ("OHL", "17", "0", "kept")]
+
+
+def test_index_history_sorted_and_deduped():
+    from sharesansar import markets
+    recs = [{"index_id": 12, "open": "2649.60", "high": "2656.23", "low": "2639.67", "current": "2648.89",
+             "per_change": "-0.23", "change_": "-6.32", "turnover": "3054274725.05", "published_date": "2026-11-13"},
+            {"index_id": 12, "open": "173.26", "high": "173.26", "low": "173.26", "current": "173.26",
+             "per_change": "0.00", "change_": "0.00", "turnover": "0.00", "published_date": "1997-07-20"},
+            {"index_id": 12, "open": "173.26", "high": "173.26", "low": "173.26", "current": "173.26",
+             "per_change": "0.00", "change_": "0.00", "turnover": "0.00", "published_date": "1997-07-20"}]
+    client = mock.Mock()
+    client.json.return_value = {"recordsTotal": 3, "data": recs}
+    rows = markets.index_history(client, 12)
+    assert [r["date"] for r in rows] == ["1997-07-20", "2026-11-13"]
+    assert rows[1]["index"] == "NEPSE Index" and rows[1]["close"] == 2648.89 and rows[1]["pct_change"] == -0.23
+
+
+def test_gold_silver_today():
+    from sharesansar import markets
+    html = ('<p>As of <span class="text-org">2026-11-13</span> </p><table><thead><tr><th>Name</th><th>Price(Rs)</th>'
+            '<th>Change(Rs)</th></tr></thead><tbody><tr><td>Fine Gold</td><td> 271,700 </td><td> -12600 </td></tr>'
+            '<tr><td>Silver</td><td> 3,700 </td><td> -155 </td></tr></tbody></table>')
+    client = mock.Mock()
+    client.csrf = "tok"
+    client.request.return_value = mock.Mock(text=html)
+    rows = markets.gold_silver_today(client)
+    assert rows == [{"date": "2026-11-13", "item": "Fine Gold", "price_per_tola": 271700, "change": -12600},
+                    {"date": "2026-11-13", "item": "Silver", "price_per_tola": 3700, "change": -155}]
+
+
+def test_nrb_forex_per_unit():
+    from sharesansar import markets
+    payload = {"data": {"payload": [{"date": "2026-11-01", "rates": [
+        {"currency": {"iso3": "INR", "name": "Indian Rupee", "unit": 100}, "buy": "160.00", "sell": "160.15"},
+        {"currency": {"iso3": "USD", "name": "U.S. Dollar", "unit": 1}, "buy": "151.63", "sell": "152.23"}]}]},
+        "pagination": {"page": 1, "pages": 1}}
+    client = mock.Mock()
+    client.request.return_value = mock.Mock(json=lambda: payload)
+    rows = markets.nrb_forex(client, "2026-11-01", "2026-11-01")
+    assert rows[0]["currency"] == "INR" and rows[0]["buy_per_unit"] == 1.6
+    assert rows[1]["sell_per_unit"] == 152.23
