@@ -51,6 +51,22 @@ also be started by hand from the Actions tab ("Run workflow"). It runs the tests
 The price datasheet is not part of it: a full run takes ~45 minutes and the combined CSV is
 larger than GitHub's 100 MB file limit.
 
+### Separate files
+
+`python -m sharesansar split` breaks the combined files already on disk into separate ones
+(no downloads):
+
+```
+data/market/forex/USD.csv, INR.csv, ...          one file per currency
+data/market/gold_silver/Fine_Gold.csv, ...       one file per item
+data/datasheet/by_sector/Commercial_Bank.csv     the price datasheet, one combined file per sector
+data/datasheet/by_year/2026.csv                  ... and one per calendar year
+```
+
+`market` writes the forex and gold files automatically, and `prices --split` (used by the
+daily workflow) also writes `data/prices/daily/<date>/<Sector>.csv` and appends that day's
+row to `data/prices/by_company/<Sector>/<SYMBOL>.csv`.
+
 ### Price datasheet
 
 `datasheet` downloads the full daily price history of every listed company and writes:

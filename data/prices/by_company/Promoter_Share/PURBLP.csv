@@ -1,0 +1,4 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2017-05-09,PURBLP,Purnima Bikas Bank Limited Promoter Share,Promoter Share,229.0,229.0,229.0,229.0,0.0,30592.0,7005568.0,229.0,229.0,229.0,229.0,
+2017-05-23,PURBLP,Purnima Bikas Bank Limited Promoter Share,Promoter Share,229.0,225.0,221.0,221.0,0.0,8180.0,1824140.0,229.0,225.0,221.0,221.0,
+2017-05-28,PURBLP,Purnima Bikas Bank Limited Promoter Share,Promoter Share,221.0,221.0,221.0,221.0,0.0,22674.0,5010954.0,221.0,221.0,221.0,221.0,

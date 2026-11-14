@@ -1,0 +1,7 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2011-08-16,IMEFIP,IME Financial Institution Promoter Share,Promoter Share,325.0,266.0,261.0,261.0,0.0,5160.0,1359260.0,325.0,266.0,261.0,261.0,
+2011-08-23,IMEFIP,IME Financial Institution Promoter Share,Promoter Share,261.0,256.0,246.0,246.0,0.0,35000.0,8620000.0,261.0,256.0,246.0,246.0,
+2011-09-07,IMEFIP,IME Financial Institution Promoter Share,Promoter Share,246.0,242.0,242.0,242.0,0.0,500.0,121000.0,246.0,242.0,242.0,242.0,
+2011-09-12,IMEFIP,IME Financial Institution Promoter Share,Promoter Share,242.0,246.0,246.0,246.0,0.0,25000.0,6150000.0,242.0,246.0,246.0,246.0,
+2011-12-21,IMEFIP,IME Financial Institution Promoter Share,Promoter Share,246.0,216.0,212.0,212.0,0.0,1800.0,384000.0,246.0,216.0,212.0,212.0,
+2011-12-26,IMEFIP,IME Financial Institution Promoter Share,Promoter Share,212.0,208.0,208.0,208.0,0.0,360000.0,74880000.0,212.0,208.0,208.0,208.0,

@@ -1,0 +1,9 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2023-12-07,NRICP,Nepal Reinsurance Company Limited Promoter Share,Promoter Share,300.0,300.0,270.0,278.0,0.0,2979424.0,868378100.0,300.0,300.0,270.0,278.0,
+2024-01-11,NRICP,Nepal Reinsurance Company Limited Promoter Share,Promoter Share,280.0,280.0,280.0,280.0,0.72,700000.0,196000000.0,280.0,280.0,280.0,280.0,
+2024-01-14,NRICP,Nepal Reinsurance Company Limited Promoter Share,Promoter Share,280.0,280.0,280.0,280.0,0.0,1274424.0,356838720.0,280.0,280.0,280.0,280.0,
+2024-01-22,NRICP,Nepal Reinsurance Company Limited Promoter Share,Promoter Share,280.0,280.0,280.0,280.0,0.0,5000.0,1400000.0,280.0,280.0,280.0,280.0,
+2024-03-07,NRICP,Nepal Reinsurance Company Limited Promoter Share,Promoter Share,281.0,281.0,281.0,281.0,0.36,2000000.0,562000000.0,281.0,281.0,281.0,281.0,
+2024-04-07,NRICP,Nepal Reinsurance Company Limited Promoter Share,Promoter Share,280.0,280.0,280.0,280.0,-0.36,3400000.0,952000000.0,280.0,280.0,280.0,280.0,
+2024-04-24,NRICP,Nepal Reinsurance Company Limited Promoter Share,Promoter Share,280.0,280.25,280.0,280.25,0.09,2260880.0,633093258.5,280.0,280.25,280.0,280.25,
+2024-05-13,NRICP,Nepal Reinsurance Company Limited Promoter Share,Promoter Share,280.0,280.0,280.0,280.0,-0.09,1100000.0,308000000.0,280.0,280.0,280.0,280.0,

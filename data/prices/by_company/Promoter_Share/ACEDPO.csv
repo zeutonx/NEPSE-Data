@@ -1,0 +1,9 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2011-06-06,ACEDPO,ACE Development Bank Limited Promoter Share,Promoter Share,191.0,188.0,188.0,188.0,0.0,82438.0,15498344.0,191.0,188.0,188.0,188.0,
+2012-01-01,ACEDPO,ACE Development Bank Limited Promoter Share,Promoter Share,188.0,114.0,114.0,114.0,0.0,10000.0,1140000.0,188.0,114.0,114.0,114.0,
+2013-11-14,ACEDPO,ACE Development Bank Limited Promoter Share,Promoter Share,114.0,114.0,114.0,114.0,0.0,15637.0,1782618.0,114.0,114.0,114.0,114.0,
+2014-05-12,ACEDPO,ACE Development Bank Limited Promoter Share,Promoter Share,114.0,0.0,0.0,114.0,0.0,31960.0,2339472.0,114.0,0.0,0.0,114.0,
+2015-03-12,ACEDPO,ACE Development Bank Limited Promoter Share,Promoter Share,140.0,138.0,138.0,138.0,0.0,12000.0,1656000.0,140.0,138.0,138.0,138.0,
+2015-04-09,ACEDPO,ACE Development Bank Limited Promoter Share,Promoter Share,138.0,132.0,132.0,132.0,0.0,50000.0,6600000.0,138.0,132.0,132.0,132.0,
+2015-11-24,ACEDPO,ACE Development Bank Limited Promoter Share,Promoter Share,130.0,130.0,130.0,130.0,0.0,98851.0,12850630.0,130.0,130.0,130.0,130.0,
+2016-02-03,ACEDPO,ACE Development Bank Limited Promoter Share,Promoter Share,130.0,128.0,128.0,128.0,0.0,3800.0,486400.0,130.0,128.0,128.0,128.0,

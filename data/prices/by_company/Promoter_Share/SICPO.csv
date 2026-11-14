@@ -1,0 +1,4 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2014-10-19,SICPO,Sagarmatha Insurance Company Limited Promoter Share,Promoter Share,635.0,636.0,636.0,636.0,0.0,500.0,318000.0,635.0,636.0,636.0,636.0,
+2021-10-17,SICPO,Sagarmatha Insurance Company Limited Promoter Share,Promoter Share,737.0,737.0,737.0,737.0,0.0,44847.0,33052239.0,737.0,737.0,737.0,737.0,
+2021-11-18,SICPO,Sagarmatha Insurance Company Limited Promoter Share,Promoter Share,723.0,723.0,709.0,709.0,-3.8,34647.0,24777173.0,723.0,723.0,709.0,709.0,

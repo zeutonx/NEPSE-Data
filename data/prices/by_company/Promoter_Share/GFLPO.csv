@@ -1,0 +1,9 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2011-07-31,GFLPO,General Finance company Limited Promoter Share,Promoter Share,108.0,106.0,106.0,106.0,0.0,44835.0,4752510.0,108.0,106.0,106.0,106.0,
+2011-12-20,GFLPO,General Finance company Limited Promoter Share,Promoter Share,106.0,106.0,106.0,106.0,0.0,8648.0,916688.0,106.0,106.0,106.0,106.0,
+2011-12-27,GFLPO,General Finance company Limited Promoter Share,Promoter Share,106.0,106.0,106.0,106.0,0.0,19200.0,2035200.0,106.0,106.0,106.0,106.0,
+2012-02-07,GFLPO,General Finance company Limited Promoter Share,Promoter Share,106.0,104.0,104.0,104.0,0.0,15424.0,1604096.0,106.0,104.0,104.0,104.0,
+2016-04-19,GFLPO,General Finance company Limited Promoter Share,Promoter Share,75.0,75.0,75.0,75.0,0.0,82163.0,6162225.0,75.0,75.0,75.0,75.0,
+2016-05-10,GFLPO,General Finance company Limited Promoter Share,Promoter Share,75.0,75.0,75.0,75.0,0.0,78007.0,5850525.0,75.0,75.0,75.0,75.0,
+2016-06-06,GFLPO,General Finance company Limited Promoter Share,Promoter Share,75.0,75.0,75.0,75.0,0.0,51748.0,3881100.0,75.0,75.0,75.0,75.0,
+2017-09-20,GFLPO,General Finance company Limited Promoter Share,Promoter Share,101.0,101.0,101.0,101.0,0.0,33316.0,3364916.0,101.0,101.0,101.0,101.0,

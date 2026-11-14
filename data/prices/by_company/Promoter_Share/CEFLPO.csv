@@ -1,0 +1,13 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2017-05-21,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,105.0,105.0,105.0,105.0,0.0,35000.0,3675000.0,105.0,105.0,105.0,105.0,
+2017-05-22,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,105.0,105.0,105.0,105.0,0.0,30000.0,3150000.0,105.0,105.0,105.0,105.0,
+2017-07-17,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,105.0,103.0,100.0,100.0,0.0,313110.0,31662750.0,105.0,103.0,100.0,100.0,
+2017-07-18,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,82500.0,8250000.0,100.0,100.0,100.0,100.0,
+2018-03-26,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,60000.0,6000000.0,100.0,100.0,100.0,100.0,
+2018-03-27,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,53700.0,5370000.0,100.0,100.0,100.0,100.0,
+2018-10-15,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,101.0,101.0,101.0,101.0,0.0,72800.0,7352800.0,101.0,101.0,101.0,101.0,
+2018-10-28,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,101.0,101.0,101.0,101.0,0.0,43000.0,4343000.0,101.0,101.0,101.0,101.0,
+2018-12-05,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,101.0,101.0,101.0,101.0,0.0,18000.0,1818000.0,101.0,101.0,101.0,101.0,
+2018-12-06,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,101.0,101.0,101.0,101.0,0.0,1000.0,101000.0,101.0,101.0,101.0,101.0,
+2019-06-10,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,-0.99,159334.0,15933400.0,100.0,100.0,100.0,100.0,
+2019-09-01,CEFLPO,City Express Finance Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,40001.0,4000100.0,100.0,100.0,100.0,100.0,

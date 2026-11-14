@@ -1,0 +1,10 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2017-09-11,ODBLPO,Om Development Bank Limited Promoter Share,Promoter Share,235.0,239.0,239.0,239.0,0.0,30000.0,7170000.0,235.0,239.0,239.0,239.0,
+2017-09-12,ODBLPO,Om Development Bank Limited Promoter Share,Promoter Share,239.0,239.0,239.0,239.0,0.0,6649.0,1589111.0,239.0,239.0,239.0,239.0,
+2017-10-15,ODBLPO,Om Development Bank Limited Promoter Share,Promoter Share,239.0,240.0,240.0,240.0,0.0,45329.0,10878960.0,239.0,240.0,240.0,240.0,
+2017-10-25,ODBLPO,Om Development Bank Limited Promoter Share,Promoter Share,240.0,240.0,240.0,240.0,0.0,50397.0,12095280.0,240.0,240.0,240.0,240.0,
+2017-12-19,ODBLPO,Om Development Bank Limited Promoter Share,Promoter Share,240.0,240.0,240.0,240.0,0.0,75000.0,18000000.0,240.0,240.0,240.0,240.0,
+2018-02-11,ODBLPO,Om Development Bank Limited Promoter Share,Promoter Share,240.0,240.0,240.0,240.0,0.0,72750.0,17460000.0,240.0,240.0,240.0,240.0,
+2018-02-20,ODBLPO,Om Development Bank Limited Promoter Share,Promoter Share,240.0,240.0,240.0,240.0,0.0,89634.0,21512160.0,240.0,240.0,240.0,240.0,
+2018-08-12,ODBLPO,Om Development Bank Limited Promoter Share,Promoter Share,112.0,114.0,112.0,114.0,1.79,6800.0,773600.0,112.0,114.0,112.0,114.0,
+2018-08-19,ODBLPO,Om Development Bank Limited Promoter Share,Promoter Share,114.0,114.0,114.0,114.0,0.0,45704.0,5210256.0,114.0,114.0,114.0,114.0,

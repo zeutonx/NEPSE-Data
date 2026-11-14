@@ -1,0 +1,54 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2026-08-13,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,300.0,345.0,300.0,345.0,15.0,70.0,22824.0,272.73,313.64,272.73,313.64,10.0% bonus (2082/2083)
+2026-08-14,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,348.4,396.7,348.4,396.7,14.99,60.0,22458.0,316.73,360.64,316.73,360.64,10.0% bonus (2082/2083)
+2026-08-17,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,404.2,456.2,404.2,456.2,15.0,160.0,71116.0,367.45,414.73,367.45,414.73,10.0% bonus (2082/2083)
+2026-08-18,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,456.5,524.6,456.5,524.6,14.99,150.0,76691.0,415.0,476.91,415.0,476.91,10.0% bonus (2082/2083)
+2026-08-19,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,537.7,603.2,537.7,603.2,14.98,190.0,112319.0,488.82,548.36,488.82,548.36,10.0% bonus (2082/2083)
+2026-08-20,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,621.2,693.6,621.2,693.6,14.99,180.0,123089.0,564.73,630.55,564.73,630.55,10.0% bonus (2082/2083)
+2026-08-21,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,714.4,797.6,714.4,797.6,14.99,400.0,317021.0,649.45,725.09,649.45,725.09,10.0% bonus (2082/2083)
+2026-08-24,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,837.0,917.2,837.0,917.2,14.99,960.0,877235.0,760.91,833.82,760.91,833.82,10.0% bonus (2082/2083)
+2026-08-25,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,917.0,1054.7,917.0,1054.7,14.99,1420.0,1493620.0,833.64,958.82,833.64,958.82,10.0% bonus (2082/2083)
+2026-08-26,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1055.0,1212.9,1055.0,1212.9,15.0,1820.0,2202837.0,959.09,1102.64,959.09,1102.64,10.0% bonus (2082/2083)
+2026-08-27,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1273.5,1394.8,1273.5,1394.8,15.0,4690.0,6535458.0,1157.73,1268.0,1157.73,1268.0,10.0% bonus (2082/2083)
+2026-08-31,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1464.5,1604.0,1276.0,1276.0,-8.52,115467.0,159195100.8,1331.36,1458.18,1160.0,1160.0,10.0% bonus (2082/2083)
+2026-09-01,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1250.0,1340.0,1238.0,1253.0,-1.8,51350.0,64852198.5,1136.36,1218.18,1125.45,1139.09,10.0% bonus (2082/2083)
+2026-09-02,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1238.0,1270.0,1221.2,1230.0,-1.84,26980.0,33440363.0,1125.45,1154.55,1110.18,1118.18,10.0% bonus (2082/2083)
+2026-09-03,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1220.0,1228.0,1175.0,1210.0,-1.63,34865.0,42008341.4,1109.09,1116.36,1068.18,1100.0,10.0% bonus (2082/2083)
+2026-09-07,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1204.8,1255.0,1186.5,1245.0,2.89,24421.0,29957802.5,1095.27,1140.91,1078.64,1131.82,10.0% bonus (2082/2083)
+2026-09-09,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1245.0,1275.0,1226.0,1240.0,-0.4,22815.0,28484407.6,1131.82,1159.09,1114.55,1127.27,10.0% bonus (2082/2083)
+2026-09-10,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1180.0,1277.0,1180.0,1268.0,2.26,41352.0,51905553.5,1072.73,1160.91,1072.73,1152.73,10.0% bonus (2082/2083)
+2026-09-11,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1204.6,1375.0,1204.6,1370.0,8.04,53992.0,71141539.3,1095.09,1250.0,1095.09,1245.45,10.0% bonus (2082/2083)
+2026-09-14,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1400.0,1498.0,1370.0,1444.0,5.4,43535.0,61539747.3,1272.73,1361.82,1245.45,1312.73,10.0% bonus (2082/2083)
+2026-09-15,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1487.3,1516.1,1370.0,1420.0,-1.66,36823.0,51974282.4,1352.09,1378.27,1245.45,1290.91,10.0% bonus (2082/2083)
+2026-09-16,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1389.0,1410.0,1365.0,1400.0,-1.41,21458.0,29711090.2,1262.73,1281.82,1240.91,1272.73,10.0% bonus (2082/2083)
+2026-09-17,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1400.0,1469.8,1361.0,1389.8,-0.73,20802.0,28900855.0,1272.73,1336.18,1237.27,1263.45,10.0% bonus (2082/2083)
+2026-09-18,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1449.9,1449.9,1366.0,1387.0,-0.2,14961.0,20662737.2,1318.09,1318.09,1241.82,1260.91,10.0% bonus (2082/2083)
+2026-09-22,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1366.0,1398.0,1350.0,1357.3,-2.14,20495.0,27966138.7,1241.82,1270.91,1227.27,1233.91,10.0% bonus (2082/2083)
+2026-09-23,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1357.0,1369.0,1309.0,1333.0,-1.79,25003.0,33392618.4,1233.64,1244.55,1190.0,1211.82,10.0% bonus (2082/2083)
+2026-09-24,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1333.0,1360.0,1313.2,1348.9,1.19,20286.0,27121535.3,1211.82,1236.36,1193.82,1226.27,10.0% bonus (2082/2083)
+2026-09-28,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1338.1,1359.5,1327.0,1335.0,-1.03,19812.0,26568898.7,1216.45,1235.91,1206.36,1213.64,10.0% bonus (2082/2083)
+2026-09-29,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1200.0,1290.0,1200.0,1290.0,6.29,21790.0,27382939.7,1200.0,1290.0,1200.0,1290.0,
+2026-09-30,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1225.5,1328.7,1225.5,1300.0,0.78,13758.0,17770710.1,1225.5,1328.7,1225.5,1300.0,
+2026-10-01,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1280.0,1317.0,1226.0,1279.0,-1.62,42121.0,52655040.7,1280.0,1317.0,1226.0,1279.0,
+2026-10-02,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1240.0,1307.0,1210.1,1226.0,-4.14,12113.0,14938917.6,1240.0,1307.0,1210.1,1226.0,
+2026-10-05,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1262.0,1262.0,1150.0,1195.0,-2.53,13518.0,16021606.5,1262.0,1262.0,1150.0,1195.0,
+2026-10-06,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1195.0,1195.0,1130.0,1136.0,-4.94,8889.0,10299544.2,1195.0,1195.0,1130.0,1136.0,
+2026-10-07,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1130.0,1158.0,1115.1,1158.0,1.94,5601.0,6390614.7,1130.0,1158.0,1115.1,1158.0,
+2026-10-08,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1100.1,1178.9,1100.1,1168.8,0.93,4279.0,4930497.5,1100.1,1178.9,1100.1,1168.8,
+2026-10-09,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1131.0,1199.0,1131.0,1189.9,1.81,10604.0,12335793.5,1131.0,1199.0,1131.0,1189.9,
+2026-10-12,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1161.0,1189.8,1160.1,1161.0,-2.43,11068.0,12969332.9,1161.0,1189.8,1160.1,1161.0,
+2026-10-13,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1141.0,1161.0,1131.0,1131.0,-2.58,6825.0,7784647.3,1141.0,1161.0,1131.0,1131.0,
+2026-10-14,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1121.0,1139.0,1107.2,1131.0,0.0,8189.0,9185935.7,1121.0,1139.0,1107.2,1131.0,
+2026-10-15,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1116.0,1139.8,1100.0,1129.0,-0.18,11946.0,13285368.1,1116.0,1139.8,1100.0,1129.0,
+2026-10-16,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1146.0,1146.0,1109.0,1129.6,0.05,11697.0,13152815.9,1146.0,1146.0,1109.0,1129.6,
+2026-10-26,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1129.0,1141.0,1076.0,1140.0,0.92,4369.0,4914425.3,1129.0,1141.0,1076.0,1140.0,
+2026-10-27,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1100.0,1158.6,1100.0,1129.9,-0.89,6968.0,7851015.0,1100.0,1158.6,1100.0,1129.9,
+2026-10-28,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1120.0,1175.0,1112.0,1164.8,3.09,10125.0,11609161.6,1120.0,1175.0,1112.0,1164.8,
+2026-10-29,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1164.0,1169.0,1122.1,1144.0,-1.79,13466.0,15283797.8,1164.0,1169.0,1122.1,1144.0,
+2026-10-30,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1123.0,1176.9,1122.0,1140.0,-0.35,23220.0,26616819.8,1123.0,1176.9,1122.0,1140.0,
+2026-11-02,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1197.0,1197.0,1110.0,1137.8,-0.19,7200.0,8102287.0,1197.0,1197.0,1110.0,1137.8,
+2026-11-03,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1100.0,1139.9,1100.0,1130.0,-0.69,12653.0,14134510.4,1100.0,1139.9,1100.0,1130.0,
+2026-11-04,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1100.0,1164.8,1100.0,1128.0,-0.18,13697.0,15419449.5,1100.0,1164.8,1100.0,1128.0,
+2026-11-05,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1111.0,1125.0,1070.0,1093.9,-3.02,17790.0,19347354.9,1111.0,1125.0,1070.0,1093.9,
+2026-11-06,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1071.0,1104.6,1050.0,1078.9,-1.37,11783.0,12512035.2,1071.0,1104.6,1050.0,1078.9,
+2026-11-13,SAPIL,Sarvottam Paints Industries Limited,Manufacturing and Processing,1051.0,1070.0,1020.8,1025.5,-4.95,6797.0,6999730.9,1051.0,1070.0,1020.8,1025.5,

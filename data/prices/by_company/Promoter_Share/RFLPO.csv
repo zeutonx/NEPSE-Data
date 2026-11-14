@@ -1,0 +1,10 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2013-06-20,RFLPO,Reliable Finance Company Limited Promoter Share,Promoter Share,101.0,101.0,101.0,101.0,0.0,4838.0,488638.0,101.0,101.0,101.0,101.0,
+2013-06-23,RFLPO,Reliable Finance Company Limited Promoter Share,Promoter Share,101.0,101.0,101.0,101.0,0.0,130835.0,13214335.0,101.0,101.0,101.0,101.0,
+2015-01-11,RFLPO,Reliable Finance Company Limited Promoter Share,Promoter Share,102.0,102.0,100.0,100.0,0.0,25416.0,2582556.0,102.0,102.0,100.0,100.0,
+2015-02-18,RFLPO,Reliable Finance Company Limited Promoter Share,Promoter Share,100.0,102.0,102.0,102.0,0.0,29384.0,2997168.0,100.0,102.0,102.0,102.0,
+2015-02-26,RFLPO,Reliable Finance Company Limited Promoter Share,Promoter Share,102.0,102.0,102.0,102.0,0.0,7000.0,714000.0,102.0,102.0,102.0,102.0,
+2015-04-02,RFLPO,Reliable Finance Company Limited Promoter Share,Promoter Share,102.0,102.0,102.0,102.0,0.0,20000.0,2040000.0,102.0,102.0,102.0,102.0,
+2016-05-24,RFLPO,Reliable Finance Company Limited Promoter Share,Promoter Share,200.0,200.0,200.0,200.0,0.0,296050.0,59210000.0,200.0,200.0,200.0,200.0,
+2016-06-20,RFLPO,Reliable Finance Company Limited Promoter Share,Promoter Share,200.0,200.0,196.0,200.0,0.0,70220.0,13845983.0,200.0,200.0,196.0,200.0,
+2016-08-11,RFLPO,Reliable Finance Company Limited Promoter Share,Promoter Share,200.0,200.0,200.0,200.0,0.0,52384.0,10476800.0,200.0,200.0,200.0,200.0,

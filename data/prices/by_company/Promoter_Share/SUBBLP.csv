@@ -1,0 +1,6 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2013-07-08,SUBBLP,Subbecha Bikas Bank Limited Promoter Share,Promoter Share,0.0,100.0,100.0,100.0,0.0,4400.0,440000.0,0.0,100.0,100.0,100.0,
+2014-01-12,SUBBLP,Subbecha Bikas Bank Limited Promoter Share,Promoter Share,100.0,102.0,102.0,102.0,0.0,8598.0,876996.0,100.0,102.0,102.0,102.0,
+2014-11-16,SUBBLP,Subbecha Bikas Bank Limited Promoter Share,Promoter Share,102.0,100.0,100.0,100.0,0.0,861.0,86100.0,102.0,100.0,100.0,100.0,
+2015-01-01,SUBBLP,Subbecha Bikas Bank Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,3030.0,303000.0,100.0,100.0,100.0,100.0,
+2015-11-16,SUBBLP,Subbecha Bikas Bank Limited Promoter Share,Promoter Share,100.0,102.0,102.0,102.0,0.0,2500.0,255000.0,100.0,102.0,102.0,102.0,

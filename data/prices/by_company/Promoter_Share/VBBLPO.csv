@@ -1,0 +1,5 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2014-11-23,VBBLPO,Vibor Bikas Bank Limited Promoter Share,Promoter Share,0.0,102.0,102.0,102.0,0.0,11000.0,1122000.0,0.0,102.0,102.0,102.0,
+2015-02-10,VBBLPO,Vibor Bikas Bank Limited Promoter Share,Promoter Share,102.0,102.0,102.0,102.0,0.0,48732.0,4970664.0,102.0,102.0,102.0,102.0,
+2015-04-12,VBBLPO,Vibor Bikas Bank Limited Promoter Share,Promoter Share,102.0,102.0,102.0,102.0,0.0,15435.0,1574370.0,102.0,102.0,102.0,102.0,
+2015-08-25,VBBLPO,Vibor Bikas Bank Limited Promoter Share,Promoter Share,102.0,102.0,102.0,102.0,0.0,5000.0,510000.0,102.0,102.0,102.0,102.0,

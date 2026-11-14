@@ -1,0 +1,4 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2013-06-23,SFLPO,Siddhartha Finance Limited Promoter share,Promoter Share,0.0,102.0,102.0,102.0,0.0,971.0,99042.0,0.0,102.0,102.0,102.0,
+2013-07-01,SFLPO,Siddhartha Finance Limited Promoter share,Promoter Share,102.0,102.0,102.0,102.0,0.0,1000.0,102000.0,102.0,102.0,102.0,102.0,
+2015-09-10,SFLPO,Siddhartha Finance Limited Promoter share,Promoter Share,100.0,100.0,100.0,100.0,0.0,971.0,97100.0,100.0,100.0,100.0,100.0,

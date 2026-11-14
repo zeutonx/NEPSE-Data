@@ -1,0 +1,11 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2013-09-01,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,100.0,0.0,0.0,220.0,0.0,2914012.0,757643136.0,100.0,0.0,0.0,220.0,
+2014-01-26,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,100.0,0.0,0.0,100.0,0.0,2767500.0,719550016.0,100.0,0.0,0.0,100.0,
+2014-05-22,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,220.0,0.0,0.0,220.0,0.0,694331.0,180526064.0,220.0,0.0,0.0,220.0,
+2019-03-26,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,120.0,120.0,120.0,120.0,-45.45,131929.0,15831480.0,120.0,120.0,120.0,120.0,
+2019-09-03,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,118.0,118.0,118.0,118.0,-1.67,485000.0,57230000.0,118.0,118.0,118.0,118.0,
+2019-10-01,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,125.0,125.0,125.0,125.0,5.93,561000.0,70125000.0,125.0,125.0,125.0,125.0,
+2019-12-11,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,116.0,116.0,114.0,114.0,-8.8,561428.0,64161648.0,116.0,116.0,114.0,114.0,
+2020-07-27,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,116.0,116.0,116.0,116.0,1.75,105118.0,12193700.0,116.0,116.0,116.0,116.0,
+2020-07-28,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,116.0,116.0,116.0,116.0,0.0,105118.0,12193700.0,116.0,116.0,116.0,116.0,
+2020-07-29,NBBPO,Nepal Bangladesh Bank Promoter Share,Promoter Share,116.0,116.0,116.0,116.0,0.0,105018.0,12182088.0,116.0,116.0,116.0,116.0,

@@ -1,0 +1,4 @@
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
+2016-05-22,SAFLPO,Sagarmatha Finance Limited Promoter Share,Promoter Share,100.0,100.0,100.0,100.0,0.0,4774.0,477400.0,100.0,100.0,100.0,100.0,
+2016-08-31,SAFLPO,Sagarmatha Finance Limited Promoter Share,Promoter Share,275.0,275.0,275.0,275.0,0.0,55771.0,15337025.0,275.0,275.0,275.0,275.0,
+2016-12-07,SAFLPO,Sagarmatha Finance Limited Promoter Share,Promoter Share,275.0,275.0,275.0,275.0,0.0,36916.0,10151900.0,275.0,275.0,275.0,275.0,
