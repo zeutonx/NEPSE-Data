@@ -1,4 +1,7 @@
-data/
+data/*
+!data/market/
+!data/prices/
 __pycache__/
 *.pyc
 .venv/
+*.csv.tmp
