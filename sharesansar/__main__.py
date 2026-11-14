@@ -11,6 +11,7 @@ Examples
   python -m sharesansar corporate-actions           # mergers, merged cos., right issues, dividends
   python -m sharesansar company NICA --adjusted     # bonus/right-adjusted price history
   python -m sharesansar datasheet                   # full price history, one CSV per company, by sector
+  python -m sharesansar market                      # NEPSE index + sub-indices, gold/silver, NRB forex
 
 Output goes to ./data/ as CSV and JSON (change with --out).
 """
@@ -21,7 +22,7 @@ import logging
 import sys
 from pathlib import Path
 
-from . import adjust, datasheet, scrapers
+from . import adjust, datasheet, markets, scrapers
 from .client import SharesansarClient
 from .output import write
 
@@ -67,6 +68,13 @@ def main(argv: list[str] | None = None) -> int:
     sd.add_argument("--resume", action="store_true", help="keep company CSVs that already exist")
     sd.add_argument("--max-companies", type=int, help="limit number of companies (for testing)")
 
+    sm = sub.add_parser("market", help="NEPSE index and sub-indices history, gold/silver, NRB forex rates")
+    sm.add_argument("--no-indices", action="store_true")
+    sm.add_argument("--no-gold", action="store_true")
+    sm.add_argument("--no-forex", action="store_true")
+    sm.add_argument("--forex-from", default="2000-01-01",
+                    help="first date for NRB forex on the first run (later runs continue from the last date)")
+
     sa = sub.add_parser("all", help="companies + latest prices + every company profile")
     sa.add_argument("--history", type=int, default=None, metavar="DAYS",
                     help="also fetch the last DAYS of price history for each company (0 = all)")
@@ -102,6 +110,14 @@ def main(argv: list[str] | None = None) -> int:
     elif a.cmd == "datasheet":
         datasheet.build(client, out, sectors=a.sector, symbols=a.symbols, adjusted=not a.no_adjusted,
                         resume=a.resume, max_companies=a.max_companies)
+
+    elif a.cmd == "market":
+        if not a.no_indices:
+            markets.all_indices(client, out)
+        if not a.no_gold:
+            markets.update_gold_silver(client, out)
+        if not a.no_forex:
+            markets.update_forex(out, start=a.forex_from, delay=a.delay)
 
     elif a.cmd == "corporate-actions":
         _corporate_actions(client, out, a.format, a.dividend_years)

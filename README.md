@@ -20,6 +20,29 @@ python -m sharesansar company NICA --adjusted --history 500   # bonus/right-adju
 python -m sharesansar datasheet                 # price datasheet: one CSV per company, by sector
 ```
 
+### Market data: indices, gold/silver, forex
+
+```bash
+python -m sharesansar market                    # all three
+python -m sharesansar market --no-forex         # skip one
+```
+
+```
+data/market/
+  indices/NEPSE_Index.csv, Sensitive_Index.csv, Banking_SubIndex.csv, ...   (18 indices, since 1997)
+  indices_all.csv            every index, long format: date, index, open, high, low, close, change, pct_change, turnover
+  indices_close_wide.csv     date x index closing values
+  gold_silver.csv            date, item (Fine Gold / Tejabi Gold / Silver), price_per_tola, change
+  forex.csv                  NRB rates: date, currency, name, unit, buy, sell, buy_per_unit, sell_per_unit
+  forex_wide.csv             date x currency, buy rate per 1 unit
+```
+
+- Indices come from ShareSansar's index history (one request per index).
+- Forex comes from the Nepal Rastra Bank's official rates API (daily since 2000). Later
+  runs continue from the last date in `forex.csv`.
+- ShareSansar only publishes today's gold/silver rate (FENEGOSIDA), not a history, so each
+  run appends today's rate to `gold_silver.csv`. Run `market` once a day to build it up.
+
 ### Price datasheet
 
 `datasheet` downloads the full daily price history of every listed company and writes:

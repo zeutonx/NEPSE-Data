@@ -28,7 +28,8 @@ class RobotsDisallowed(Exception):
 
 
 class SharesansarClient:
-    def __init__(self, delay: float = 2.0, retries: int = 3, timeout: float = 30.0):
+    def __init__(self, delay: float = 2.0, retries: int = 3, timeout: float = 30.0, base_url: str = BASE_URL):
+        self.base_url = base_url.rstrip("/")
         self.delay = delay
         self.retries = retries
         self.timeout = timeout
@@ -42,9 +43,9 @@ class SharesansarClient:
             }
         )
         self.robots = urllib.robotparser.RobotFileParser()
-        self.robots.set_url(f"{BASE_URL}/robots.txt")
+        self.robots.set_url(f"{self.base_url}/robots.txt")
         try:
-            resp = self._raw("GET", f"{BASE_URL}/robots.txt")
+            resp = self._raw("GET", f"{self.base_url}/robots.txt")
             self.robots.parse(resp.text.splitlines())
         except requests.RequestException as exc:  # be conservative but usable
             log.warning("could not read robots.txt (%s); assuming allowed", exc)
@@ -76,7 +77,7 @@ class SharesansarClient:
         raise last_exc
 
     def request(self, method: str, path: str, ajax: bool = False, **kw: Any) -> requests.Response:
-        url = path if path.startswith("http") else f"{BASE_URL}{path}"
+        url = path if path.startswith("http") else f"{self.base_url}{path}"
         if not self.robots.can_fetch(USER_AGENT, url):
             raise RobotsDisallowed(url)
         headers = kw.pop("headers", {})
