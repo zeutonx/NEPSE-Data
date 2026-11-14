@@ -106,3 +106,31 @@ def test_adjust_bonus_and_right():
     assert adj[2]["adj_close"] == round(((600 + 50) / 1.5) / 1.1, 2)  # right first, then bonus
     cash = adjust_history(hist, corporate_events(divs, [], include_cash=True))
     assert cash[1]["adj_close"] == round(550 / 1.1 - 5, 2)
+
+
+def test_company_info_placeholders_become_none():
+    page = """<h4>Share Registrar: <span>ADB Bond</span></h4>
+    <table id="myTableCInfo"><tbody>
+    <tr><td>Name</td><td>ADB Bond</td></tr><tr><td>Listed Shares</td><td> - </td></tr>
+    <tr><td>Email</td><td> - </td></tr><tr><td>Website Link</td><td><a href="//"></a></td></tr>
+    </tbody></table>"""
+    client = mock.Mock()
+    client.soup.return_value = BeautifulSoup(page, "lxml")
+    info = scrapers.company_info(client, "adblb")
+    assert info["listed_shares"] is None and info["email"] is None
+    assert info["website_link"] is None and info["share_registrar"] is None
+
+    client.soup.return_value = BeautifulSoup(
+        '<table id="myTableCInfo"><tr><td>Website Link</td><td><a href="//http://www.nicasiabank.com/"></a></td></tr></table>',
+        "lxml")
+    assert scrapers.company_info(client, "nica")["website_link"] == "http://www.nicasiabank.com/"
+
+
+def test_dividend_row_dates():
+    row = scrapers._dividend_row({"bonus_share": "", "cash_dividend": "10.8", "total_dividend": "10.8",
+                                  "announcement_date": "2026-09-07", "distribution_date": "",
+                                  "bookclose_date": "2026-09-30 [Closed]", "bonus_listing_date": "-",
+                                  "year": "2082/2083"})
+    assert row["book_close_date"] == "2026-09-30" and row["book_closed"] is True
+    assert row["distribution_date"] is None and row["bonus_listing_date"] is None
+    assert row["bonus_pct"] == 0.0 and row["cash_pct"] == 10.8

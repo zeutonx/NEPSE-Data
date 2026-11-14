@@ -47,6 +47,14 @@ SECTORS: dict[int, str] = {
 }
 
 _TAG_RE = re.compile(r"<[^>]+>")
+_PLACEHOLDERS = ("", "-", "--", "N/A", "n/a")
+
+
+def _blank(value: Any) -> Any:
+    """Map the site's empty placeholders ('', '-', ...) to None; leave everything else alone."""
+    if isinstance(value, str) and value.strip() in _PLACEHOLDERS:
+        return None
+    return value
 
 
 def _strip_html(value: Any) -> Any:
@@ -62,7 +70,7 @@ def _clean_record(rec: dict[str, Any], keep_text: tuple[str, ...] = ()) -> dict[
     for k, v in rec.items():
         if k == "DT_Row_Index":
             continue
-        v = _strip_html(v)
+        v = _blank(_strip_html(v))
         if isinstance(v, str) and k not in keep_text:
             v = to_number(v)
         out[k] = v
@@ -195,15 +203,20 @@ def company_info(client: SharesansarClient, symbol: str) -> dict[str, Any]:
         pairs = label_value_pairs(table)
         link = table.find("a", href=True)
         if link:
-            href = link["href"]
-            pairs["website_link"] = ("https:" + href) if href.startswith("//") else href
+            href = re.sub(r"^(https?:)?//(?=https?://)", "", link["href"].strip())  # '//http://x' -> 'http://x'
+            href = ("https:" + href) if href.startswith("//") else href
+            # an empty link renders as href="//" -> "https://"
+            pairs["website_link"] = href if re.sub(r"^https?://", "", href).strip("/") else ""
         for k, v in pairs.items():
-            info[k] = _clean_unit(v) if k in ("listed_shares", "paid_up", "total_paid_up_value") else v
+            v = _clean_unit(v) if k in ("listed_shares", "paid_up", "total_paid_up_value") else v
+            info[k] = _blank(v)
 
     for h in soup.find_all(["h4", "h3"]):
         t = cell_text(h)
         if t.startswith("Share Registrar:"):
-            info["share_registrar"] = t.split(":", 1)[1].strip()
+            reg = _blank(t.split(":", 1)[1].strip())
+            # with no registrar on file the site repeats the company name here
+            info["share_registrar"] = None if reg == info.get("name") else reg
 
     text = soup.get_text(" ", strip=True)
     m = re.search(r"52 Weeks? High\s*-\s*Low\s*:?\s*([\d,.]+)\s*-\s*([\d,.]+)", text)
@@ -337,11 +350,11 @@ def _dividend_row(rec: dict[str, Any]) -> dict[str, Any]:
         "bonus_pct": to_number(rec.get("bonus_share") or "") or 0.0,
         "cash_pct": to_number(rec.get("cash_dividend") or "") or 0.0,
         "total_pct": to_number(rec.get("total_dividend") or "") or 0.0,
-        "announcement_date": rec.get("announcement_date") or None,
+        "announcement_date": _blank(rec.get("announcement_date")),
         "book_close_date": bc.split(" ")[0] or None,
         "book_closed": "[Closed]" in bc,
-        "distribution_date": rec.get("distribution_date") or None,
-        "bonus_listing_date": rec.get("bonus_listing_date") or None,
+        "distribution_date": _blank(rec.get("distribution_date")),
+        "bonus_listing_date": _blank(rec.get("bonus_listing_date")),
     }
 
 
