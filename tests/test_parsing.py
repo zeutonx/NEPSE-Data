@@ -280,3 +280,65 @@ def test_nrb_forex_per_unit():
     rows = markets.nrb_forex(client, "2026-11-01", "2026-11-01")
     assert rows[0]["currency"] == "INR" and rows[0]["buy_per_unit"] == 1.6
     assert rows[1]["sell_per_unit"] == 152.23
+
+
+def _nrb_day(date, usd="150.00"):
+    return {"date": date, "rates": [{"currency": {"iso3": "USD", "name": "U.S. Dollar", "unit": 1},
+                                     "buy": usd, "sell": usd}]}
+
+
+def test_nrb_forex_overlapping_pages_and_windows():
+    from sharesansar import markets
+    pages = {1: [_nrb_day("2020-02-23"), _nrb_day("2020-01-01")],
+             2: [_nrb_day("2020-02-23"), _nrb_day("2020-01-02")]}  # NRB repeats a day across pages
+
+    def fake(method, path, params):
+        body = {"data": {"payload": pages[params["page"]] if params["from"] == "2020-01-01" else []},
+                "pagination": {"page": params["page"], "pages": 2 if params["from"] == "2020-01-01" else 1}}
+        return mock.Mock(json=lambda: body)
+
+    client = mock.Mock()
+    client.request.side_effect = fake
+    rows = markets.nrb_forex(client, "2020-01-01", "2020-06-30")
+    assert sorted(r["date"] for r in rows) == ["2020-01-01", "2020-01-02", "2020-02-23"]
+    windows = [(c.kwargs["params"]["from"], c.kwargs["params"]["to"]) for c in client.request.call_args_list
+               if c.kwargs["params"]["page"] == 1]
+    assert windows == [("2020-01-01", "2020-03-30"), ("2020-03-31", "2020-06-28"), ("2020-06-29", "2020-06-30")]
+
+
+def test_update_forex_resumes_and_clears_duplicates(tmp_path, monkeypatch):
+    from sharesansar import markets
+    old = {"date": "2026-11-12", "currency": "USD", "name": "U.S. Dollar", "unit": "1", "buy": "150", "sell": "151",
+           "buy_per_unit": "150", "sell_per_unit": "151"}
+    markets._write(tmp_path / "market" / "forex.csv", [old, old], markets.FOREX_COLUMNS)
+    calls = []
+
+    def fake_fetch(client, start, end, prev=None):
+        assert prev == {"USD": 150.0}
+        calls.append(start)
+        return [{**old, "date": "2026-11-13"}]
+
+    monkeypatch.setattr(markets, "SharesansarClient", lambda **kw: None)
+    monkeypatch.setattr(markets, "nrb_forex", fake_fetch)
+    assert markets.update_forex(tmp_path) == 2
+    assert calls == ["2026-11-13"]
+    rows = markets._read(tmp_path / "market" / "forex.csv")
+    assert [r["date"] for r in rows] == ["2026-11-12", "2026-11-13"]
+
+
+def test_pick_forex_prefers_filled_and_closest_rate():
+    from sharesansar import markets
+
+    def row(date, buy):
+        return {"date": date, "currency": "USD", "name": "U.S. Dollar", "unit": 1, "buy": buy, "sell": buy,
+                "buy_per_unit": buy, "sell_per_unit": buy}
+
+    cands = {("2020-02-27", "USD"): [row("2020-02-27", 114.36)],
+             ("2020-02-28", "USD"): [row("2020-02-28", 119.44), row("2020-02-28", 114.19)],  # stray set first
+             ("2026-08-06", "USD"): [row("2026-08-06", None), row("2026-08-06", 151.9)]}     # empty entry first
+    rows = markets._pick_forex(cands)
+    assert [(r["date"], r["buy"]) for r in rows] == [
+        ("2020-02-27", 114.36), ("2020-02-28", 114.19), ("2026-08-06", 151.9)]
+    rows = markets._pick_forex({("2020-02-28", "USD"): [row("2020-02-28", 119.44), row("2020-02-28", 114.19)]},
+                               prev={"USD": 114.36})
+    assert rows[0]["buy"] == 114.19
