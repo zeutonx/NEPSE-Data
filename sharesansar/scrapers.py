@@ -85,7 +85,11 @@ def _datatable(client: SharesansarClient, path: str, data: dict[str, Any], metho
         yield from rows
         start += len(rows)
         draw += 1
-        if not rows or start >= total or (limit is not None and start >= limit):
+        if limit is not None and start >= limit:
+            return
+        if not rows or start >= total:
+            if start < total:
+                log.warning("%s %s: got %d of %d rows (site stopped returning data)", path, data, start, total)
             return
 
 
