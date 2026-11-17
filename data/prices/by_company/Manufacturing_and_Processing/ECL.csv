@@ -71,3 +71,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,ECL,Everest Colour Limited,Manufacturing and Processing,1270.0,1346.0,1270.0,1271.0,-2.98,19617.0,25764817.0,1270.0,1346.0,1270.0,1271.0,,,,,,,,,,,,,,,,
 2026-11-06,ECL,Everest Colour Limited,Manufacturing and Processing,1250.0,1319.9,1212.5,1274.9,0.31,25944.0,32737196.2,1250.0,1319.9,1212.5,1274.9,,,,,,,,,,,,,,,,
 2026-11-13,ECL,Everest Colour Limited,Manufacturing and Processing,1250.0,1310.0,1120.4,1249.0,-2.03,15711.0,18724672.9,,,,,,25.25,1249.0,0.0,0.0,1191.82,1274.9,195,-25.9,189.6,16.92,4.58,0.0,0.0,1980.0,296.6
+2026-11-17,ECL,Everest Colour Limited,Manufacturing and Processing,1230.0,1270.0,1100.0,1182.0,-5.36,21973.0,25774928.2,,,,,,26.75,1182.0,0.0,0.0,1173.03,1249.0,392,-67.0,170.0,15.45,0.76,0.0,0.0,1980.0,296.6

@@ -869,3 +869,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,SGIC,Sanima GIC Insurance Limited,Non-Life Insurance,385.0,390.0,382.3,387.1,-0.49,16286.0,6300311.4,385.0,390.0,382.3,387.1,,,,,,,,,,,,,,,,
 2026-11-06,SGIC,Sanima GIC Insurance Limited,Non-Life Insurance,389.8,390.0,383.1,387.4,0.08,3063.0,1190305.0,389.8,390.0,383.1,387.4,,,,,,,,,,,,,,,,
 2026-11-13,SGIC,Sanima GIC Insurance Limited,Non-Life Insurance,388.0,389.8,386.0,386.0,-0.36,2938.0,1135189.0,,,,,,22.02,386.0,0.0,0.0,386.38,387.4,45,-1.4,3.8,0.98,-0.1,438.01,454.11,538.5,366.6
+2026-11-17,SGIC,Sanima GIC Insurance Limited,Non-Life Insurance,380.0,386.0,380.0,384.0,-0.52,9913.0,3794734.1,,,,,,27.07,384.0,0.0,0.0,382.8,386.0,95,-2.0,6.0,1.58,0.31,437.36,453.61,538.5,366.6

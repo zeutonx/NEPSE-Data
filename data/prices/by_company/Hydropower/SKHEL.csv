@@ -147,3 +147,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,SKHEL,Suryakunda Hydro Electric Limited,Hydropower,750.0,765.0,737.3,750.0,-1.32,1037.0,767910.0,750.0,765.0,737.3,750.0,,,,,,,,,,,,,,,,
 2026-11-06,SKHEL,Suryakunda Hydro Electric Limited,Hydropower,755.0,790.0,727.6,764.2,1.89,5642.0,4275504.4,755.0,790.0,727.6,764.2,,,,,,,,,,,,,,,,
 2026-11-13,SKHEL,Suryakunda Hydro Electric Limited,Hydropower,741.3,741.5,740.1,741.1,-3.02,503.0,372725.0,,,,,,16.12,741.1,0.0,0.0,741.0,764.2,16,-23.1,1.4,0.19,0.01,970.43,0.0,2069.4,284.3
+2026-11-17,SKHEL,Suryakunda Hydro Electric Limited,Hydropower,740.0,741.1,720.1,731.0,-1.36,1130.0,831147.0,,,,,,21.66,731.0,0.0,0.0,735.53,741.1,33,-10.1,21.0,2.92,-0.62,965.11,0.0,2069.4,284.3

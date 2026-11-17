@@ -1686,3 +1686,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,PPCL,Panchthar Power Company Limited,Hydropower,345.0,348.0,334.1,341.8,0.26,15182.0,5190264.3,345.0,348.0,334.1,341.8,,,,,,,,,,,,,,,,
 2026-11-06,PPCL,Panchthar Power Company Limited,Hydropower,342.9,349.8,342.9,343.5,0.5,19787.0,6846609.1,342.9,349.8,342.9,343.5,,,,,,,,,,,,,,,,
 2026-11-13,PPCL,Panchthar Power Company Limited,Hydropower,349.0,356.0,343.0,355.0,3.35,50408.0,17569328.6,,,,,,40.98,355.0,0.0,0.0,348.54,343.5,202,11.5,13.0,3.79,1.82,349.13,364.34,462.0,312.5
+2026-11-17,PPCL,Panchthar Power Company Limited,Hydropower,355.0,373.9,355.0,366.0,3.1,64344.0,23671676.0,,,,,,45.74,366.0,0.0,0.0,367.89,355.0,371,11.0,18.9,5.32,-0.52,349.01,364.29,462.0,312.5

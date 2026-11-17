@@ -1791,3 +1791,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,AKJCL,Ankhukhola Hydropower Company Limited,Hydropower,331.0,350.0,331.0,346.0,2.37,525247.0,181929603.8,331.0,350.0,331.0,346.0,,,,,,,,,,,,,,,,
 2026-11-06,AKJCL,Ankhukhola Hydropower Company Limited,Hydropower,346.0,349.9,340.0,343.9,-0.61,153871.0,52862809.5,346.0,349.9,340.0,343.9,,,,,,,,,,,,,,,,
 2026-11-13,AKJCL,Ankhukhola Hydropower Company Limited,Hydropower,344.9,350.0,340.0,341.0,-0.84,84628.0,28939612.7,,,,,,23.07,341.0,0.0,0.0,341.96,343.9,189,-2.9,10.0,2.94,-0.28,363.43,368.26,461.4,180.4
+2026-11-17,AKJCL,Ankhukhola Hydropower Company Limited,Hydropower,341.2,344.9,334.0,336.4,-1.35,230667.0,77776325.8,,,,,,26.56,336.4,0.0,0.0,337.18,341.0,441,-4.6,10.9,3.26,-0.23,363.18,368.32,461.4,180.4

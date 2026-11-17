@@ -345,3 +345,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,OMPL,Om Megashree Pharmaceuticals Limited,Manufacturing and Processing,805.0,805.0,781.1,795.0,-1.24,1500.0,1184586.0,805.0,805.0,781.1,795.0,,,,,,,,,,,,,,,,
 2026-11-06,OMPL,Om Megashree Pharmaceuticals Limited,Manufacturing and Processing,800.0,807.0,795.0,799.9,0.62,472.0,376661.0,800.0,807.0,795.0,799.9,,,,,,,,,,,,,,,,
 2026-11-13,OMPL,Om Megashree Pharmaceuticals Limited,Manufacturing and Processing,799.0,800.0,783.0,794.0,-0.74,730.0,577046.0,,,,,,30.25,794.0,0.0,0.0,790.47,799.9,30,-5.9,17.0,2.17,0.44,962.59,1070.18,1575.9,781.1
+2026-11-17,OMPL,Om Megashree Pharmaceuticals Limited,Manufacturing and Processing,794.0,795.0,762.0,765.0,-3.65,4779.0,3686686.3,,,,,,27.63,765.0,0.0,0.0,771.43,794.0,98,-29.0,33.0,4.33,-0.84,959.22,1066.65,1575.9,762.0

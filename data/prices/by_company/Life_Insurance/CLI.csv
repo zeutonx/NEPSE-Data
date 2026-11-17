@@ -703,3 +703,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,CLI,Citizen Life Insurance Company Limited,Life Insurance,444.1,444.5,440.0,440.5,-0.81,7860.0,3471416.3,444.1,444.5,440.0,440.5,,,,,,,,,,,,,,,,
 2026-11-06,CLI,Citizen Life Insurance Company Limited,Life Insurance,439.0,445.0,438.0,442.0,0.34,9368.0,4139772.7,439.0,445.0,438.0,442.0,,,,,,,,,,,,,,,,
 2026-11-13,CLI,Citizen Life Insurance Company Limited,Life Insurance,436.0,441.0,430.1,433.1,-2.01,8826.0,3835698.4,,,,,,24.45,433.1,0.0,0.0,434.59,442.0,124,-8.9,10.9,2.53,-0.34,442.6,451.61,526.0,410.0
+2026-11-17,CLI,Citizen Life Insurance Company Limited,Life Insurance,430.4,435.0,430.1,435.0,0.44,9114.0,3943290.6,,,,,,26.51,435.0,0.0,0.0,432.66,433.1,194,1.9,4.9,1.14,0.54,442.42,451.4,526.0,410.0

@@ -58,3 +58,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,SEF2,Siddhartha Equity Fund 2,Mutual Fund,9.6,9.87,9.6,9.87,1.54,47520.0,467886.4,9.6,9.87,9.6,9.87,,,,,,,,,,,,,,,,
 2026-11-06,SEF2,Siddhartha Equity Fund 2,Mutual Fund,9.8,9.99,9.7,9.8,-0.71,1323650.0,13066508.3,9.8,9.99,9.7,9.8,,,,,,,,,,,,,,,,
 2026-11-13,SEF2,Siddhartha Equity Fund 2,Mutual Fund,9.8,9.9,9.78,9.85,0.51,7400.0,73050.0,,,,,,28.62,9.85,0.0,0.0,9.87,9.8,29,0.05,0.12,1.23,-0.22,0.0,0.0,10.2,8.5
+2026-11-17,SEF2,Siddhartha Equity Fund 2,Mutual Fund,9.7,9.9,9.7,9.7,-1.52,2600.0,25285.0,,,,,,23.94,9.7,0.0,0.0,9.73,9.85,16,-0.15,0.2,2.06,-0.26,0.0,0.0,10.2,8.5

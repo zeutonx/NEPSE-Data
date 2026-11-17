@@ -658,3 +658,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,VLUCL,Vision Lumbini Urja Company Limited,Hydropower,368.5,376.0,368.0,376.0,1.29,9164.0,3430285.0,368.5,376.0,368.0,376.0,,,,,,,,,,,,,,,,
 2026-11-06,VLUCL,Vision Lumbini Urja Company Limited,Hydropower,376.0,380.0,365.0,376.9,0.24,6612.0,2474551.7,376.0,380.0,365.0,376.9,,,,,,,,,,,,,,,,
 2026-11-13,VLUCL,Vision Lumbini Urja Company Limited,Hydropower,377.0,377.0,367.0,377.0,0.03,404.0,150581.4,,,,,,24.25,377.0,0.0,0.0,372.73,376.9,23,0.1,10.0,2.72,1.13,426.93,468.41,652.0,360.0
+2026-11-17,VLUCL,Vision Lumbini Urja Company Limited,Hydropower,377.0,377.0,363.0,366.1,-2.89,6690.0,2453162.0,,,,,,25.47,366.1,0.0,0.0,366.69,377.0,72,-10.9,14.0,3.86,-0.16,425.94,467.21,652.0,360.0

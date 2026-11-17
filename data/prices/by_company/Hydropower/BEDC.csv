@@ -780,3 +780,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-05,BEDC,Bhugol Energy Development Company Limited,Hydropower,295.0,297.5,291.0,297.5,0.51,9804.0,2885269.6,295.0,297.5,291.0,297.5,,,,,,,,,,,,,,,,
 2026-11-06,BEDC,Bhugol Energy Development Company Limited,Hydropower,296.0,298.0,293.0,295.0,-0.84,6392.0,1884305.2,296.0,298.0,293.0,295.0,,,,,,,,,,,,,,,,
 2026-11-13,BEDC,Bhugol Energy Development Company Limited,Hydropower,291.1,298.0,291.0,296.0,0.34,6285.0,1862184.3,,,,,,30.39,296.0,0.0,0.0,296.29,295.0,42,1.0,7.0,2.41,-0.1,324.39,376.55,716.0,270.0
+2026-11-17,BEDC,Bhugol Energy Development Company Limited,Hydropower,296.0,297.0,293.0,296.8,0.27,6807.0,1998388.0,,,,,,35.11,296.8,0.0,0.0,293.58,296.0,39,0.8,4.0,1.37,1.09,323.86,375.13,631.6,270.0
