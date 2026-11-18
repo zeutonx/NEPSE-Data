@@ -42,7 +42,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.week.outputs.skip != 'true'
-        run: pip install -r requirements.txt pandas kaggle
+        run: pip install -r requirements.txt pandas kaggle six
 
       # Not kept in the repository; fetched fresh for each upload. If either fails the job
       # stops, so Kaggle never gets a version with these files missing.
