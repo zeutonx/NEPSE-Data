@@ -893,3 +893,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-06,PHCL,Peoples Hydropower Company Limited,Hydropower,370.6,370.6,351.1,354.1,0.31,120981.0,42760749.4,370.6,370.6,351.1,354.1,,,,,,,,,,,,,,,,
 2026-11-13,PHCL,Peoples Hydropower Company Limited,Hydropower,354.0,356.6,351.1,356.0,0.54,85409.0,30268852.4,,,,,,26.77,356.0,0.0,0.0,354.4,354.1,241,1.9,5.5,1.57,0.45,313.38,311.99,378.9,249.7
 2026-11-17,PHCL,Peoples Hydropower Company Limited,Hydropower,365.0,367.0,359.0,360.9,1.38,333142.0,120348619.7,,,,,,39.28,360.9,0.0,0.0,361.25,356.0,727,4.9,8.0,2.23,-0.1,313.82,312.36,378.9,249.7
+2026-11-18,PHCL,Peoples Hydropower Company Limited,Hydropower,362.0,365.0,356.1,365.0,1.14,179644.0,64453704.3,,,,,,37.49,365.0,0.0,0.0,358.79,360.9,469,4.1,8.9,2.5,1.7,314.24,312.78,378.9,249.7

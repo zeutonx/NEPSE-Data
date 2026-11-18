@@ -1643,3 +1643,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-06,SJCL,Sanjen Jalavidhyut Company Limited,Hydropower,246.0,250.0,245.0,246.1,-0.24,3002.0,739553.2,246.0,250.0,245.0,246.1,,,,,,,,,,,,,,,,
 2026-11-13,SJCL,Sanjen Jalavidhyut Company Limited,Hydropower,241.6,246.0,241.6,245.0,-0.45,3104.0,754627.0,,,,,,22.18,245.0,0.0,0.0,243.11,246.1,33,-1.1,4.4,1.82,0.77,267.46,282.68,365.0,214.2
 2026-11-17,SJCL,Sanjen Jalavidhyut Company Limited,Hydropower,245.0,245.0,241.2,243.6,-0.57,6573.0,1595015.0,,,,,,22.95,243.6,0.0,0.0,242.66,245.0,72,-1.4,3.8,1.58,0.39,267.0,282.38,365.0,214.2
+2026-11-18,SJCL,Sanjen Jalavidhyut Company Limited,Hydropower,240.2,243.6,240.0,240.2,-1.4,3362.0,809046.2,,,,,,21.44,240.2,0.0,0.0,240.64,243.6,58,-3.4,3.6,1.5,-0.18,266.36,282.02,365.0,214.2

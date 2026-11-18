@@ -1,9 +1,10 @@
-date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments
-2024-12-23,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,365.0,365.0,365.0,365.0,0.0,5077.0,1853105.0,365.0,365.0,365.0,365.0,
-2025-01-23,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,366.0,366.0,366.0,366.0,0.27,1000.0,366000.0,366.0,366.0,366.0,366.0,
-2025-02-02,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,366.0,366.0,366.0,366.0,0.0,1870.0,684420.0,366.0,366.0,366.0,366.0,
-2025-02-10,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,366.1,366.1,366.1,366.1,0.03,1869.0,684240.9,366.1,366.1,366.1,366.1,
-2025-05-19,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,340.0,340.0,340.0,340.0,0.0,4508.0,1532720.0,340.0,340.0,340.0,340.0,
-2026-04-08,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,334.0,334.0,334.0,334.0,-1.76,4500.0,1503000.0,334.0,334.0,334.0,334.0,
-2026-10-13,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,275.0,275.0,275.0,275.0,0.0,40000.0,11000000.0,275.0,275.0,275.0,275.0,
-2026-10-16,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,275.0,275.0,275.0,275.0,0.0,56168.0,15446200.0,275.0,275.0,275.0,275.0,
+date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,adj_open,adj_high,adj_low,adj_close,adjustments,confidence,ltp,close_ltp,close_ltp_pct,vwap,prev_close,transactions,change,range,range_pct,vwap_pct,avg_120d,avg_180d,week52_high,week52_low
+2024-12-23,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,365.0,365.0,365.0,365.0,0.0,5077.0,1853105.0,365.0,365.0,365.0,365.0,,,,,,,,,,,,,,,,
+2025-01-23,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,366.0,366.0,366.0,366.0,0.27,1000.0,366000.0,366.0,366.0,366.0,366.0,,,,,,,,,,,,,,,,
+2025-02-02,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,366.0,366.0,366.0,366.0,0.0,1870.0,684420.0,366.0,366.0,366.0,366.0,,,,,,,,,,,,,,,,
+2025-02-10,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,366.1,366.1,366.1,366.1,0.03,1869.0,684240.9,366.1,366.1,366.1,366.1,,,,,,,,,,,,,,,,
+2025-05-19,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,340.0,340.0,340.0,340.0,0.0,4508.0,1532720.0,340.0,340.0,340.0,340.0,,,,,,,,,,,,,,,,
+2026-04-08,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,334.0,334.0,334.0,334.0,-1.76,4500.0,1503000.0,334.0,334.0,334.0,334.0,,,,,,,,,,,,,,,,
+2026-10-13,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,275.0,275.0,275.0,275.0,0.0,40000.0,11000000.0,275.0,275.0,275.0,275.0,,,,,,,,,,,,,,,,
+2026-10-16,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,275.0,275.0,275.0,275.0,0.0,56168.0,15446200.0,275.0,275.0,275.0,275.0,,,,,,,,,,,,,,,,
+2026-11-18,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,266.8,266.8,266.8,266.8,-2.98,9348.0,2494046.4,,,,,,17.17,266.8,0.0,0.0,266.8,275.0,3,-8.2,0.0,0.0,0.0,0.0,0.0,334.0,266.8

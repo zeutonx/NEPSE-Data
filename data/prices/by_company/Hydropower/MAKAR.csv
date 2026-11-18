@@ -803,3 +803,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-06,MAKAR,Makar Jitumaya Suri Hydropower Company Limited,Hydropower,445.0,457.5,445.0,454.5,2.13,73601.0,33363355.1,445.0,457.5,445.0,454.5,,,,,,,,,,,,,,,,
 2026-11-13,MAKAR,Makar Jitumaya Suri Hydropower Company Limited,Hydropower,455.0,464.0,453.3,462.0,1.65,72166.0,33243788.6,,,,,,31.25,462.0,0.0,0.0,460.66,454.5,376,7.5,10.7,2.36,0.29,448.56,474.9,593.6,389.0
 2026-11-17,MAKAR,Makar Jitumaya Suri Hydropower Company Limited,Hydropower,465.0,467.8,461.2,463.0,0.22,77545.0,35974221.7,,,,,,31.73,463.0,0.0,0.0,463.91,462.0,369,1.0,6.6,1.43,-0.2,448.35,474.43,593.6,389.0
+2026-11-18,MAKAR,Makar Jitumaya Suri Hydropower Company Limited,Hydropower,461.0,461.3,454.0,455.9,-1.53,66034.0,30134839.4,,,,,,28.86,455.9,0.0,0.0,456.35,463.0,394,-7.1,7.3,1.61,-0.1,448.05,473.85,593.6,389.0

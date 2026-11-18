@@ -1,0 +1,8 @@
+date,symbol,company_name,sector,confidence,open,high,low,close,ltp,close_ltp,close_ltp_pct,vwap,volume,prev_close,turnover,transactions,change,range,pct_change,range_pct,vwap_pct,avg_120d,avg_180d,week52_high,week52_low
+2026-11-18,CHDC,CEDB Holdings Limited,Investment,34.77,2242.1,2250.0,2212.1,2240.0,2240.0,0.0,0.0,2236.93,16633.0,2250.0,37206905.8,143,-10.0,37.9,-0.44,1.71,0.14,2244.35,2304.62,2717.0,1967.0
+2026-11-18,CIT,Citizen Investment Trust,Investment,32.27,1710.0,1710.0,1700.0,1706.0,1706.0,0.0,0.0,1702.21,2438.0,1709.0,4149984.7,82,-3.0,10.0,-0.18,0.59,0.22,1720.42,1744.22,1913.0,1621.1
+2026-11-18,ENL,Emerging Nepal Limited,Investment,30.32,474.0,477.9,471.1,477.9,477.9,0.0,0.0,473.18,9491.0,474.0,4490923.7,66,3.9,6.8,0.82,1.44,0.99,732.07,794.21,995.0,458.9
+2026-11-18,HATHY,Hathway Investment Nepal Limited,Investment,26.9,406.5,406.5,398.0,399.0,399.0,0.0,0.0,399.63,65728.0,406.0,26266588.6,375,-7.0,8.5,-1.72,2.14,-0.16,632.98,721.06,1008.0,385.0
+2026-11-18,HIDCL,Hydroelectricity Investment and Development Company Limited,Investment,25.13,248.4,248.6,246.2,247.0,247.0,0.0,0.0,246.99,20745.0,248.4,5123835.5,126,-1.4,2.4,-0.56,0.97,0.0,255.82,262.05,307.0,232.6
+2026-11-18,NIFRA,Nepal Infrastructure Bank Limited,Investment,24.69,243.0,244.0,242.1,244.0,244.0,0.0,0.0,242.77,48646.0,243.4,11809940.8,275,0.6,1.9,0.25,0.78,0.5,250.91,257.2,299.0,229.9
+2026-11-18,NRN,NRN Infrastructure and Development Limited,Investment,46.47,1411.0,1423.0,1407.0,1417.9,1417.9,0.0,0.0,1415.73,86346.0,1406.2,122242385.3,441,11.7,16.0,0.83,1.14,0.15,1396.04,1444.13,2029.8,1280.0

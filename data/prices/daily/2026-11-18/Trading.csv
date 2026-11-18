@@ -1,0 +1,3 @@
+date,symbol,company_name,sector,confidence,open,high,low,close,ltp,close_ltp,close_ltp_pct,vwap,volume,prev_close,turnover,transactions,change,range,pct_change,range_pct,vwap_pct,avg_120d,avg_180d,week52_high,week52_low
+2026-11-18,BBC,Bishal Bazar Company Limited,Trading,28.64,3906.0,3986.0,3886.0,3893.2,3893.2,0.0,0.0,3913.01,441.0,4005.9,1725636.0,30,-112.7,100.0,-2.81,2.57,-0.51,4221.26,4435.11,5600.0,3825.0
+2026-11-18,STC,Salt Trading Corporation Limited,Trading,41.93,6025.0,6025.0,5595.0,5740.0,5740.0,0.0,0.0,5677.6,1300.0,5739.0,7380875.2,53,1.0,430.0,0.02,7.69,1.09,5405.1,5541.37,6335.9,5000.1

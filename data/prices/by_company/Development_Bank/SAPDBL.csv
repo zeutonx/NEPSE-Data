@@ -1565,3 +1565,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-06,SAPDBL,Saptakoshi Development Bank Limited,Development Bank,540.0,570.0,540.0,564.0,1.26,10047.0,5674912.6,540.0,570.0,540.0,564.0,,,,,,,,,,,,,,,,
 2026-11-13,SAPDBL,Saptakoshi Development Bank Limited,Development Bank,566.0,577.9,554.8,554.8,-1.63,4633.0,2597165.1,,,,,,21.73,554.8,0.0,0.0,560.58,564.0,49,-9.2,23.1,4.16,-1.04,730.3,773.48,1065.7,521.6
 2026-11-17,SAPDBL,Saptakoshi Development Bank Limited,Development Bank,555.0,560.0,545.0,557.0,0.4,5216.0,2875193.8,,,,,,22.22,557.0,0.0,0.0,551.23,554.8,67,2.2,15.0,2.75,1.04,728.41,771.66,1065.7,521.6
+2026-11-18,SAPDBL,Saptakoshi Development Bank Limited,Development Bank,555.0,555.0,536.0,539.2,-3.2,5980.0,3245049.7,,,,,,22.97,539.2,0.0,0.0,542.65,557.0,71,-17.8,19.0,3.54,-0.64,726.19,769.66,1065.7,521.6

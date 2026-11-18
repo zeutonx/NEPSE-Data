@@ -755,3 +755,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-06,UAIL,United Ajod Insurance Limited,Non-Life Insurance,361.0,364.0,358.3,361.5,0.14,10056.0,3617325.6,361.0,364.0,358.3,361.5,,,,,,,,,,,,,,,,
 2026-11-13,UAIL,United Ajod Insurance Limited,Non-Life Insurance,358.0,363.0,357.0,361.9,0.11,10792.0,3868922.6,,,,,,31.27,361.9,0.0,0.0,358.5,361.5,82,0.4,6.0,1.68,0.94,420.53,434.76,519.1,354.1
 2026-11-17,UAIL,United Ajod Insurance Limited,Non-Life Insurance,358.0,363.0,358.0,363.0,0.3,12326.0,4430550.4,,,,,,42.48,363.0,0.0,0.0,359.45,361.9,110,1.1,5.0,1.4,0.98,419.78,434.21,519.1,354.1
+2026-11-18,UAIL,United Ajod Insurance Limited,Non-Life Insurance,365.0,365.0,357.7,357.8,-1.43,11528.0,4134670.4,,,,,,26.6,357.8,0.0,0.0,358.66,363.0,112,-5.2,7.3,2.04,-0.24,418.96,433.64,519.1,354.1
