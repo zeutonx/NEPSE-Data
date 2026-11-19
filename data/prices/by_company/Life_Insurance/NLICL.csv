@@ -3323,3 +3323,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-13,NLICL,National Life Insurance Company Limited,Life Insurance,580.0,580.0,570.0,580.0,0.0,9034.0,5184034.0,,,,,,28.66,580.0,0.0,0.0,573.84,580.0,47,0.0,10.0,1.75,1.06,575.74,581.25,644.0,538.4
 2026-11-17,NLICL,National Life Insurance Company Limited,Life Insurance,580.0,580.0,570.0,570.0,-1.72,10628.0,6109102.8,,,,,,25.65,570.0,0.0,0.0,574.81,580.0,51,-10.0,10.0,1.75,-0.84,575.64,581.13,644.0,538.4
 2026-11-18,NLICL,National Life Insurance Company Limited,Life Insurance,570.0,577.6,565.1,577.6,1.33,2972.0,1688159.0,,,,,,20.35,577.6,0.0,0.0,568.02,570.0,28,7.6,12.5,2.21,1.66,575.57,581.09,644.0,538.4
+2026-11-19,NLICL,National Life Insurance Company Limited,Life Insurance,577.5,577.5,566.5,569.9,-1.33,1249.0,709345.5,,,,,,18.71,569.9,0.0,0.0,567.93,577.6,20,-7.7,11.0,1.94,0.35,575.41,581.0,644.0,538.4

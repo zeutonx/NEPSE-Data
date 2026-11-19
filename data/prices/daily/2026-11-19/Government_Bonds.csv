@@ -1,0 +1,2 @@
+date,symbol,company_name,sector,confidence,open,high,low,close,ltp,close_ltp,close_ltp_pct,vwap,volume,prev_close,turnover,transactions,change,range,pct_change,range_pct,vwap_pct,avg_120d,avg_180d,week52_high,week52_low
+2026-11-19,HBLD86,Himalayan Bank Limited Bond 2086,Government Bonds,35.76,1150.0,1150.0,1150.0,1150.0,1150.0,0.0,0.0,1150.0,50.0,1150.0,57500.0,2,0.0,0.0,0.0,0.0,0.0,1149.25,1132.61,1220.0,1112.4

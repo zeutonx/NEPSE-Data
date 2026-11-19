@@ -102,3 +102,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-13,SOPL,Sopan Pharmaceuticals Limited,Manufacturing and Processing,608.0,630.0,606.0,629.0,3.45,15369.0,9523535.0,,,,,,45.18,629.0,0.0,0.0,619.66,608.0,277,21.0,24.0,3.96,1.49,0.0,0.0,1217.0,276.5
 2026-11-17,SOPL,Sopan Pharmaceuticals Limited,Manufacturing and Processing,629.0,631.0,615.0,616.0,-2.07,16532.0,10318322.0,,,,,,37.33,616.0,0.0,0.0,624.14,629.0,394,-13.0,16.0,2.6,-1.32,0.0,0.0,1217.0,276.5
 2026-11-18,SOPL,Sopan Pharmaceuticals Limited,Manufacturing and Processing,610.1,620.0,610.0,613.0,-0.49,13315.0,8170822.2,,,,,,36.33,613.0,0.0,0.0,613.66,616.0,346,-3.0,10.0,1.64,-0.11,0.0,0.0,1217.0,276.5
+2026-11-19,SOPL,Sopan Pharmaceuticals Limited,Manufacturing and Processing,605.0,615.0,605.0,608.0,-0.82,15108.0,9191361.4,,,,,,32.93,608.0,0.0,0.0,608.38,613.0,333,-5.0,10.0,1.65,-0.06,0.0,0.0,1217.0,276.5
