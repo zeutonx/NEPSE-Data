@@ -1,0 +1,2 @@
+date,symbol,company_name,sector,confidence,open,high,low,close,ltp,close_ltp,close_ltp_pct,vwap,volume,prev_close,turnover,transactions,change,range,pct_change,range_pct,vwap_pct,avg_120d,avg_180d,week52_high,week52_low
+2026-11-20,MNMF2,Muktinath Mutual Fund 2,Mutual Fund,22.55,10.0,10.0,8.7,9.15,9.15,0.0,0.0,9.09,26200.0,10.0,238140.0,114,-0.85,1.3,-8.5,14.94,0.66,0.0,0.0,10.0,8.7

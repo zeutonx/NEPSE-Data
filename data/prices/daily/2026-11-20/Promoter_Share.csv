@@ -1,0 +1,7 @@
+date,symbol,company_name,sector,confidence,open,high,low,close,ltp,close_ltp,close_ltp_pct,vwap,volume,prev_close,turnover,transactions,change,range,pct_change,range_pct,vwap_pct,avg_120d,avg_180d,week52_high,week52_low
+2026-11-20,HEIP,Himalayan Everest Insurance Limited Promoter,Promoter Share,18.79,306.0,306.0,306.0,306.0,306.0,0.0,0.0,306.0,28.0,300.8,8568.0,1,5.2,0.0,1.73,0.0,0.0,325.17,323.53,378.0,288.0
+2026-11-20,HIDCLP,Hydroelectricity Investment and Development Company Limited Promoter Share,Promoter Share,29.45,185.0,186.7,184.5,185.9,185.9,0.0,0.0,185.03,35052.0,186.0,6485668.3,73,-0.1,2.2,-0.05,1.19,0.47,191.2,196.08,230.6,174.4
+2026-11-20,ILBSP,Infinity Laghubitta Bittiya Sanstha Limited Promoter Share,Promoter Share,26.41,437.0,437.0,437.0,437.0,437.0,0.0,0.0,437.0,10000.0,450.0,4370000.0,10,-13.0,0.0,-2.89,0.0,0.0,0.0,0.0,624.0,437.0
+2026-11-20,MATRIP,Matribhumi Laghubitta Bittiya Sanstha Limited Promoter Share,Promoter Share,19.48,379.0,379.0,379.0,379.0,379.0,0.0,0.0,379.0,5671.0,379.0,2149309.0,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,545.0,379.0
+2026-11-20,MDBPO,Miteri Development Bank Limited Promoter Share,Promoter Share,36.3,318.0,318.0,318.0,318.0,318.0,0.0,0.0,318.0,34425.0,318.0,10947150.0,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,318.0,318.0
+2026-11-20,NIMBPO,Nepal Investment Mega Bank Ltd. Promoter Share,Promoter Share,23.87,154.0,154.0,150.0,150.0,150.0,0.0,0.0,150.62,25656.0,157.0,3864200.0,8,-7.0,4.0,-4.46,2.67,-0.41,146.6,150.7,174.9,134.1

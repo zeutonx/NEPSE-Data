@@ -827,3 +827,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-17,SPIL,Siddhartha Premier Insurance Limited,Non-Life Insurance,597.0,601.0,595.0,598.7,-1.8,1581.0,944129.5,,,,,,22.19,598.7,0.0,0.0,597.17,609.7,34,-11.0,6.0,1.01,0.26,670.03,684.94,770.7,560.1
 2026-11-18,SPIL,Siddhartha Premier Insurance Limited,Non-Life Insurance,628.6,628.6,582.0,594.0,-0.79,1016.0,599080.8,,,,,,20.07,594.0,0.0,0.0,589.65,598.7,24,-4.7,46.6,8.01,0.73,669.02,684.32,770.7,560.1
 2026-11-19,SPIL,Siddhartha Premier Insurance Limited,Non-Life Insurance,564.3,588.0,564.3,581.9,-2.04,6911.0,4035126.5,,,,,,27.03,581.9,0.0,0.0,583.87,594.0,52,-12.1,23.7,4.2,-0.34,667.9,683.62,770.7,560.1
+2026-11-20,SPIL,Siddhartha Premier Insurance Limited,Non-Life Insurance,582.0,588.0,572.3,588.0,1.05,19118.0,11023271.0,,,,,,28.94,588.0,0.0,0.0,576.59,581.9,109,6.1,15.7,2.74,1.94,666.85,682.93,770.7,560.1
