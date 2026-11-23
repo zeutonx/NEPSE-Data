@@ -796,3 +796,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-18,SRLI,Sanima Reliance Life Insurance Limited,Life Insurance,371.2,374.5,371.0,371.5,-0.8,15460.0,5757807.8,,,,,,22.9,371.5,0.0,0.0,372.43,374.5,132,-3.0,3.5,0.94,-0.25,378.65,385.17,437.7,348.0
 2026-11-19,SRLI,Sanima Reliance Life Insurance Limited,Life Insurance,370.0,375.0,370.0,372.0,0.13,19335.0,7188995.6,,,,,,23.88,372.0,0.0,0.0,371.81,371.5,139,0.5,5.0,1.35,0.05,378.47,385.06,437.7,348.0
 2026-11-20,SRLI,Sanima Reliance Life Insurance Limited,Life Insurance,370.0,377.7,370.0,372.7,0.19,6790.0,2535933.3,,,,,,24.37,372.7,0.0,0.0,373.48,372.0,111,0.7,7.7,2.08,-0.21,378.32,384.96,437.7,348.0
+2026-11-23,SRLI,Sanima Reliance Life Insurance Limited,Life Insurance,370.1,374.9,367.3,367.3,-1.45,20845.0,7693188.1,,,,,,25.4,367.3,0.0,0.0,369.07,372.7,236,-5.4,7.6,2.07,-0.48,378.12,384.81,437.7,348.0
