@@ -1,0 +1,5 @@
+date,symbol,company_name,sector,confidence,open,high,low,close,ltp,close_ltp,close_ltp_pct,vwap,volume,prev_close,turnover,transactions,change,range,pct_change,range_pct,vwap_pct,avg_120d,avg_180d,week52_high,week52_low
+2026-11-24,HEIP,Himalayan Everest Insurance Limited Promoter,Promoter Share,23.5,300.0,300.0,299.0,299.0,299.0,0.0,0.0,299.9,103.0,302.2,30890.0,2,-3.2,1.0,-1.06,0.33,-0.3,324.44,323.25,378.0,288.0
+2026-11-24,HIDCLP,Hydroelectricity Investment and Development Company Limited Promoter Share,Promoter Share,42.52,186.5,187.6,185.0,187.3,187.3,0.0,0.0,185.98,96627.0,186.5,17970349.6,139,0.8,2.6,0.43,1.41,0.71,190.91,196.02,230.6,174.4
+2026-11-24,NIMBPO,Nepal Investment Mega Bank Ltd. Promoter Share,Promoter Share,41.6,155.6,162.7,154.0,155.1,155.1,0.0,0.0,159.26,15730.0,155.6,2505176.0,18,-0.5,8.7,-0.32,5.65,-2.68,146.64,150.7,174.9,134.1
+2026-11-24,NMLBBLP,Nerude Mirmire Laghubitta Bittiya Sanstha Limited Promoter,Promoter Share,15.59,266.8,266.8,266.8,266.8,266.8,0.0,0.0,266.8,4856.0,266.8,1295580.8,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,334.0,266.8

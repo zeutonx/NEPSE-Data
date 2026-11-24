@@ -58,3 +58,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-19,MEPDL,Mount Everest Power Development Limited,Hydropower,595.0,609.9,580.0,585.0,-1.68,19891.0,11741274.6,,,,,,43.94,585.0,0.0,0.0,590.28,595.0,349,-10.0,29.9,5.16,-0.9,0.0,0.0,855.0,300.0
 2026-11-20,MEPDL,Mount Everest Power Development Limited,Hydropower,580.0,584.8,575.8,576.1,-1.52,15240.0,8807034.9,,,,,,32.77,576.1,0.0,0.0,577.89,585.0,215,-8.9,9.0,1.56,-0.31,0.0,0.0,855.0,300.0
 2026-11-23,MEPDL,Mount Everest Power Development Limited,Hydropower,575.0,576.0,565.0,576.0,-0.02,11714.0,6678142.6,,,,,,31.95,576.0,0.0,0.0,570.1,576.1,280,-0.1,11.0,1.95,1.02,0.0,0.0,855.0,300.0
+2026-11-24,MEPDL,Mount Everest Power Development Limited,Hydropower,568.9,580.0,563.3,575.0,-0.17,10008.0,5712381.2,,,,,,23.52,575.0,0.0,0.0,570.78,576.0,250,-1.0,16.7,2.96,0.73,0.0,0.0,855.0,300.0
