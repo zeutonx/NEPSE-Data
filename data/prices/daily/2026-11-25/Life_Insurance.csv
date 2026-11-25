@@ -1,0 +1,15 @@
+date,symbol,company_name,sector,confidence,open,high,low,close,ltp,close_ltp,close_ltp_pct,vwap,volume,prev_close,turnover,transactions,change,range,pct_change,range_pct,vwap_pct,avg_120d,avg_180d,week52_high,week52_low
+2026-11-25,ALICL,Asian Life Insurance Company Limited,Life Insurance,34.25,419.0,423.0,415.4,422.9,422.9,0.0,0.0,419.46,9929.0,417.0,4164783.2,53,5.9,7.6,1.41,1.83,0.81,429.35,440.08,505.0,381.4
+2026-11-25,CLI,Citizen Life Insurance Company Limited,Life Insurance,40.71,428.0,434.8,426.1,434.8,434.8,0.0,0.0,429.4,8321.0,429.8,3573035.0,175,5.0,8.7,1.16,2.04,1.24,441.25,450.16,526.0,410.0
+2026-11-25,CREST,Crest Micro Life Insurance Limited,Life Insurance,25.0,1010.0,1023.0,995.0,1018.9,1018.9,0.0,0.0,1007.3,5315.0,1016.9,5353782.6,129,2.0,28.0,0.2,2.81,1.14,1151.69,1197.71,1588.0,995.0
+2026-11-25,GMLI,Guardian Micro Life Insurance Limited,Life Insurance,29.2,816.0,838.0,816.0,822.0,822.0,0.0,0.0,826.52,450.0,833.5,371936.0,28,-11.5,22.0,-1.38,2.7,-0.55,1084.1,1247.3,1949.0,816.0
+2026-11-25,HLI,Himalayan Life Insurance Limited,Life Insurance,34.88,296.1,300.0,295.6,297.0,297.0,0.0,0.0,297.99,17166.0,296.1,5115214.9,148,0.9,4.4,0.3,1.49,-0.33,316.88,332.28,412.9,284.3
+2026-11-25,ILI,IME Life Insurance Company Limited,Life Insurance,30.58,425.0,430.0,425.0,428.1,428.1,0.0,0.0,427.94,6966.0,428.0,2981026.5,162,0.1,5.0,0.02,1.18,0.04,424.61,431.45,489.6,396.3
+2026-11-25,LICN,Life Insurance Corporation Nepal Limited,Life Insurance,38.31,795.0,796.0,787.1,790.0,790.0,0.0,0.0,788.24,12999.0,795.0,10246290.3,42,-5.0,8.9,-0.63,1.13,0.22,791.17,806.06,969.0,741.5
+2026-11-25,NLIC,Nepal Life Insurance Company Limited,Life Insurance,39.02,726.0,732.0,724.0,726.5,726.5,0.0,0.0,725.72,26143.0,726.0,18972390.1,149,0.5,8.0,0.07,1.1,0.11,740.17,753.77,871.0,680.5
+2026-11-25,NLICL,National Life Insurance Company Limited,Life Insurance,20.68,570.0,571.0,569.1,569.1,569.1,0.0,0.0,570.35,4620.0,569.9,2635024.7,26,-0.8,1.9,-0.14,0.33,-0.22,574.7,580.51,644.0,538.4
+2026-11-25,PMLI,Prabhu Mahalaxmi Life Insurance Company Limited,Life Insurance,27.48,360.0,377.0,360.0,373.0,373.0,0.0,0.0,365.1,86111.0,357.0,31439542.3,306,16.0,17.0,4.48,4.72,2.12,435.74,452.55,543.6,356.0
+2026-11-25,RNLI,Reliable Nepal Life Insurance Limited,Life Insurance,38.8,441.0,447.0,441.0,446.1,446.1,0.0,0.0,443.26,8554.0,442.2,3791632.2,195,3.9,6.0,0.88,1.36,0.64,444.86,453.37,520.2,402.0
+2026-11-25,SJLIC,SuryaJyoti Life Insurance Company Limited,Life Insurance,23.73,422.2,430.0,422.2,424.4,424.4,0.0,0.0,425.83,6050.0,424.6,2576280.5,92,-0.2,7.8,-0.05,1.85,-0.34,420.2,428.01,489.9,386.0
+2026-11-25,SNLI,Sun Nepal Life Insurance Company Limited,Life Insurance,38.04,413.1,422.0,413.1,419.8,419.8,0.0,0.0,417.59,8164.0,415.0,3409225.4,170,4.8,8.9,1.16,2.15,0.53,422.86,436.54,528.3,375.0
+2026-11-25,SRLI,Sanima Reliance Life Insurance Limited,Life Insurance,39.63,370.0,377.8,370.0,375.0,375.0,0.0,0.0,374.91,16169.0,370.5,6061841.4,161,4.5,7.8,1.21,2.11,0.03,377.84,384.63,437.7,348.0

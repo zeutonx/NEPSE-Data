@@ -741,3 +741,4 @@ date,symbol,company_name,sector,open,high,low,close,pct_change,volume,turnover,a
 2026-11-20,GCIL,Ghorahi Cement Industry Limited,Manufacturing and Processing,330.0,346.4,330.0,338.0,-1.57,82013.0,27963935.3,,,,,,31.28,338.0,0.0,0.0,340.97,343.4,372,-5.4,16.4,4.97,-0.88,375.71,394.43,489.9,315.5
 2026-11-23,GCIL,Ghorahi Cement Industry Limited,Manufacturing and Processing,343.0,345.0,338.1,340.0,0.59,31093.0,10565677.1,,,,,,26.77,340.0,0.0,0.0,339.81,338.0,242,2.0,6.9,2.04,0.06,375.07,393.95,489.9,315.5
 2026-11-24,GCIL,Ghorahi Cement Industry Limited,Manufacturing and Processing,340.0,343.8,332.0,335.0,-1.47,93536.0,31436031.6,,,,,,28.85,335.0,0.0,0.0,336.08,340.0,469,-5.0,11.8,3.55,-0.32,374.39,393.47,489.9,315.5
+2026-11-25,GCIL,Ghorahi Cement Industry Limited,Manufacturing and Processing,340.0,340.0,335.0,336.0,0.3,43050.0,14498390.2,,,,,,30.85,336.0,0.0,0.0,336.78,335.0,285,1.0,5.0,1.49,-0.23,373.72,393.01,489.9,315.5

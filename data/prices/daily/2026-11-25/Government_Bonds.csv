@@ -1,0 +1,2 @@
+date,symbol,company_name,sector,confidence,open,high,low,close,ltp,close_ltp,close_ltp_pct,vwap,volume,prev_close,turnover,transactions,change,range,pct_change,range_pct,vwap_pct,avg_120d,avg_180d,week52_high,week52_low
+2026-11-25,JBBD87,Jyoti Bikash Bank Bond 2087,Government Bonds,23.65,1135.0,1135.0,1135.0,1135.0,1135.0,0.0,0.0,1135.0,25.0,1135.0,28375.0,1,0.0,0.0,0.0,0.0,0.0,1122.6,1104.99,1289.0,1100.1
