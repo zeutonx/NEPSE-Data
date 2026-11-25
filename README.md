@@ -47,9 +47,29 @@ data/market/
 
 `.github/workflows/daily-update.yml` runs every day at 18:00 Nepal time (12:15 UTC), and can
 also be started by hand from the Actions tab ("Run workflow"). It runs the tests, then
-`market` and `prices`, and commits `data/market/` and `data/prices/` back to the repository.
+`market`, `prices` and `floorsheet`, and commits `data/market/`, `data/prices/` and `data/floorsheet/` back to the repository.
 The price datasheet is not part of it: a full run takes ~45 minutes and the combined CSV is
 larger than GitHub's 100 MB file limit.
+
+### Full-day floorsheets
+
+`python -m sharesansar floorsheet` saves every trade of the latest trading day:
+
+```
+data/floorsheet/daily/2026/floorsheet_2026-11-24.csv.gz   date, symbol, contract_no, trade_seq,
+                                                          buyer_broker, seller_broker, quantity, rate, amount
+data/floorsheet/summary.csv                               per day and scrip: trades, quantity, amount, vwap,
+                                                          first/last/high/low rate, broker counts, and whether
+                                                          the trade count matches the price table
+```
+
+- The daily workflow runs it after `prices`, so a new file appears every trading day. A day
+  that is already saved is skipped; `--force` fetches it again.
+- ShareSansar only serves the latest day's floorsheet, and only one scrip at a time, so this
+  is one request per traded scrip (~350, about 12 minutes). Past days can't be fetched from it.
+- There are no trade times. Within a scrip, contract numbers rise through the day, so
+  `trade_seq` (1, 2, 3, ... per scrip) gives the order the trades happened in.
+- Files are gzipped (~50,000 trades a day); `pandas.read_csv` opens them directly.
 
 ### Separate files
 
